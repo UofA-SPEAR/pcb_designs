@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Custom_Footprints)(type KiCad)(uri C:/Users/David/Documents/kicad-projects/16Channel-LED-Driver/Custom_Footprints.pretty)(options "")(descr ""))
+  (lib (name custom_footprints)(type KiCad)(uri C:/Users/David/Documents/SPEAR/PCBs/Power-Distrib-Example/custom_footprints.pretty)(options "")(descr ""))
+)
