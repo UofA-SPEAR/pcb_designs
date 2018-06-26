@@ -1,3 +1,15 @@
 # SPEAR PCB Designs #
 
-Need to fill this out, but basically just a place to keep PCB designs managed.
+Central repository to hold PCB designs for SPEAR.
+
+## Arm-Controller ##
+
+Baseboard for using several of Adafruit's stepper motor driver boards, as well as some servo headers using a PCA9685.
+
+## Motor-PTCs ##
+
+Small board to add PTCs (resettable fuses) to the output of our motor drivers.
+
+## Power-Distrib-Example ##
+
+Power distribution board for the drive and computer systems. Includes a 5V regulator for arduino and raspberry pi power suplies as well as a fuse for the TX2
