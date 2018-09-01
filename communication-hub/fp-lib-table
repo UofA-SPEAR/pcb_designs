@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name communication-hub)(type KiCad)(uri "$(KIPRJMOD)/communication-hub.pretty")(options "")(descr ""))
+)

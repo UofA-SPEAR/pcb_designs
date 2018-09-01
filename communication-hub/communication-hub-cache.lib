@@ -1,0 +1,458 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# communication-hub-eagle-import:+3V3
+#
+DEF communication-hub-eagle-import:+3V3 #+3V3 0 40 Y Y 1 L P
+F0 "#+3V3" 0 0 50 H I C CNN
+F1 "communication-hub-eagle-import:+3V3" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 50 -75 0 0 N
+X +3V3 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:+5V
+#
+DEF communication-hub-eagle-import:+5V #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "communication-hub-eagle-import:+5V" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 50 -75 0 0 N
+X +5V 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:BSS123
+#
+DEF communication-hub-eagle-import:BSS123 Q 0 40 Y Y 1 L N
+F0 "Q" 100 0 59 H V L BNN
+F1 "communication-hub-eagle-import:BSS123" 100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -110 14 1 0 0 N
+C 0 -80 14 1 0 0 N
+C 0 120 14 1 0 0 N
+S -80 -100 -60 -50 1 0 0 F
+S -80 -30 -60 30 1 0 0 F
+S -80 50 -60 100 1 0 0 F
+P 2 1 0 0 -100 100 -100 -100 N
+P 2 1 0 0 -60 -80 0 -80 N
+P 2 1 0 0 -60 0 -50 0 N
+P 2 1 0 0 -60 80 0 80 N
+P 2 1 0 0 -50 0 -40 0 N
+P 2 1 0 0 -50 0 -10 15 N
+P 2 1 0 0 -40 0 -35 0 N
+P 2 1 0 0 -40 0 -15 -10 N
+P 2 1 0 0 -35 0 0 0 N
+P 2 1 0 0 -15 -10 -15 10 N
+P 2 1 0 0 -15 10 -35 0 N
+P 2 1 0 0 -10 -15 -50 0 N
+P 2 1 0 0 -10 15 -10 -15 N
+P 2 1 0 0 0 -80 0 -110 N
+P 2 1 0 0 0 0 0 -80 N
+P 2 1 0 0 0 80 0 100 N
+P 2 1 0 0 0 120 50 120 N
+P 2 1 0 0 30 0 50 30 N
+P 2 1 0 0 40 5 60 5 N
+P 2 1 0 0 50 -110 0 -110 N
+P 2 1 0 0 50 20 40 5 N
+P 2 1 0 0 50 20 50 -110 N
+P 2 1 0 0 50 30 50 20 N
+P 2 1 0 0 50 30 70 0 N
+P 2 1 0 0 50 120 50 30 N
+P 2 1 0 0 60 5 50 20 N
+P 2 1 0 0 70 0 30 0 N
+P 2 1 0 0 70 30 30 30 N
+X G 1 -200 -100 100 R 0 0 1 0 P
+X S 2 0 -200 100 U 0 0 1 0 P
+X D 3 0 200 100 D 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:C-EUC0805
+#
+DEF communication-hub-eagle-import:C-EUC0805 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "communication-hub-eagle-import:C-EUC0805" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:GND
+#
+DEF communication-hub-eagle-import:GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "communication-hub-eagle-import:GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:JP1Q
+#
+DEF communication-hub-eagle-import:JP1Q JP 0 40 Y Y 1 L N
+F0 "JP" -100 -200 59 V V L BNN
+F1 "communication-hub-eagle-import:JP1Q" 175 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 -200 -75 200 N
+P 2 1 0 0 -75 200 75 200 N
+P 2 1 0 0 0 -150 0 -200 N
+P 2 1 0 0 0 -100 0 -150 N
+P 2 1 0 0 0 100 0 150 N
+P 2 1 0 0 0 150 0 200 N
+P 2 1 0 0 75 -200 -75 -200 N
+P 2 1 0 0 75 200 75 -200 N
+X 1 1 0 -300 100 U 50 0 1 0 P
+X 2 2 0 300 100 D 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:LED_E
+#
+DEF communication-hub-eagle-import:LED_E LED 0 40 Y Y 1 L N
+F0 "LED" 140 -180 59 V V L BNN
+F1 "communication-hub-eagle-import:LED_E" 225 -180 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 100 13 0 1 0 "SpiceOrder 1" Normal 0 C C
+T 0 0 -200 13 0 1 0 "SpiceOrder 2" Normal 0 C C
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 0 0 -50 0 N
+P 2 1 0 0 0 0 0 -100 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 0 -100 N
+P 2 1 0 0 50 0 0 0 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X A A 0 100 100 D 0 0 1 0 P
+X C C 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:PINHD-2X15
+#
+DEF communication-hub-eagle-import:PINHD-2X15 JP 0 40 Y Y 1 L N
+F0 "JP" -250 825 59 H V L BNN
+F1 "communication-hub-eagle-import:PINHD-2X15" -250 -900 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -800 350 -800 N
+P 2 1 0 0 -250 800 -250 -800 N
+P 2 1 0 0 350 -800 350 800 N
+P 2 1 0 0 350 800 -250 800 N
+X 1 1 -100 700 100 R 50 0 1 0 P I
+X 10 10 200 300 100 L 50 0 1 0 P I
+X 11 11 -100 200 100 R 50 0 1 0 P I
+X 12 12 200 200 100 L 50 0 1 0 P I
+X 13 13 -100 100 100 R 50 0 1 0 P I
+X 14 14 200 100 100 L 50 0 1 0 P I
+X 15 15 -100 0 100 R 50 0 1 0 P I
+X 16 16 200 0 100 L 50 0 1 0 P I
+X 17 17 -100 -100 100 R 50 0 1 0 P I
+X 18 18 200 -100 100 L 50 0 1 0 P I
+X 19 19 -100 -200 100 R 50 0 1 0 P I
+X 2 2 200 700 100 L 50 0 1 0 P I
+X 20 20 200 -200 100 L 50 0 1 0 P I
+X 21 21 -100 -300 100 R 50 0 1 0 P I
+X 22 22 200 -300 100 L 50 0 1 0 P I
+X 23 23 -100 -400 100 R 50 0 1 0 P I
+X 24 24 200 -400 100 L 50 0 1 0 P I
+X 25 25 -100 -500 100 R 50 0 1 0 P I
+X 26 26 200 -500 100 L 50 0 1 0 P I
+X 27 27 -100 -600 100 R 50 0 1 0 P I
+X 28 28 200 -600 100 L 50 0 1 0 P I
+X 29 29 -100 -700 100 R 50 0 1 0 P I
+X 3 3 -100 600 100 R 50 0 1 0 P I
+X 30 30 200 -700 100 L 50 0 1 0 P I
+X 4 4 200 600 100 L 50 0 1 0 P I
+X 5 5 -100 500 100 R 50 0 1 0 P I
+X 6 6 200 500 100 L 50 0 1 0 P I
+X 7 7 -100 400 100 R 50 0 1 0 P I
+X 8 8 200 400 100 L 50 0 1 0 P I
+X 9 9 -100 300 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:PINHD-2X20
+#
+DEF communication-hub-eagle-import:PINHD-2X20 JP 0 40 Y Y 1 L N
+F0 "JP" -250 1025 59 H V L BNN
+F1 "communication-hub-eagle-import:PINHD-2X20" -250 -1200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -1100 350 -1100 N
+P 2 1 0 0 -250 1000 -250 -1100 N
+P 2 1 0 0 350 -1100 350 1000 N
+P 2 1 0 0 350 1000 -250 1000 N
+X 1 1 -100 900 100 R 50 0 1 0 P I
+X 10 10 200 500 100 L 50 0 1 0 P I
+X 11 11 -100 400 100 R 50 0 1 0 P I
+X 12 12 200 400 100 L 50 0 1 0 P I
+X 13 13 -100 300 100 R 50 0 1 0 P I
+X 14 14 200 300 100 L 50 0 1 0 P I
+X 15 15 -100 200 100 R 50 0 1 0 P I
+X 16 16 200 200 100 L 50 0 1 0 P I
+X 17 17 -100 100 100 R 50 0 1 0 P I
+X 18 18 200 100 100 L 50 0 1 0 P I
+X 19 19 -100 0 100 R 50 0 1 0 P I
+X 2 2 200 900 100 L 50 0 1 0 P I
+X 20 20 200 0 100 L 50 0 1 0 P I
+X 21 21 -100 -100 100 R 50 0 1 0 P I
+X 22 22 200 -100 100 L 50 0 1 0 P I
+X 23 23 -100 -200 100 R 50 0 1 0 P I
+X 24 24 200 -200 100 L 50 0 1 0 P I
+X 25 25 -100 -300 100 R 50 0 1 0 P I
+X 26 26 200 -300 100 L 50 0 1 0 P I
+X 27 27 -100 -400 100 R 50 0 1 0 P I
+X 28 28 200 -400 100 L 50 0 1 0 P I
+X 29 29 -100 -500 100 R 50 0 1 0 P I
+X 3 3 -100 800 100 R 50 0 1 0 P I
+X 30 30 200 -500 100 L 50 0 1 0 P I
+X 31 31 -100 -600 100 R 50 0 1 0 P I
+X 32 32 200 -600 100 L 50 0 1 0 P I
+X 33 33 -100 -700 100 R 50 0 1 0 P I
+X 34 34 200 -700 100 L 50 0 1 0 P I
+X 35 35 -100 -800 100 R 50 0 1 0 P I
+X 36 36 200 -800 100 L 50 0 1 0 P I
+X 37 37 -100 -900 100 R 50 0 1 0 P I
+X 38 38 200 -900 100 L 50 0 1 0 P I
+X 39 39 -100 -1000 100 R 50 0 1 0 P I
+X 4 4 200 800 100 L 50 0 1 0 P I
+X 40 40 200 -1000 100 L 50 0 1 0 P I
+X 5 5 -100 700 100 R 50 0 1 0 P I
+X 6 6 200 700 100 L 50 0 1 0 P I
+X 7 7 -100 600 100 R 50 0 1 0 P I
+X 8 8 200 600 100 L 50 0 1 0 P I
+X 9 9 -100 500 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:R-EU_R0805
+#
+DEF communication-hub-eagle-import:R-EU_R0805 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "communication-hub-eagle-import:R-EU_R0805" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:R-EU_R1206
+#
+DEF communication-hub-eagle-import:R-EU_R1206 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "communication-hub-eagle-import:R-EU_R1206" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:R-US_M1206
+#
+DEF communication-hub-eagle-import:R-US_M1206 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "communication-hub-eagle-import:R-US_M1206" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:R-US_R0805
+#
+DEF communication-hub-eagle-import:R-US_R0805 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "communication-hub-eagle-import:R-US_R0805" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:SJ
+#
+DEF communication-hub-eagle-import:SJ SJ 0 40 Y Y 1 L N
+F0 "SJ" -100 100 59 H V L BNN
+F1 "communication-hub-eagle-import:SJ" -100 -150 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -14 0 49 912 -912 1 0 1 F -15 49 -15 -49
+A 14 0 49 -888 888 1 0 1 F 15 -49 15 49
+P 2 1 0 0 -100 0 -65 0 N
+P 2 1 0 0 100 0 65 0 N
+X 1 1 -200 0 100 R 50 0 1 0 P
+X 2 2 200 0 100 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:SM02B-GHS-TB
+#
+DEF ~communication-hub-eagle-import:SM02B-GHS-TB CON 0 40 Y Y 3 L N
+F0 "CON" 200 -30 51 H V L BNN
+F1 "communication-hub-eagle-import:SM02B-GHS-TB" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 150 0 100 0 N
+P 2 2 0 0 150 0 100 0 N
+P 2 3 0 0 150 0 100 0 N
+X S P$1 0 0 100 R 0 0 1 0 P
+X S P$2 0 0 100 R 0 0 2 0 P
+X S P$3 0 0 100 R 0 0 3 0 P
+X S P$4 0 0 100 R 0 0 3 0 P
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:SM04B-GHS-TB
+#
+DEF ~communication-hub-eagle-import:SM04B-GHS-TB CON 0 40 Y Y 5 L N
+F0 "CON" 200 -30 51 H V L BNN
+F1 "communication-hub-eagle-import:SM04B-GHS-TB" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 150 0 100 0 N
+P 2 2 0 0 150 0 100 0 N
+P 2 3 0 0 150 0 100 0 N
+P 2 4 0 0 150 0 100 0 N
+P 2 5 0 0 150 0 100 0 N
+X S P$1 0 0 100 R 0 0 1 0 P
+X S P$2 0 0 100 R 0 0 2 0 P
+X S P$3 0 0 100 R 0 0 3 0 P
+X S P$5 0 0 100 R 0 0 4 0 P
+X S P$6 0 0 100 R 0 0 4 0 P
+X S P$4 0 0 100 R 0 0 5 0 P
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:TABL_L
+#
+DEF ~communication-hub-eagle-import:TABL_L #FRAME 0 40 Y Y 2 L N
+F0 "#FRAME" 0 0 50 H I C CNN
+F1 "communication-hub-eagle-import:TABL_L" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 700 750 85 0 2 0 >DRAWING_NAME Normal 0 L B
+T 0 500 50 85 0 2 0 >LAST_DATE_TIME Normal 0 L B
+T 0 3400 50 85 0 2 0 >SHEET Normal 0 L B
+T 0 50 50 85 0 2 0 Date: Normal 0 L B
+T 0 50 450 85 0 2 0 "Document Number:" Normal 0 L B
+T 0 3500 450 85 0 2 0 REV: Normal 0 L B
+T 0 2850 50 85 0 2 0 Sheet: Normal 0 L B
+T 0 50 750 85 0 2 0 TITLE: Normal 0 L B
+P 2 1 0 0 0 0 15800 0 N
+P 2 1 0 0 0 10500 0 0 N
+P 2 1 0 0 15800 0 15800 10500 N
+P 2 1 0 0 15800 10500 0 10500 N
+P 2 2 0 0 0 0 0 200 N
+P 2 2 0 0 0 0 2800 0 N
+P 2 2 0 0 0 200 0 600 N
+P 2 2 0 0 0 200 2800 200 N
+P 2 2 0 0 0 600 0 900 N
+P 2 2 0 0 0 900 0 1400 N
+P 2 2 0 0 0 900 4000 900 N
+P 2 2 0 0 2800 0 4000 0 N
+P 2 2 0 0 2800 200 2800 0 N
+P 2 2 0 0 2800 200 3450 200 N
+P 2 2 0 0 3450 200 4000 200 N
+P 2 2 0 0 3450 600 0 600 N
+P 2 2 0 0 3450 600 3450 200 N
+P 2 2 0 0 4000 200 4000 0 N
+P 2 2 0 0 4000 600 3450 600 N
+P 2 2 0 0 4000 600 4000 200 N
+P 2 2 0 0 4000 900 4000 600 N
+P 2 2 0 0 4000 1400 0 1400 N
+P 2 2 0 0 4000 1400 4000 900 N
+ENDDRAW
+ENDDEF
+#
+# communication-hub-eagle-import:TCAN1042HVDR
+#
+DEF ~communication-hub-eagle-import:TCAN1042HVDR U 0 40 Y Y 1 L N
+F0 "U" -400 340 59 H V L BNN
+F1 "communication-hub-eagle-import:TCAN1042HVDR" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -210 59 0 1 0 TCAN1042 Normal 0 C C
+P 2 1 0 0 -400 -300 400 -300 N
+P 2 1 0 0 -400 300 -400 -300 N
+P 2 1 0 0 400 -300 400 300 N
+P 2 1 0 0 400 300 -400 300 N
+X TXD 1 -600 100 200 R 50 50 1 0 U
+X GND 2 600 -100 200 L 50 50 1 0 U
+X VCC 3 600 200 200 L 50 50 1 0 U
+X RXD 4 -600 0 200 R 50 50 1 0 U
+X VIO 5 -600 200 200 R 50 50 1 0 U
+X CANL 6 600 0 200 L 50 50 1 0 U
+X CANH 7 600 100 200 L 50 50 1 0 U
+X STB 8 -600 -100 200 R 50 50 1 0 U
+ENDDRAW
+ENDDEF
+#
+#End Library

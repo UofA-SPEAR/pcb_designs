@@ -1,0 +1,1787 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr User 17495 12046
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	9400 3600 9900 3600
+Wire Wire Line
+	9900 3600 9900 3700
+Text Label 9400 3600 0    10   ~ 0
+GND
+Wire Wire Line
+	9400 5200 9900 5200
+Wire Wire Line
+	9900 5200 9900 5300
+Text Label 9400 5200 0    10   ~ 0
+GND
+Wire Wire Line
+	7800 6900 7800 6500
+Wire Wire Line
+	7800 6500 7400 6500
+Wire Wire Line
+	7400 6500 7400 6600
+Text Label 7800 6900 0    10   ~ 0
+GND
+Wire Wire Line
+	7400 8300 7400 8200
+Wire Wire Line
+	7400 8200 7800 8200
+Wire Wire Line
+	7800 8200 7800 8600
+Text Label 7400 8300 0    10   ~ 0
+GND
+Wire Wire Line
+	4900 3100 3800 3100
+Text Label 4900 3100 0    10   ~ 0
+GND
+Wire Wire Line
+	5200 2900 6000 2900
+Text Label 5200 2900 0    10   ~ 0
+GND
+Wire Wire Line
+	5200 3300 5500 3300
+Wire Wire Line
+	5500 3300 5500 3600
+Wire Wire Line
+	5500 3600 5700 3600
+Wire Wire Line
+	5200 3600 5500 3600
+Connection ~ 5500 3600
+Text Label 5200 3300 0    10   ~ 0
+GND
+Wire Wire Line
+	5200 4100 5400 4100
+Wire Wire Line
+	5400 4100 5400 4300
+Wire Wire Line
+	5400 4300 5600 4300
+Wire Wire Line
+	5200 4300 5400 4300
+Connection ~ 5400 4300
+Text Label 5200 4100 0    10   ~ 0
+GND
+Wire Wire Line
+	4900 3900 4600 3900
+Text Label 4900 3900 0    10   ~ 0
+GND
+Wire Wire Line
+	4400 4700 4400 4600
+Wire Wire Line
+	4400 4600 4900 4600
+Text Label 4400 4700 0    10   ~ 0
+GND
+Wire Wire Line
+	4600 5900 4900 5900
+Text Label 4600 5900 0    10   ~ 0
+GND
+Wire Wire Line
+	5600 5900 5600 5800
+Wire Wire Line
+	5600 5800 5200 5800
+Text Label 5600 5900 0    10   ~ 0
+GND
+Wire Wire Line
+	4900 6400 4600 6400
+Wire Wire Line
+	4600 6400 4600 6500
+Text Label 4900 6400 0    10   ~ 0
+GND
+Wire Wire Line
+	6600 7700 6700 7700
+Wire Wire Line
+	6700 7700 6700 7800
+Wire Wire Line
+	6600 7600 6700 7600
+Wire Wire Line
+	6700 7600 6700 7700
+Connection ~ 6700 7700
+Text Label 6600 7700 0    10   ~ 0
+GND
+Wire Wire Line
+	10400 9800 10500 9800
+Wire Wire Line
+	10500 9800 10500 9900
+Text Label 10400 9800 0    10   ~ 0
+GND
+Wire Wire Line
+	13000 4900 13000 4800
+Wire Wire Line
+	13000 4800 13100 4800
+Wire Wire Line
+	13000 4800 13000 4700
+Wire Wire Line
+	13000 4700 13100 4700
+Connection ~ 13000 4800
+Text Label 13000 4900 0    10   ~ 0
+GND
+Wire Wire Line
+	11900 8300 11900 8500
+Text Label 11900 8300 0    10   ~ 0
+GND
+Wire Wire Line
+	10500 8300 10500 8500
+Text Label 10500 8300 0    10   ~ 0
+GND
+Wire Wire Line
+	8200 3300 8100 3300
+Wire Wire Line
+	8100 3300 8100 2800
+Wire Wire Line
+	8100 2800 8100 2500
+Wire Wire Line
+	7800 2800 8100 2800
+Connection ~ 8100 2800
+Text Label 8200 3300 0    10   ~ 0
++3V3
+Wire Wire Line
+	8200 4900 8100 4900
+Wire Wire Line
+	8100 4900 8100 4400
+Wire Wire Line
+	8100 4400 8100 4300
+Wire Wire Line
+	7900 4400 8100 4400
+Connection ~ 8100 4400
+Text Label 8200 4900 0    10   ~ 0
++3V3
+Wire Wire Line
+	8900 7400 8300 7400
+Text Label 8900 7400 0    10   ~ 0
++3V3
+Wire Wire Line
+	8300 5700 8800 5700
+Text Label 8300 5700 0    10   ~ 0
++3V3
+Wire Wire Line
+	4900 2700 4400 2700
+Wire Wire Line
+	4400 2700 4400 2500
+Text Label 4900 2700 0    10   ~ 0
++3V3
+Wire Wire Line
+	7000 6800 7000 6600
+Text Label 7000 6800 0    10   ~ 0
++3V3
+Wire Wire Line
+	7100 8700 7100 8500
+Text Label 7100 8700 0    10   ~ 0
++3V3
+Wire Wire Line
+	4900 3500 3700 3500
+Wire Wire Line
+	3700 3500 3700 3300
+Text Label 4900 3500 0    10   ~ 0
++3V3
+Wire Wire Line
+	5200 5400 5600 5400
+Wire Wire Line
+	5600 5400 5600 5300
+Text Label 5200 5400 0    10   ~ 0
++3V3
+Wire Wire Line
+	4900 5600 4400 5600
+Text Label 4400 5600 2    70   ~ 0
+CAN0_RX_T
+Wire Wire Line
+	7200 3700 7100 3700
+Text Label 7100 3700 2    70   ~ 0
+CAN0_RX_T
+Wire Wire Line
+	4900 6200 4400 6200
+Text Label 4400 6200 2    70   ~ 0
+CAN1_TX_T
+Wire Wire Line
+	7200 5000 7100 5000
+Text Label 7100 5000 2    70   ~ 0
+CAN1_TX_T
+Wire Wire Line
+	4900 6100 4400 6100
+Text Label 4400 6100 2    70   ~ 0
+CAN1_RX_T
+Wire Wire Line
+	7200 5300 7100 5300
+Text Label 7100 5300 2    70   ~ 0
+CAN1_RX_T
+Wire Wire Line
+	8900 7000 8300 7000
+Wire Wire Line
+	8300 6900 8300 7000
+Wire Wire Line
+	8300 7000 7800 7000
+Text Label 8900 7000 0    70   ~ 0
+I2C_GP1_SDA
+Connection ~ 8300 7000
+Wire Wire Line
+	4900 4000 4600 4000
+Text Label 4600 4000 2    70   ~ 0
+I2C_GP1_SDA
+Wire Wire Line
+	8600 7100 8900 7100
+Wire Wire Line
+	8600 6900 8600 7100
+Wire Wire Line
+	8600 7100 7800 7100
+Text Label 8900 7100 0    70   ~ 0
+I2C_GP1_SCL
+Connection ~ 8600 7100
+Wire Wire Line
+	5200 4000 5600 4000
+Text Label 5600 4000 0    70   ~ 0
+I2C_GP1_SCL
+Wire Wire Line
+	8900 8700 8300 8700
+Wire Wire Line
+	8300 8600 8300 8700
+Wire Wire Line
+	8300 8700 7800 8700
+Text Label 8900 8700 0    70   ~ 0
+I2C_GP0_SDA
+Connection ~ 8300 8700
+Wire Wire Line
+	4900 2800 4600 2800
+Text Label 4600 2800 2    70   ~ 0
+I2C_GP0_SDA
+Wire Wire Line
+	8600 8800 8900 8800
+Wire Wire Line
+	8600 8600 8600 8800
+Wire Wire Line
+	8600 8800 7800 8800
+Text Label 8900 8800 0    70   ~ 0
+I2C_GP0_SCL
+Connection ~ 8600 8800
+Wire Wire Line
+	4900 2900 4600 2900
+Text Label 4600 2900 2    70   ~ 0
+I2C_GP0_SCL
+Wire Wire Line
+	11400 9400 10400 9400
+Text Label 11400 9400 0    70   ~ 0
+UART1_TX
+Wire Wire Line
+	5200 3000 5600 3000
+Text Label 5600 3000 0    70   ~ 0
+UART1_TX
+Wire Wire Line
+	10400 9500 11400 9500
+Text Label 11400 9500 0    70   ~ 0
+UART1_RX
+Wire Wire Line
+	5200 3100 5600 3100
+Text Label 5600 3100 0    70   ~ 0
+UART1_RX
+Wire Wire Line
+	10500 7500 10500 7400
+Wire Wire Line
+	10500 7400 10300 7400
+Wire Wire Line
+	10300 7400 10300 7200
+Wire Wire Line
+	11900 7500 11900 7400
+Wire Wire Line
+	11900 7400 11700 7400
+Wire Wire Line
+	11700 7400 11700 7200
+Wire Wire Line
+	4900 3400 4600 3400
+Text Label 4600 3400 2    70   ~ 0
+GPIO_EXP_P17
+Wire Wire Line
+	10000 7700 10000 7600
+Text Label 10000 7600 1    70   ~ 0
+GPIO_EXP_P17
+Wire Wire Line
+	5200 3700 5600 3700
+Text Label 5600 3700 0    70   ~ 0
+GPIO_EXP_P16
+Wire Wire Line
+	11400 7700 11400 7600
+Text Label 11400 7600 1    70   ~ 0
+GPIO_EXP_P16
+Wire Wire Line
+	9600 3300 9600 2800
+Wire Wire Line
+	9600 2800 9600 2500
+Wire Wire Line
+	9400 3300 9600 3300
+Wire Wire Line
+	9600 2800 9800 2800
+Connection ~ 9600 2800
+Text Label 9600 3300 0    10   ~ 0
++5V
+Wire Wire Line
+	9400 4900 9600 4900
+Wire Wire Line
+	9600 4900 9600 4400
+Wire Wire Line
+	9600 4400 9600 4300
+Wire Wire Line
+	9800 4400 9600 4400
+Connection ~ 9600 4400
+Text Label 9400 4900 0    10   ~ 0
++5V
+Wire Wire Line
+	5200 2700 5600 2700
+Wire Wire Line
+	5600 2700 5600 2500
+Wire Wire Line
+	5600 2700 5600 2800
+Wire Wire Line
+	5600 2800 5200 2800
+Connection ~ 5600 2700
+Text Label 5200 2700 0    10   ~ 0
++5V
+Wire Wire Line
+	5600 5600 5600 5700
+Wire Wire Line
+	5600 5700 5200 5700
+Text Label 5600 5600 0    10   ~ 0
++5V
+Wire Wire Line
+	11400 3100 11400 3000
+Wire Wire Line
+	11400 3100 11700 3100
+Text Label 11400 3100 0    10   ~ 0
++5V
+Wire Wire Line
+	11400 4700 11400 4600
+Wire Wire Line
+	11400 4700 11700 4700
+Text Label 11400 4700 0    10   ~ 0
++5V
+Wire Wire Line
+	10300 6600 10300 6800
+Text Label 10300 6600 0    10   ~ 0
++5V
+Wire Wire Line
+	11700 6600 11700 6800
+Text Label 11700 6600 0    10   ~ 0
++5V
+Wire Wire Line
+	10300 3400 10500 3400
+Wire Wire Line
+	10500 3400 10500 3300
+Wire Wire Line
+	10500 3300 10700 3300
+Connection ~ 10300 3400
+Wire Wire Line
+	10300 5000 10500 5000
+Wire Wire Line
+	10500 5000 10500 4800
+Wire Wire Line
+	10500 4800 10700 4800
+Connection ~ 10300 5000
+Wire Wire Line
+	9400 5000 10100 5000
+Wire Wire Line
+	10100 5000 10100 4600
+Wire Wire Line
+	10100 4600 10300 4600
+Wire Wire Line
+	10300 4600 10900 4600
+Wire Wire Line
+	10900 4600 10900 5000
+Wire Wire Line
+	10900 5000 11500 5000
+Wire Wire Line
+	11500 5000 11500 4900
+Wire Wire Line
+	11500 4900 11700 4900
+Connection ~ 10300 4600
+Wire Wire Line
+	9400 5100 10100 5100
+Wire Wire Line
+	10100 5100 10100 5400
+Wire Wire Line
+	10100 5400 10300 5400
+Wire Wire Line
+	10300 5400 10900 5400
+Wire Wire Line
+	10900 5400 10900 5100
+Wire Wire Line
+	10900 5100 11700 5100
+Connection ~ 10300 5400
+Wire Wire Line
+	9400 3400 10100 3400
+Wire Wire Line
+	10100 3400 10100 3000
+Wire Wire Line
+	10100 3000 10300 3000
+Wire Wire Line
+	10300 3000 11000 3000
+Wire Wire Line
+	11000 3000 11000 3400
+Wire Wire Line
+	11000 3400 11400 3400
+Wire Wire Line
+	11400 3400 11400 3300
+Wire Wire Line
+	11400 3300 11700 3300
+Connection ~ 10300 3000
+Wire Wire Line
+	9400 3500 10100 3500
+Wire Wire Line
+	10100 3500 10100 3800
+Wire Wire Line
+	10100 3800 10300 3800
+Wire Wire Line
+	10300 3800 11000 3800
+Wire Wire Line
+	11000 3800 11000 3500
+Wire Wire Line
+	11000 3500 11700 3500
+Connection ~ 10300 3800
+Wire Wire Line
+	7600 3400 8200 3400
+Wire Wire Line
+	8200 3500 7600 3500
+Wire Wire Line
+	7600 3500 7600 3700
+Wire Wire Line
+	8200 3600 7700 3600
+Wire Wire Line
+	7700 3600 7700 4000
+Wire Wire Line
+	7700 4000 7600 4000
+Wire Wire Line
+	7600 4100 7600 4000
+Connection ~ 7600 4000
+Wire Wire Line
+	8200 5000 7600 5000
+Wire Wire Line
+	8200 5100 7600 5100
+Wire Wire Line
+	7600 5100 7600 5300
+Wire Wire Line
+	8200 5200 7700 5200
+Wire Wire Line
+	7700 5200 7700 5600
+Wire Wire Line
+	7700 5600 7600 5600
+Wire Wire Line
+	7600 5700 7600 5600
+Connection ~ 7600 5600
+Wire Wire Line
+	7200 3400 7100 3400
+Text Label 7100 3400 2    70   ~ 0
+CAN0_TX_T
+Wire Wire Line
+	4900 5700 4400 5700
+Text Label 4400 5700 2    70   ~ 0
+CAN0_TX_T
+Wire Wire Line
+	8300 6500 8300 6300
+Wire Wire Line
+	8600 6500 8600 6300
+Wire Wire Line
+	8600 6300 8300 6300
+Connection ~ 8300 6300
+Wire Wire Line
+	8300 8000 8300 8200
+Wire Wire Line
+	8600 8200 8600 8000
+Wire Wire Line
+	8600 8000 8300 8000
+Connection ~ 8300 8000
+Wire Wire Line
+	7800 9300 7100 9300
+Wire Wire Line
+	7800 9300 7800 8900
+Wire Wire Line
+	7800 7400 7800 7200
+Wire Wire Line
+	7000 7400 7800 7400
+Wire Wire Line
+	11600 5300 11600 5400
+Wire Wire Line
+	11600 5300 11700 5300
+Wire Wire Line
+	11600 3700 11600 3800
+Wire Wire Line
+	11600 3700 11700 3700
+Wire Wire Line
+	10500 7800 10500 7900
+Wire Wire Line
+	11900 7800 11900 7900
+Wire Wire Line
+	10000 8100 10000 8200
+Wire Wire Line
+	10000 8200 10300 8200
+Wire Wire Line
+	11400 8100 11400 8200
+Wire Wire Line
+	11400 8200 11700 8200
+$Comp
+L communication-hub-eagle-import:PINHD-2X20 JP21
+U 1 0 DCE053CA94D8579
+P 5000 3600
+F 0 "JP21" H 4750 4625 59  0000 L BNN
+F 1 "PINHD-2X20" H 4750 2400 59  0000 L BNN
+F 2 "communication-hub:2X20" H 5000 3600 50  0001 C CNN
+F 3 "" H 5000 3600 50  0001 C CNN
+	1    5000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:PINHD-2X15 JP26
+U 1 0 312CDA4125DB1461
+P 5000 6100
+F 0 "JP26" H 4750 6925 59  0000 L BNN
+F 1 "PINHD-2X15" H 4750 5200 59  0000 L BNN
+F 2 "communication-hub:2X15" H 5000 6100 50  0001 C CNN
+F 3 "" H 5000 6100 50  0001 C CNN
+	1    5000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-US_M1206 R9
+U 1 0 277179E7A8D07F15
+P 8300 6700
+F 0 "R9" H 8150 6759 59  0000 L BNN
+F 1 "10K" H 8150 6570 59  0000 L BNN
+F 2 "communication-hub:M1206" H 8300 6700 50  0001 C CNN
+F 3 "" H 8300 6700 50  0001 C CNN
+	1    8300 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-US_M1206 R10
+U 1 0 26FE3349FF346B35
+P 8300 8400
+F 0 "R10" H 8150 8459 59  0000 L BNN
+F 1 "10K" H 8150 8270 59  0000 L BNN
+F 2 "communication-hub:M1206" H 8300 8400 50  0001 C CNN
+F 3 "" H 8300 8400 50  0001 C CNN
+	1    8300 8400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-US_M1206 R12
+U 1 0 F0E9188FCDC7D98C
+P 8600 8400
+F 0 "R12" H 8450 8459 59  0000 L BNN
+F 1 "100K" H 8450 8270 59  0000 L BNN
+F 2 "communication-hub:M1206" H 8600 8400 50  0001 C CNN
+F 3 "" H 8600 8400 50  0001 C CNN
+	1    8600 8400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-US_M1206 R11
+U 1 0 1F0C43AD49162B56
+P 8600 6700
+F 0 "R11" H 8450 6759 59  0000 L BNN
+F 1 "10K" H 8450 6570 59  0000 L BNN
+F 2 "communication-hub:M1206" H 8600 6700 50  0001 C CNN
+F 3 "" H 8600 6700 50  0001 C CNN
+	1    8600 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:+3V3 #+3V0311
+U 1 0 1AC3C64A028F3042
+P 8900 7300
+F 0 "#+3V0311" H 8900 7300 50  0001 C CNN
+F 1 "+3V3" V 8800 7100 59  0000 L BNN
+F 2 "" H 8900 7300 50  0001 C CNN
+F 3 "" H 8900 7300 50  0001 C CNN
+	1    8900 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:LED_E GPIO_EXP_P17
+U 1 0 98BD959BBD13BBC
+P 10500 7600
+F 0 "GPIO_EXP_P17" V 10640 7420 59  0000 L BNN
+F 1 "XZM2ACR55W-3" V 10725 7420 59  0000 L BNN
+F 2 "communication-hub:LED_1206" H 10500 7600 50  0001 C CNN
+F 3 "" H 10500 7600 50  0001 C CNN
+	1    10500 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:LED_E GPIO_EXP_P16
+U 1 0 96DC0D940F8A98E
+P 11900 7600
+F 0 "GPIO_EXP_P16" V 12040 7420 59  0000 L BNN
+F 1 "XZDG55W-3" V 12125 7420 59  0000 L BNN
+F 2 "communication-hub:LED_1206" H 11900 7600 50  0001 C CNN
+F 3 "" H 11900 7600 50  0001 C CNN
+	1    11900 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND021
+U 1 0 C987055BCF593DC2
+P 10500 8600
+F 0 "#GND021" H 10500 8600 50  0001 C CNN
+F 1 "GND" H 10400 8500 59  0000 L BNN
+F 2 "" H 10500 8600 50  0001 C CNN
+F 3 "" H 10500 8600 50  0001 C CNN
+	1    10500 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND022
+U 1 0 5219B01CFB1CD9CF
+P 11900 8600
+F 0 "#GND022" H 11900 8600 50  0001 C CNN
+F 1 "GND" H 11800 8500 59  0000 L BNN
+F 2 "" H 11900 8600 50  0001 C CNN
+F 3 "" H 11900 8600 50  0001 C CNN
+	1    11900 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-US_M1206 R13
+U 1 0 2E45CCF5EFDB9E74
+P 10300 7000
+F 0 "R13" H 10150 7059 59  0000 L BNN
+F 1 "140" H 10150 6870 59  0000 L BNN
+F 2 "communication-hub:M1206" H 10300 7000 50  0001 C CNN
+F 3 "" H 10300 7000 50  0001 C CNN
+	1    10300 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-US_M1206 R18
+U 1 0 B35C19B4075C152C
+P 11700 7000
+F 0 "R18" H 11550 7059 59  0000 L BNN
+F 1 "85" H 11550 6870 59  0000 L BNN
+F 2 "communication-hub:M1206" H 11700 7000 50  0001 C CNN
+F 3 "" H 11700 7000 50  0001 C CNN
+	1    11700 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:TCAN1042HVDR U1
+U 1 0 B89026D3F9562130
+P 8800 3500
+F 0 "U1" H 8400 3840 59  0000 L BNN
+F 1 "TCAN1042HVDR" H 8800 3500 50  0001 C CNN
+F 2 "communication-hub:SO-8" H 8800 3500 50  0001 C CNN
+F 3 "" H 8800 3500 50  0001 C CNN
+	1    8800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:TCAN1042HVDR U2
+U 1 0 23E9B31BC2DEB937
+P 8800 5100
+F 0 "U2" H 8400 5440 59  0000 L BNN
+F 1 "TCAN1042HVDR" H 8800 5100 50  0001 C CNN
+F 2 "communication-hub:SO-8" H 8800 5100 50  0001 C CNN
+F 3 "" H 8800 5100 50  0001 C CNN
+	1    8800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:+5V #P+03
+U 1 0 DC184ABA00F05DF6
+P 9600 2400
+F 0 "#P+03" H 9600 2400 50  0001 C CNN
+F 1 "+5V" V 9500 2200 59  0000 L BNN
+F 2 "" H 9600 2400 50  0001 C CNN
+F 3 "" H 9600 2400 50  0001 C CNN
+	1    9600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:+5V #P+04
+U 1 0 9CDE3F88A7FDB2D8
+P 9600 4200
+F 0 "#P+04" H 9600 4200 50  0001 C CNN
+F 1 "+5V" V 9500 4000 59  0000 L BNN
+F 2 "" H 9600 4200 50  0001 C CNN
+F 3 "" H 9600 4200 50  0001 C CNN
+	1    9600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND019
+U 1 0 906FD9F448B3EBD8
+P 9900 3800
+F 0 "#GND019" H 9900 3800 50  0001 C CNN
+F 1 "GND" H 9800 3700 59  0000 L BNN
+F 2 "" H 9900 3800 50  0001 C CNN
+F 3 "" H 9900 3800 50  0001 C CNN
+	1    9900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND020
+U 1 0 1D4613EF2DF12463
+P 9900 5400
+F 0 "#GND020" H 9900 5400 50  0001 C CNN
+F 1 "GND" H 9800 5300 59  0000 L BNN
+F 2 "" H 9900 5400 50  0001 C CNN
+F 3 "" H 9900 5400 50  0001 C CNN
+	1    9900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:C-EUC0805 C3
+U 1 0 A5CCAFC892D7109B
+P 9800 2900
+F 0 "C3" H 9860 2915 59  0000 L BNN
+F 1 "10u" H 9860 2715 59  0000 L BNN
+F 2 "communication-hub:C0805" H 9800 2900 50  0001 C CNN
+F 3 "" H 9800 2900 50  0001 C CNN
+	1    9800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:C-EUC0805 C4
+U 1 0 45D2F3CBB07FA321
+P 9800 4500
+F 0 "C4" H 9860 4515 59  0000 L BNN
+F 1 "10u" H 9860 4315 59  0000 L BNN
+F 2 "communication-hub:C0805" H 9800 4500 50  0001 C CNN
+F 3 "" H 9800 4500 50  0001 C CNN
+	1    9800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND017
+U 1 0 A9D98BED0A5A0AC8
+P 9800 3200
+F 0 "#GND017" H 9800 3200 50  0001 C CNN
+F 1 "GND" H 9700 3100 59  0000 L BNN
+F 2 "" H 9800 3200 50  0001 C CNN
+F 3 "" H 9800 3200 50  0001 C CNN
+	1    9800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND018
+U 1 0 15FCDF69E0081D19
+P 9800 4800
+F 0 "#GND018" H 9800 4800 50  0001 C CNN
+F 1 "GND" H 9700 4700 59  0000 L BNN
+F 2 "" H 9800 4800 50  0001 C CNN
+F 3 "" H 9800 4800 50  0001 C CNN
+	1    9800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:+3V3 #+3V038
+U 1 0 83B7EDE1386685AF
+P 8100 2400
+F 0 "#+3V038" H 8100 2400 50  0001 C CNN
+F 1 "+3V3" V 8000 2200 59  0000 L BNN
+F 2 "" H 8100 2400 50  0001 C CNN
+F 3 "" H 8100 2400 50  0001 C CNN
+	1    8100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:+3V3 #+3V039
+U 1 0 9A321B04E55991D8
+P 8100 4200
+F 0 "#+3V039" H 8100 4200 50  0001 C CNN
+F 1 "+3V3" V 8000 4000 59  0000 L BNN
+F 2 "" H 8100 4200 50  0001 C CNN
+F 3 "" H 8100 4200 50  0001 C CNN
+	1    8100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:C-EUC0805 C2
+U 1 0 BD258381F1388863
+P 7900 4500
+F 0 "C2" H 7960 4515 59  0000 L BNN
+F 1 "10u" H 7960 4315 59  0000 L BNN
+F 2 "communication-hub:C0805" H 7900 4500 50  0001 C CNN
+F 3 "" H 7900 4500 50  0001 C CNN
+	1    7900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:C-EUC0805 C1
+U 1 0 3A1260E3B9BDB640
+P 7800 2900
+F 0 "C1" H 7860 2915 59  0000 L BNN
+F 1 "10u" H 7860 2715 59  0000 L BNN
+F 2 "communication-hub:C0805" H 7800 2900 50  0001 C CNN
+F 3 "" H 7800 2900 50  0001 C CNN
+	1    7800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND015
+U 1 0 CBE454F257B06B4
+P 7800 3200
+F 0 "#GND015" H 7800 3200 50  0001 C CNN
+F 1 "GND" H 7700 3100 59  0000 L BNN
+F 2 "" H 7800 3200 50  0001 C CNN
+F 3 "" H 7800 3200 50  0001 C CNN
+	1    7800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND016
+U 1 0 8316678299D4D269
+P 7900 4800
+F 0 "#GND016" H 7900 4800 50  0001 C CNN
+F 1 "GND" H 7800 4700 59  0000 L BNN
+F 2 "" H 7900 4800 50  0001 C CNN
+F 3 "" H 7900 4800 50  0001 C CNN
+	1    7900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:C-EUC0805 C5
+U 1 0 975D21224526043C
+P 10700 3400
+F 0 "C5" H 10760 3415 59  0000 L BNN
+F 1 "4n7" H 10760 3215 59  0000 L BNN
+F 2 "communication-hub:C0805" H 10700 3400 50  0001 C CNN
+F 3 "" H 10700 3400 50  0001 C CNN
+	1    10700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:C-EUC0805 C6
+U 1 0 ED52CD2742524092
+P 10700 4900
+F 0 "C6" H 10760 4915 59  0000 L BNN
+F 1 "4n7" H 10760 4715 59  0000 L BNN
+F 2 "communication-hub:C0805" H 10700 4900 50  0001 C CNN
+F 3 "" H 10700 4900 50  0001 C CNN
+	1    10700 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND024
+U 1 0 D2BA7EC8664B2FAE
+P 10700 5200
+F 0 "#GND024" H 10700 5200 50  0001 C CNN
+F 1 "GND" H 10600 5100 59  0000 L BNN
+F 2 "" H 10700 5200 50  0001 C CNN
+F 3 "" H 10700 5200 50  0001 C CNN
+	1    10700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND023
+U 1 0 A861C119C7080FD3
+P 10700 3700
+F 0 "#GND023" H 10700 3700 50  0001 C CNN
+F 1 "GND" H 10600 3600 59  0000 L BNN
+F 2 "" H 10700 3700 50  0001 C CNN
+F 3 "" H 10700 3700 50  0001 C CNN
+	1    10700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-EU_R0805 R1
+U 1 0 93D0125A34554CA9
+P 7400 3400
+F 0 "R1" H 7250 3459 59  0000 L BNN
+F 1 "220" H 7250 3270 59  0000 L BNN
+F 2 "communication-hub:R0805" H 7400 3400 50  0001 C CNN
+F 3 "" H 7400 3400 50  0001 C CNN
+	1    7400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-EU_R0805 R2
+U 1 0 A2ABB1400C537E3C
+P 7400 3700
+F 0 "R2" H 7250 3759 59  0000 L BNN
+F 1 "220" H 7250 3570 59  0000 L BNN
+F 2 "communication-hub:R0805" H 7400 3700 50  0001 C CNN
+F 3 "" H 7400 3700 50  0001 C CNN
+	1    7400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-EU_R0805 R3
+U 1 0 888EC3CBD483747B
+P 7400 4000
+F 0 "R3" H 7250 4059 59  0000 L BNN
+F 1 "1k" H 7250 3870 59  0000 L BNN
+F 2 "communication-hub:R0805" H 7400 4000 50  0001 C CNN
+F 3 "" H 7400 4000 50  0001 C CNN
+	1    7400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-EU_R0805 R4
+U 1 0 A5780A551533BA2E
+P 7400 5000
+F 0 "R4" H 7250 5059 59  0000 L BNN
+F 1 "220" H 7250 4870 59  0000 L BNN
+F 2 "communication-hub:R0805" H 7400 5000 50  0001 C CNN
+F 3 "" H 7400 5000 50  0001 C CNN
+	1    7400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-EU_R0805 R5
+U 1 0 1D9ACE0C8A8B53B6
+P 7400 5300
+F 0 "R5" H 7250 5359 59  0000 L BNN
+F 1 "220" H 7250 5170 59  0000 L BNN
+F 2 "communication-hub:R0805" H 7400 5300 50  0001 C CNN
+F 3 "" H 7400 5300 50  0001 C CNN
+	1    7400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-EU_R0805 R6
+U 1 0 937CA1AD9D27E019
+P 7400 5600
+F 0 "R6" H 7250 5659 59  0000 L BNN
+F 1 "1K" H 7250 5470 59  0000 L BNN
+F 2 "communication-hub:R0805" H 7400 5600 50  0001 C CNN
+F 3 "" H 7400 5600 50  0001 C CNN
+	1    7400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-EU_R1206 R14
+U 1 0 DB5FBA00EB2E18C4
+P 10300 3200
+F 0 "R14" H 10150 3259 59  0000 L BNN
+F 1 "60" H 10150 3070 59  0000 L BNN
+F 2 "communication-hub:R1206" H 10300 3200 50  0001 C CNN
+F 3 "" H 10300 3200 50  0001 C CNN
+	1    10300 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-EU_R1206 R15
+U 1 0 9BBCE1784F86CFD5
+P 10300 3600
+F 0 "R15" H 10150 3659 59  0000 L BNN
+F 1 "60" H 10150 3470 59  0000 L BNN
+F 2 "communication-hub:R1206" H 10300 3600 50  0001 C CNN
+F 3 "" H 10300 3600 50  0001 C CNN
+	1    10300 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-EU_R1206 R16
+U 1 0 40FA702D1B27ABB6
+P 10300 4800
+F 0 "R16" H 10150 4859 59  0000 L BNN
+F 1 "60" H 10150 4670 59  0000 L BNN
+F 2 "communication-hub:R1206" H 10300 4800 50  0001 C CNN
+F 3 "" H 10300 4800 50  0001 C CNN
+	1    10300 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-EU_R1206 R17
+U 1 0 9E81F11E15FB9967
+P 10300 5200
+F 0 "R17" H 10150 5259 59  0000 L BNN
+F 1 "60" H 10150 5070 59  0000 L BNN
+F 2 "communication-hub:R1206" H 10300 5200 50  0001 C CNN
+F 3 "" H 10300 5200 50  0001 C CNN
+	1    10300 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SJ SJ2
+U 1 0 F3ECEA9CD7571B3
+P 11600 4000
+F 0 "SJ2" H 11500 4100 59  0000 L BNN
+F 1 "SJ" H 11500 3850 59  0000 L BNN
+F 2 "communication-hub:SJ" H 11600 4000 50  0001 C CNN
+F 3 "" H 11600 4000 50  0001 C CNN
+	1    11600 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SJ SJ1
+U 1 0 B7B99D7444DD8191
+P 11600 5600
+F 0 "SJ1" H 11500 5700 59  0000 L BNN
+F 1 "SJ" H 11500 5450 59  0000 L BNN
+F 2 "communication-hub:SJ" H 11600 5600 50  0001 C CNN
+F 3 "" H 11600 5600 50  0001 C CNN
+	1    11600 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND026
+U 1 0 9DF08A589E0685E6
+P 11600 5900
+F 0 "#GND026" H 11600 5900 50  0001 C CNN
+F 1 "GND" H 11500 5800 59  0000 L BNN
+F 2 "" H 11600 5900 50  0001 C CNN
+F 3 "" H 11600 5900 50  0001 C CNN
+	1    11600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND027
+U 1 0 2524E78419D9C11
+P 11600 4300
+F 0 "#GND027" H 11600 4300 50  0001 C CNN
+F 1 "GND" H 11500 4200 59  0000 L BNN
+F 2 "" H 11600 4300 50  0001 C CNN
+F 3 "" H 11600 4300 50  0001 C CNN
+	1    11600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:JP1Q JP4
+U 1 0 28A9B5EA47274FB3
+P 6900 5600
+F 0 "JP4" V 6800 5400 59  0000 L BNN
+F 1 "JP1Q" V 7075 5400 59  0000 L BNN
+F 2 "communication-hub:JP1" H 6900 5600 50  0001 C CNN
+F 3 "" H 6900 5600 50  0001 C CNN
+	1    6900 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:JP1Q JP3
+U 1 0 CD71B194ACD8E5B6
+P 6900 4000
+F 0 "JP3" V 6800 3800 59  0000 L BNN
+F 1 "JP1Q" V 7075 3800 59  0000 L BNN
+F 2 "communication-hub:JP1" H 6900 4000 50  0001 C CNN
+F 3 "" H 6900 4000 50  0001 C CNN
+	1    6900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:+3V3 #+3V035
+U 1 0 CFC09584CEC51A99
+P 6600 5500
+F 0 "#+3V035" H 6600 5500 50  0001 C CNN
+F 1 "+3V3" V 6500 5300 59  0000 L BNN
+F 2 "" H 6600 5500 50  0001 C CNN
+F 3 "" H 6600 5500 50  0001 C CNN
+	1    6600 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:+3V3 #+3V034
+U 1 0 EDBCC19C7EE55B8
+P 6600 3900
+F 0 "#+3V034" H 6600 3900 50  0001 C CNN
+F 1 "+3V3" V 6500 3700 59  0000 L BNN
+F 2 "" H 6600 3900 50  0001 C CNN
+F 3 "" H 6600 3900 50  0001 C CNN
+	1    6600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:JP1Q JP7
+U 1 0 72C1CFEF600E0B9C
+P 8300 6000
+F 0 "JP7" V 8200 5800 59  0000 L BNN
+F 1 "JP1Q" V 8475 5800 59  0000 L BNN
+F 2 "communication-hub:JP1" H 8300 6000 50  0001 C CNN
+F 3 "" H 8300 6000 50  0001 C CNN
+	1    8300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:JP1Q JP8
+U 1 0 761E0343A6258458
+P 8300 7700
+F 0 "JP8" V 8200 7500 59  0000 L BNN
+F 1 "JP1Q" V 8475 7500 59  0000 L BNN
+F 2 "communication-hub:JP1" H 8300 7700 50  0001 C CNN
+F 3 "" H 8300 7700 50  0001 C CNN
+	1    8300 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND011
+U 1 0 25F2C17319DA8D48
+P 7400 6700
+F 0 "#GND011" H 7400 6700 50  0001 C CNN
+F 1 "GND" H 7300 6600 59  0000 L BNN
+F 2 "" H 7400 6700 50  0001 C CNN
+F 3 "" H 7400 6700 50  0001 C CNN
+	1    7400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND012
+U 1 0 E034864A5F18D96
+P 7400 8400
+F 0 "#GND012" H 7400 8400 50  0001 C CNN
+F 1 "GND" H 7300 8300 59  0000 L BNN
+F 2 "" H 7400 8400 50  0001 C CNN
+F 3 "" H 7400 8400 50  0001 C CNN
+	1    7400 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:+3V3 #+3V037
+U 1 0 AF8B4952F647D7C7
+P 7100 8400
+F 0 "#+3V037" H 7100 8400 50  0001 C CNN
+F 1 "+3V3" V 7000 8200 59  0000 L BNN
+F 2 "" H 7100 8400 50  0001 C CNN
+F 3 "" H 7100 8400 50  0001 C CNN
+	1    7100 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:+3V3 #+3V0310
+U 1 0 1347D1DE5C61050A
+P 8800 5600
+F 0 "#+3V0310" H 8800 5600 50  0001 C CNN
+F 1 "+3V3" V 8700 5400 59  0000 L BNN
+F 2 "" H 8800 5600 50  0001 C CNN
+F 3 "" H 8800 5600 50  0001 C CNN
+	1    8800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:JP1Q JP6
+U 1 0 DD40F71C7F37E81D
+P 7100 9000
+F 0 "JP6" V 7000 8800 59  0000 L BNN
+F 1 "JP1Q" V 7275 8800 59  0000 L BNN
+F 2 "communication-hub:JP1" H 7100 9000 50  0001 C CNN
+F 3 "" H 7100 9000 50  0001 C CNN
+	1    7100 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON1
+U 1 0 647B296798085B15
+P 7800 6900
+F 0 "CON1" H 8000 6870 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 7800 6900 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 7800 6900 50  0001 C CNN
+F 3 "" H 7800 6900 50  0001 C CNN
+	1    7800 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON1
+U 2 0 647B296798085B19
+P 7800 7000
+F 0 "CON1" H 8000 6970 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 7800 7000 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 7800 7000 50  0001 C CNN
+F 3 "" H 7800 7000 50  0001 C CNN
+	2    7800 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON1
+U 3 0 647B296798085B1D
+P 7800 7100
+F 0 "CON1" H 8000 7070 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 7800 7100 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 7800 7100 50  0001 C CNN
+F 3 "" H 7800 7100 50  0001 C CNN
+	3    7800 7100
+	-1   0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON1
+U 4 0 647B296798085B01
+P 6600 7600
+F 0 "CON1" H 6800 7570 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 6600 7600 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 6600 7600 50  0001 C CNN
+F 3 "" H 6600 7600 50  0001 C CNN
+	4    6600 7600
+	-1   0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON1
+U 5 0 647B296798085B05
+P 7800 7200
+F 0 "CON1" H 8000 7170 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 7800 7200 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 7800 7200 50  0001 C CNN
+F 3 "" H 7800 7200 50  0001 C CNN
+	5    7800 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON2
+U 1 0 EC4CBBF8C3190B6C
+P 7800 8600
+F 0 "CON2" H 8000 8570 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 7800 8600 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 7800 8600 50  0001 C CNN
+F 3 "" H 7800 8600 50  0001 C CNN
+	1    7800 8600
+	-1   0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON2
+U 2 0 EC4CBBF8C3190B60
+P 7800 8700
+F 0 "CON2" H 8000 8670 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 7800 8700 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 7800 8700 50  0001 C CNN
+F 3 "" H 7800 8700 50  0001 C CNN
+	2    7800 8700
+	-1   0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON2
+U 3 0 EC4CBBF8C3190B64
+P 7800 8800
+F 0 "CON2" H 8000 8770 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 7800 8800 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 7800 8800 50  0001 C CNN
+F 3 "" H 7800 8800 50  0001 C CNN
+	3    7800 8800
+	-1   0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON2
+U 4 0 EC4CBBF8C3190B78
+P 6600 7700
+F 0 "CON2" H 6800 7670 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 6600 7700 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 6600 7700 50  0001 C CNN
+F 3 "" H 6600 7700 50  0001 C CNN
+	4    6600 7700
+	-1   0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON2
+U 5 0 EC4CBBF8C3190B7C
+P 7800 8900
+F 0 "CON2" H 8000 8870 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 7800 8900 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 7800 8900 50  0001 C CNN
+F 3 "" H 7800 8900 50  0001 C CNN
+	5    7800 8900
+	-1   0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM02B-GHS-TB CON3
+U 1 0 F447FD65610C5708
+P 10400 9400
+F 0 "CON3" H 10600 9370 51  0000 L BNN
+F 1 "SM02B-GHS-TB" H 10400 9400 50  0001 C CNN
+F 2 "communication-hub:SM02B-GHS-TB" H 10400 9400 50  0001 C CNN
+F 3 "" H 10400 9400 50  0001 C CNN
+	1    10400 9400
+	-1   0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM02B-GHS-TB CON3
+U 2 0 F447FD65610C5704
+P 10400 9500
+F 0 "CON3" H 10600 9470 51  0000 L BNN
+F 1 "SM02B-GHS-TB" H 10400 9500 50  0001 C CNN
+F 2 "communication-hub:SM02B-GHS-TB" H 10400 9500 50  0001 C CNN
+F 3 "" H 10400 9500 50  0001 C CNN
+	2    10400 9500
+	-1   0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM02B-GHS-TB CON3
+U 3 0 F447FD65610C5700
+P 10400 9800
+F 0 "CON3" H 10600 9770 51  0000 L BNN
+F 1 "SM02B-GHS-TB" H 10400 9800 50  0001 C CNN
+F 2 "communication-hub:SM02B-GHS-TB" H 10400 9800 50  0001 C CNN
+F 3 "" H 10400 9800 50  0001 C CNN
+	3    10400 9800
+	-1   0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:+3V3 #+3V032
+U 1 0 87ECFAB50C5674E0
+P 4400 2400
+F 0 "#+3V032" H 4400 2400 50  0001 C CNN
+F 1 "+3V3" V 4300 2200 59  0000 L BNN
+F 2 "" H 4400 2400 50  0001 C CNN
+F 3 "" H 4400 2400 50  0001 C CNN
+	1    4400 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:+5V #P+01
+U 1 0 93600057BCDF72C5
+P 5600 2400
+F 0 "#P+01" H 5600 2400 50  0001 C CNN
+F 1 "+5V" V 5500 2200 59  0000 L BNN
+F 2 "" H 5600 2400 50  0001 C CNN
+F 3 "" H 5600 2400 50  0001 C CNN
+	1    5600 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND01
+U 1 0 6F68935FDB8695AC
+P 3800 3000
+F 0 "#GND01" H 3800 3000 50  0001 C CNN
+F 1 "GND" H 3700 2900 59  0000 L BNN
+F 2 "" H 3800 3000 50  0001 C CNN
+F 3 "" H 3800 3000 50  0001 C CNN
+	1    3800 3000
+	1    0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND09
+U 1 0 92D8EA4928DF91D
+P 6000 2800
+F 0 "#GND09" H 6000 2800 50  0001 C CNN
+F 1 "GND" H 5900 2700 59  0000 L BNN
+F 2 "" H 6000 2800 50  0001 C CNN
+F 3 "" H 6000 2800 50  0001 C CNN
+	1    6000 2800
+	1    0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND08
+U 1 0 167E2C6ADF24F9E8
+P 5700 3500
+F 0 "#GND08" H 5700 3500 50  0001 C CNN
+F 1 "GND" H 5600 3400 59  0000 L BNN
+F 2 "" H 5700 3500 50  0001 C CNN
+F 3 "" H 5700 3500 50  0001 C CNN
+	1    5700 3500
+	1    0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND02
+U 1 0 350FEA2913A376EC
+P 4400 4800
+F 0 "#GND02" H 4400 4800 50  0001 C CNN
+F 1 "GND" H 4300 4700 59  0000 L BNN
+F 2 "" H 4400 4800 50  0001 C CNN
+F 3 "" H 4400 4800 50  0001 C CNN
+	1    4400 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND04
+U 1 0 4B4BE4C0D896219B
+P 4600 3800
+F 0 "#GND04" H 4600 3800 50  0001 C CNN
+F 1 "GND" H 4500 3700 59  0000 L BNN
+F 2 "" H 4600 3800 50  0001 C CNN
+F 3 "" H 4600 3800 50  0001 C CNN
+	1    4600 3800
+	1    0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND06
+U 1 0 714A278CA07C0193
+P 5600 4200
+F 0 "#GND06" H 5600 4200 50  0001 C CNN
+F 1 "GND" H 5500 4100 59  0000 L BNN
+F 2 "" H 5600 4200 50  0001 C CNN
+F 3 "" H 5600 4200 50  0001 C CNN
+	1    5600 4200
+	1    0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:+3V3 #+3V036
+U 1 0 A581B3C33900B0E4
+P 7000 6500
+F 0 "#+3V036" H 7000 6500 50  0001 C CNN
+F 1 "+3V3" V 6900 6300 59  0000 L BNN
+F 2 "" H 7000 6500 50  0001 C CNN
+F 3 "" H 7000 6500 50  0001 C CNN
+	1    7000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:JP1Q JP5
+U 1 0 B2768A806716FC81
+P 7000 7100
+F 0 "JP5" V 6900 6900 59  0000 L BNN
+F 1 "JP1Q" V 7175 6900 59  0000 L BNN
+F 2 "communication-hub:JP1" H 7000 7100 50  0001 C CNN
+F 3 "" H 7000 7100 50  0001 C CNN
+	1    7000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:+3V3 #+3V031
+U 1 0 1E909BD74B473657
+P 3700 3200
+F 0 "#+3V031" H 3700 3200 50  0001 C CNN
+F 1 "+3V3" V 3600 3000 59  0000 L BNN
+F 2 "" H 3700 3200 50  0001 C CNN
+F 3 "" H 3700 3200 50  0001 C CNN
+	1    3700 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:+3V3 #+3V033
+U 1 0 264726312E7AE1F0
+P 5600 5200
+F 0 "#+3V033" H 5600 5200 50  0001 C CNN
+F 1 "+3V3" V 5500 5000 59  0000 L BNN
+F 2 "" H 5600 5200 50  0001 C CNN
+F 3 "" H 5600 5200 50  0001 C CNN
+	1    5600 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:+5V #P+02
+U 1 0 CA948EF4339DE9D3
+P 5600 5500
+F 0 "#P+02" H 5600 5500 50  0001 C CNN
+F 1 "+5V" V 5500 5300 59  0000 L BNN
+F 2 "" H 5600 5500 50  0001 C CNN
+F 3 "" H 5600 5500 50  0001 C CNN
+	1    5600 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND07
+U 1 0 C51381239CDE76EF
+P 5600 6000
+F 0 "#GND07" H 5600 6000 50  0001 C CNN
+F 1 "GND" H 5500 5900 59  0000 L BNN
+F 2 "" H 5600 6000 50  0001 C CNN
+F 3 "" H 5600 6000 50  0001 C CNN
+	1    5600 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND03
+U 1 0 21A7002F7679BDCC
+P 4500 5900
+F 0 "#GND03" H 4500 5900 50  0001 C CNN
+F 1 "GND" H 4400 5800 59  0000 L BNN
+F 2 "" H 4500 5900 50  0001 C CNN
+F 3 "" H 4500 5900 50  0001 C CNN
+	1    4500 5900
+	0    1    -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND05
+U 1 0 D2D9FA1DEF27308A
+P 4600 6600
+F 0 "#GND05" H 4600 6600 50  0001 C CNN
+F 1 "GND" H 4500 6500 59  0000 L BNN
+F 2 "" H 4600 6600 50  0001 C CNN
+F 3 "" H 4600 6600 50  0001 C CNN
+	1    4600 6600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-EU_R0805 R7
+U 1 0 BBCFCC776C012852
+P 7600 4300
+F 0 "R7" H 7450 4359 59  0000 L BNN
+F 1 "10k" H 7450 4170 59  0000 L BNN
+F 2 "communication-hub:R0805" H 7600 4300 50  0001 C CNN
+F 3 "" H 7600 4300 50  0001 C CNN
+	1    7600 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-EU_R0805 R8
+U 1 0 C51CB14441D07F0A
+P 7600 5900
+F 0 "R8" H 7450 5959 59  0000 L BNN
+F 1 "10k" H 7450 5770 59  0000 L BNN
+F 2 "communication-hub:R0805" H 7600 5900 50  0001 C CNN
+F 3 "" H 7600 5900 50  0001 C CNN
+	1    7600 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND014
+U 1 0 E847186D109F320A
+P 7600 6200
+F 0 "#GND014" H 7600 6200 50  0001 C CNN
+F 1 "GND" H 7500 6100 59  0000 L BNN
+F 2 "" H 7600 6200 50  0001 C CNN
+F 3 "" H 7600 6200 50  0001 C CNN
+	1    7600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND013
+U 1 0 1DDAFC179E3D6951
+P 7600 4600
+F 0 "#GND013" H 7600 4600 50  0001 C CNN
+F 1 "GND" H 7500 4500 59  0000 L BNN
+F 2 "" H 7600 4600 50  0001 C CNN
+F 3 "" H 7600 4600 50  0001 C CNN
+	1    7600 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND010
+U 1 0 F47101845C69E3
+P 6700 7900
+F 0 "#GND010" H 6700 7900 50  0001 C CNN
+F 1 "GND" H 6600 7800 59  0000 L BNN
+F 2 "" H 6700 7900 50  0001 C CNN
+F 3 "" H 6700 7900 50  0001 C CNN
+	1    6700 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND025
+U 1 0 824694312EE633C3
+P 10500 10000
+F 0 "#GND025" H 10500 10000 50  0001 C CNN
+F 1 "GND" H 10400 9900 59  0000 L BNN
+F 2 "" H 10500 10000 50  0001 C CNN
+F 3 "" H 10500 10000 50  0001 C CNN
+	1    10500 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:GND #GND028
+U 1 0 1446A4090345B4CC
+P 13000 5000
+F 0 "#GND028" H 13000 5000 50  0001 C CNN
+F 1 "GND" H 12900 4900 59  0000 L BNN
+F 2 "" H 13000 5000 50  0001 C CNN
+F 3 "" H 13000 5000 50  0001 C CNN
+	1    13000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:TABL_L #FRAME1
+U 1 0 AC7AE1DC73DA64CA
+P 900 11200
+F 0 "#FRAME1" H 900 11200 50  0001 C CNN
+F 1 "TABL_L" H 900 11200 50  0001 C CNN
+F 2 "" H 900 11200 50  0001 C CNN
+F 3 "" H 900 11200 50  0001 C CNN
+	1    900  11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:TABL_L #FRAME1
+U 2 0 AC7AE1DC73DA64C6
+P 12700 11200
+F 0 "#FRAME1" H 12700 11200 50  0001 C CNN
+F 1 "TABL_L" H 12700 11200 50  0001 C CNN
+F 2 "" H 12700 11200 50  0001 C CNN
+F 3 "" H 12700 11200 50  0001 C CNN
+	2    12700 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON4
+U 1 0 AD94E3C48321A1CC
+P 11700 3700
+F 0 "CON4" H 11900 3670 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 11700 3700 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 11700 3700 50  0001 C CNN
+F 3 "" H 11700 3700 50  0001 C CNN
+	1    11700 3700
+	1    0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON4
+U 2 0 AD94E3C48321A1C0
+P 11700 3500
+F 0 "CON4" H 11900 3470 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 11700 3500 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 11700 3500 50  0001 C CNN
+F 3 "" H 11700 3500 50  0001 C CNN
+	2    11700 3500
+	1    0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON4
+U 3 0 AD94E3C48321A1C4
+P 11700 3300
+F 0 "CON4" H 11900 3270 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 11700 3300 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 11700 3300 50  0001 C CNN
+F 3 "" H 11700 3300 50  0001 C CNN
+	3    11700 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON4
+U 4 0 AD94E3C48321A1D8
+P 13100 4700
+F 0 "CON4" H 13300 4670 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 13100 4700 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 13100 4700 50  0001 C CNN
+F 3 "" H 13100 4700 50  0001 C CNN
+	4    13100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON4
+U 5 0 AD94E3C48321A1DC
+P 11700 3100
+F 0 "CON4" H 11900 3070 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 11700 3100 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 11700 3100 50  0001 C CNN
+F 3 "" H 11700 3100 50  0001 C CNN
+	5    11700 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON5
+U 1 0 6CFE1E7432EEE89C
+P 11700 5300
+F 0 "CON5" H 11900 5270 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 11700 5300 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 11700 5300 50  0001 C CNN
+F 3 "" H 11700 5300 50  0001 C CNN
+	1    11700 5300
+	1    0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON5
+U 2 0 6CFE1E7432EEE890
+P 11700 5100
+F 0 "CON5" H 11900 5070 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 11700 5100 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 11700 5100 50  0001 C CNN
+F 3 "" H 11700 5100 50  0001 C CNN
+	2    11700 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON5
+U 3 0 6CFE1E7432EEE894
+P 11700 4900
+F 0 "CON5" H 11900 4870 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 11700 4900 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 11700 4900 50  0001 C CNN
+F 3 "" H 11700 4900 50  0001 C CNN
+	3    11700 4900
+	1    0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON5
+U 4 0 6CFE1E7432EEE888
+P 13100 4800
+F 0 "CON5" H 13300 4770 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 13100 4800 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 13100 4800 50  0001 C CNN
+F 3 "" H 13100 4800 50  0001 C CNN
+	4    13100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:SM04B-GHS-TB CON5
+U 5 0 6CFE1E7432EEE88C
+P 11700 4700
+F 0 "CON5" H 11900 4670 51  0000 L BNN
+F 1 "SM04B-GHS-TB" H 11700 4700 50  0001 C CNN
+F 2 "communication-hub:SM04B-GHS-TB" H 11700 4700 50  0001 C CNN
+F 3 "" H 11700 4700 50  0001 C CNN
+	5    11700 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L communication-hub-eagle-import:+5V #P+05
+U 1 0 708E00B833ACA7EC
+P 11400 2900
+F 0 "#P+05" H 11400 2900 50  0001 C CNN
+F 1 "+5V" V 11300 2700 59  0000 L BNN
+F 2 "" H 11400 2900 50  0001 C CNN
+F 3 "" H 11400 2900 50  0001 C CNN
+	1    11400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:+5V #P+06
+U 1 0 5DDE0B8BB0F39303
+P 11400 4500
+F 0 "#P+06" H 11400 4500 50  0001 C CNN
+F 1 "+5V" V 11300 4300 59  0000 L BNN
+F 2 "" H 11400 4500 50  0001 C CNN
+F 3 "" H 11400 4500 50  0001 C CNN
+	1    11400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:BSS123 Q1
+U 1 0 A5501B8E61CCB039
+P 11900 8100
+F 0 "Q1" H 12000 8100 59  0000 L BNN
+F 1 "DMN5L06K" H 12000 8000 59  0000 L BNN
+F 2 "communication-hub:SOT23" H 11900 8100 50  0001 C CNN
+F 3 "" H 11900 8100 50  0001 C CNN
+	1    11900 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:BSS123 Q2
+U 1 0 C6F4F2ECC1F4BB1C
+P 10500 8100
+F 0 "Q2" H 10600 8100 59  0000 L BNN
+F 1 "DMN5L06K" H 10600 8000 59  0000 L BNN
+F 2 "communication-hub:SOT23" H 10500 8100 50  0001 C CNN
+F 3 "" H 10500 8100 50  0001 C CNN
+	1    10500 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-US_R0805 R19
+U 1 0 C72C4671E4BB7DDF
+P 10000 7900
+F 0 "R19" H 9850 7959 59  0000 L BNN
+F 1 "220" H 9850 7770 59  0000 L BNN
+F 2 "communication-hub:R0805" H 10000 7900 50  0001 C CNN
+F 3 "" H 10000 7900 50  0001 C CNN
+	1    10000 7900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:R-US_R0805 R20
+U 1 0 9B6F9F5428014392
+P 11400 7900
+F 0 "R20" H 11250 7959 59  0000 L BNN
+F 1 "220" H 11250 7770 59  0000 L BNN
+F 2 "communication-hub:R0805" H 11400 7900 50  0001 C CNN
+F 3 "" H 11400 7900 50  0001 C CNN
+	1    11400 7900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L communication-hub-eagle-import:+5V #P+07
+U 1 0 21A83AE6BC2DCEA9
+P 10300 6500
+F 0 "#P+07" H 10300 6500 50  0001 C CNN
+F 1 "+5V" V 10200 6300 59  0000 L BNN
+F 2 "" H 10300 6500 50  0001 C CNN
+F 3 "" H 10300 6500 50  0001 C CNN
+	1    10300 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L communication-hub-eagle-import:+5V #P+08
+U 1 0 4B9514A1B54CCCBB
+P 11700 6500
+F 0 "#P+08" H 11700 6500 50  0001 C CNN
+F 1 "+5V" V 11600 6300 59  0000 L BNN
+F 2 "" H 11700 6500 50  0001 C CNN
+F 3 "" H 11700 6500 50  0001 C CNN
+	1    11700 6500
+	1    0    0    -1  
+$EndComp
+Text Notes 4200 7200 0    59   ~ 0
+Placed ontop of TX2 expansion headers
+Text Notes 4100 5000 0    59   ~ 0
+Placed ontop of TX2 GPIO expansion headers
+Text Notes 4800 7000 0    59   ~ 0
+GPIO Header
+Text Notes 4700 4800 0    59   ~ 0
+Expansion Header
+$EndSCHEMATC
