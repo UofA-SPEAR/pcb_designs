@@ -134,8 +134,12 @@ Wire Wire Line
 	10500 8300 10500 8500
 Text Label 10500 8300 0    10   ~ 0
 GND
+Text Label 8200 3300 0    10   ~ 0
++3V3
 Wire Wire Line
 	8200 4900 8100 4900
+Text Label 8200 4900 0    10   ~ 0
++3V3
 Wire Wire Line
 	8900 7400 8300 7400
 Text Label 8900 7400 0    10   ~ 0
