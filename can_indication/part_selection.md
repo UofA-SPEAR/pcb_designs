@@ -16,6 +16,9 @@ Red:   65R -> 66R
 Green: 10R -> 10R
 Blue:  10R -> 10R
 
+We can change these values later, we'll just start with these.
+(They'll probably be too bright)
+
 # Micro
 
 STM32F103CB (for now, we'll see about memory requirements.

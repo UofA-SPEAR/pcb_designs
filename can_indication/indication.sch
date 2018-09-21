@@ -106,6 +106,19 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
 </package>
+<package name="PLCC-4">
+<smd name="P$1" x="-2.05" y="1.05" dx="2" dy="0.8" layer="1" roundness="20"/>
+<smd name="P$2" x="-2.05" y="-1.05" dx="2" dy="0.8" layer="1" roundness="20"/>
+<smd name="P$3" x="2.05" y="-1.05" dx="2" dy="0.8" layer="1" roundness="20"/>
+<smd name="P$4" x="2.05" y="1.05" dx="2" dy="0.8" layer="1" roundness="20"/>
+<wire x1="-1.75" y1="1.4" x2="-0.5" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="1.4" x2="1.75" y2="1.4" width="0.127" layer="21"/>
+<wire x1="1.75" y1="1.4" x2="1.75" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-1.4" x2="-1.75" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.4" x2="-1.75" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="0.4" x2="-0.5" y2="1.4" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.9" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP2562">
@@ -123,6 +136,55 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 <wire x1="-2.54" y1="5.08" x2="-2.54" y2="25.4" width="0.254" layer="94"/>
 <text x="-2.54" y="27.94" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="2.54" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="LED_RGB_CA">
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-8.89" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="10.16" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-6.35" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="7.62" x2="-6.35" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-3.81" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="10.16" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-1.27" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="7.62" x2="-1.27" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="1.27" y2="10.16" width="0.254" layer="94"/>
+<wire x1="1.27" y1="10.16" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="3.81" y2="10.16" width="0.254" layer="94"/>
+<wire x1="3.81" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="7.62" x2="3.81" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-9.271" y1="9.398" x2="-10.287" y2="8.382" width="0.254" layer="94"/>
+<wire x1="-10.287" y1="8.382" x2="-9.779" y2="8.382" width="0.254" layer="94"/>
+<wire x1="-10.287" y1="8.382" x2="-10.287" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-9.271" y1="8.128" x2="-10.287" y2="7.112" width="0.254" layer="94"/>
+<wire x1="-10.287" y1="7.112" x2="-9.779" y2="7.112" width="0.254" layer="94"/>
+<wire x1="-10.287" y1="7.112" x2="-10.287" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="9.398" x2="-5.08" y2="8.382" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="8.382" x2="-4.572" y2="8.382" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="8.382" x2="-5.08" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="8.128" x2="-5.08" y2="7.112" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.112" x2="-4.572" y2="7.112" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.112" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<pin name="AN" x="-7.62" y="15.24" length="point"/>
+<pin name="R" x="-7.62" y="5.08" length="point"/>
+<wire x1="0.889" y1="9.398" x2="-0.127" y2="8.382" width="0.254" layer="94"/>
+<wire x1="-0.127" y1="8.382" x2="0.381" y2="8.382" width="0.254" layer="94"/>
+<wire x1="-0.127" y1="8.382" x2="-0.127" y2="8.89" width="0.254" layer="94"/>
+<wire x1="0.889" y1="8.128" x2="-0.127" y2="7.112" width="0.254" layer="94"/>
+<wire x1="-0.127" y1="7.112" x2="0.381" y2="7.112" width="0.254" layer="94"/>
+<wire x1="-0.127" y1="7.112" x2="-0.127" y2="7.62" width="0.254" layer="94"/>
+<pin name="G" x="-2.54" y="5.08" length="point"/>
+<pin name="B" x="2.54" y="5.08" length="point"/>
+<text x="0" y="13.97" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -148,6 +210,24 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CLV1L-FKB-CHMMQEHBB7673673" prefix="D">
+<gates>
+<gate name="G$1" symbol="LED_RGB_CA" x="7.62" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="PLCC-4">
+<connects>
+<connect gate="G$1" pin="AN" pad="P$1"/>
+<connect gate="G$1" pin="B" pad="P$4"/>
+<connect gate="G$1" pin="G" pad="P$3"/>
+<connect gate="G$1" pin="R" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -161,6 +241,14 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 </classes>
 <parts>
 <part name="U$1" library="SPEAR" deviceset="MCP2562-E/SN" device=""/>
+<part name="D1" library="SPEAR" deviceset="CLV1L-FKB-CHMMQEHBB7673673" device=""/>
+<part name="D2" library="SPEAR" deviceset="CLV1L-FKB-CHMMQEHBB7673673" device=""/>
+<part name="D3" library="SPEAR" deviceset="CLV1L-FKB-CHMMQEHBB7673673" device=""/>
+<part name="D4" library="SPEAR" deviceset="CLV1L-FKB-CHMMQEHBB7673673" device=""/>
+<part name="D5" library="SPEAR" deviceset="CLV1L-FKB-CHMMQEHBB7673673" device=""/>
+<part name="D6" library="SPEAR" deviceset="CLV1L-FKB-CHMMQEHBB7673673" device=""/>
+<part name="D7" library="SPEAR" deviceset="CLV1L-FKB-CHMMQEHBB7673673" device=""/>
+<part name="D8" library="SPEAR" deviceset="CLV1L-FKB-CHMMQEHBB7673673" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -168,6 +256,14 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="10.16" y="-5.08"/>
+<instance part="D1" gate="G$1" x="116.84" y="33.02"/>
+<instance part="D2" gate="G$1" x="137.16" y="33.02"/>
+<instance part="D3" gate="G$1" x="157.48" y="33.02"/>
+<instance part="D4" gate="G$1" x="175.26" y="33.02"/>
+<instance part="D5" gate="G$1" x="114.3" y="-17.78"/>
+<instance part="D6" gate="G$1" x="134.62" y="-17.78"/>
+<instance part="D7" gate="G$1" x="154.94" y="-17.78"/>
+<instance part="D8" gate="G$1" x="177.8" y="-17.78"/>
 </instances>
 <busses>
 </busses>
