@@ -295,6 +295,19 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <rectangle x1="-4.5" y1="-2.35" x2="-3.45" y2="-2.15" layer="51"/>
 <rectangle x1="-4.5" y1="-2.85" x2="-3.45" y2="-2.65" layer="51"/>
 </package>
+<package name="TE-CONN_5-103669-1">
+<pad name="P$1" x="-1.27" y="0" drill="1.016" shape="square"/>
+<pad name="P$2" x="1.27" y="0" drill="1.016" diameter="1.778"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-2.54" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="4.445" x2="1.27" y2="4.445" width="0.127" layer="21"/>
+<wire x1="1.27" y1="4.445" x2="1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="3.81" x2="0.635" y2="3.81" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP2562">
@@ -478,6 +491,14 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <wire x1="0" y1="0" x2="0" y2="20.32" width="0.254" layer="94"/>
 <text x="0" y="20.955" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
+<symbol name="2-PIN">
+<pin name="1" x="-7.62" y="2.54" length="middle"/>
+<pin name="2" x="-7.62" y="-2.54" length="middle"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MCP2562-E/SN">
@@ -620,6 +641,22 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <connect gate="_PWR" pin="VSS_1" pad="9"/>
 <connect gate="_PWR" pin="VSS_2" pad="10"/>
 <connect gate="_PWR" pin="VSS_3" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TE-CONN_5-103669-1">
+<gates>
+<gate name="G$1" symbol="2-PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TE-CONN_5-103669-1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>

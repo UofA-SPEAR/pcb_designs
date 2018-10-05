@@ -33,3 +33,4 @@ which is almost half of the current we can pull from the UAVCAN micro standard.
 
 JST GH 4-pin SMD connectors.
 Screw terminals for power???
+
