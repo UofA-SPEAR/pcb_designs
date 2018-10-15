@@ -8369,18 +8369,54 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="189.0014" y="-54.61" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="188.722" y="-49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R13" gate="G$1" x="119.38" y="43.18" rot="R90"/>
-<instance part="R14" gate="G$1" x="124.46" y="43.18" rot="R90"/>
-<instance part="R15" gate="G$1" x="129.54" y="43.18" rot="R90"/>
-<instance part="R16" gate="G$1" x="139.7" y="43.18" rot="R90"/>
-<instance part="R17" gate="G$1" x="144.78" y="43.18" rot="R90"/>
-<instance part="R18" gate="G$1" x="149.86" y="43.18" rot="R90"/>
-<instance part="R19" gate="G$1" x="160.02" y="43.18" rot="R90"/>
-<instance part="R20" gate="G$1" x="165.1" y="43.18" rot="R90"/>
-<instance part="R21" gate="G$1" x="170.18" y="43.18" rot="R90"/>
-<instance part="R22" gate="G$1" x="177.8" y="43.18" rot="R90"/>
-<instance part="R23" gate="G$1" x="182.88" y="43.18" rot="R90"/>
-<instance part="R24" gate="G$1" x="187.96" y="43.18" rot="R90"/>
+<instance part="R13" gate="G$1" x="119.38" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="117.8814" y="39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="117.602" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R14" gate="G$1" x="124.46" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="122.9614" y="39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="122.682" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R15" gate="G$1" x="129.54" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="128.0414" y="39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="127.762" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R16" gate="G$1" x="139.7" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="138.2014" y="39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="137.922" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R17" gate="G$1" x="144.78" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="143.2814" y="39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="143.002" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R18" gate="G$1" x="149.86" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="148.3614" y="39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="148.082" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R19" gate="G$1" x="160.02" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="158.5214" y="39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="158.242" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R20" gate="G$1" x="165.1" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="163.6014" y="39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="163.322" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R21" gate="G$1" x="170.18" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="168.6814" y="39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="168.402" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R22" gate="G$1" x="177.8" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="176.3014" y="39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="176.022" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R23" gate="G$1" x="182.88" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="181.3814" y="39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="181.102" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R24" gate="G$1" x="187.96" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="186.4614" y="39.37" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="186.182" y="46.99" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="+3V3" gate="G$1" x="48.26" y="111.76"/>
 <instance part="+3V4" gate="G$1" x="119.38" y="76.2"/>
 <instance part="+3V5" gate="G$1" x="119.38" y="-15.24"/>
