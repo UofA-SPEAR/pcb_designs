@@ -28,11 +28,14 @@ All boards have to follow the correct standard, and will be tested with known go
 
 - More silkscreen text would be very useful. Which input connectors are positive? Which direction does each direction LED represent? The board needs to be directly useful without having to look at the schematic or layout files.
 
+- Space out CAN connectors more. They are too close to solder at the moment.
+
 ### Necessary Changes:
 
 - Add Silkscreen text to the top of the board, such as connector information.
 - Remove diode from CAN bus 5V input
 - Add quadrature encoder inputs
+- Space out CAN connectors
 
 ### Recommended Changes:
 
