@@ -508,14 +508,14 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <devices>
 <device name="" package="SOIC8">
 <connects>
-<connect gate="G$1" pin="CANH" pad="1"/>
-<connect gate="G$1" pin="CANL" pad="2"/>
-<connect gate="G$1" pin="RXD" pad="3"/>
-<connect gate="G$1" pin="STBY" pad="4"/>
-<connect gate="G$1" pin="TXD" pad="5"/>
-<connect gate="G$1" pin="VDD" pad="6"/>
-<connect gate="G$1" pin="VIO" pad="7"/>
-<connect gate="G$1" pin="VSS" pad="8"/>
+<connect gate="G$1" pin="CANH" pad="7"/>
+<connect gate="G$1" pin="CANL" pad="6"/>
+<connect gate="G$1" pin="RXD" pad="4"/>
+<connect gate="G$1" pin="STBY" pad="8"/>
+<connect gate="G$1" pin="TXD" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+<connect gate="G$1" pin="VIO" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -593,54 +593,54 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <devices>
 <device name="" package="LQFP48">
 <connects>
-<connect gate="_PORTA" pin="PA0-WKUP" pad="12"/>
-<connect gate="_PORTA" pin="PA1" pad="13"/>
-<connect gate="_PORTA" pin="PA10" pad="22"/>
-<connect gate="_PORTA" pin="PA11" pad="23"/>
-<connect gate="_PORTA" pin="PA12" pad="24"/>
-<connect gate="_PORTA" pin="PA13" pad="25"/>
-<connect gate="_PORTA" pin="PA14" pad="26"/>
-<connect gate="_PORTA" pin="PA15" pad="27"/>
-<connect gate="_PORTA" pin="PA2" pad="14"/>
-<connect gate="_PORTA" pin="PA3" pad="15"/>
-<connect gate="_PORTA" pin="PA4" pad="16"/>
-<connect gate="_PORTA" pin="PA5" pad="17"/>
-<connect gate="_PORTA" pin="PA6" pad="18"/>
-<connect gate="_PORTA" pin="PA7" pad="19"/>
-<connect gate="_PORTA" pin="PA8" pad="20"/>
-<connect gate="_PORTA" pin="PA9" pad="21"/>
-<connect gate="_PORTB" pin="PB0" pad="28"/>
-<connect gate="_PORTB" pin="PB1" pad="29"/>
-<connect gate="_PORTB" pin="PB10" pad="38"/>
-<connect gate="_PORTB" pin="PB11" pad="39"/>
-<connect gate="_PORTB" pin="PB12" pad="40"/>
-<connect gate="_PORTB" pin="PB13" pad="41"/>
-<connect gate="_PORTB" pin="PB14" pad="42"/>
-<connect gate="_PORTB" pin="PB15" pad="43"/>
-<connect gate="_PORTB" pin="PB2" pad="30"/>
-<connect gate="_PORTB" pin="PB3" pad="31"/>
-<connect gate="_PORTB" pin="PB4" pad="32"/>
-<connect gate="_PORTB" pin="PB5" pad="33"/>
-<connect gate="_PORTB" pin="PB6" pad="34"/>
-<connect gate="_PORTB" pin="PB7" pad="35"/>
-<connect gate="_PORTB" pin="PB8" pad="36"/>
-<connect gate="_PORTB" pin="PB9" pad="37"/>
-<connect gate="_PORTC-D" pin="PC13-TAMPER-RTC" pad="44"/>
-<connect gate="_PORTC-D" pin="PC14-OSC32_IN" pad="45"/>
-<connect gate="_PORTC-D" pin="PC15-OSC32_OUT" pad="46"/>
-<connect gate="_PORTC-D" pin="PD0-OSC_IN" pad="47"/>
-<connect gate="_PORTC-D" pin="PD1-OSC_OUT" pad="48"/>
-<connect gate="_PWR" pin="BOOT0" pad="1"/>
-<connect gate="_PWR" pin="NRST" pad="2"/>
-<connect gate="_PWR" pin="VBAT" pad="3"/>
-<connect gate="_PWR" pin="VDDA" pad="4"/>
-<connect gate="_PWR" pin="VDD_1" pad="5"/>
-<connect gate="_PWR" pin="VDD_2" pad="6"/>
-<connect gate="_PWR" pin="VDD_3" pad="7"/>
+<connect gate="_PORTA" pin="PA0-WKUP" pad="10"/>
+<connect gate="_PORTA" pin="PA1" pad="11"/>
+<connect gate="_PORTA" pin="PA10" pad="31"/>
+<connect gate="_PORTA" pin="PA11" pad="32"/>
+<connect gate="_PORTA" pin="PA12" pad="33"/>
+<connect gate="_PORTA" pin="PA13" pad="34"/>
+<connect gate="_PORTA" pin="PA14" pad="37"/>
+<connect gate="_PORTA" pin="PA15" pad="38"/>
+<connect gate="_PORTA" pin="PA2" pad="12"/>
+<connect gate="_PORTA" pin="PA3" pad="13"/>
+<connect gate="_PORTA" pin="PA4" pad="14"/>
+<connect gate="_PORTA" pin="PA5" pad="15"/>
+<connect gate="_PORTA" pin="PA6" pad="16"/>
+<connect gate="_PORTA" pin="PA7" pad="17"/>
+<connect gate="_PORTA" pin="PA8" pad="29"/>
+<connect gate="_PORTA" pin="PA9" pad="30"/>
+<connect gate="_PORTB" pin="PB0" pad="18"/>
+<connect gate="_PORTB" pin="PB1" pad="19"/>
+<connect gate="_PORTB" pin="PB10" pad="21"/>
+<connect gate="_PORTB" pin="PB11" pad="22"/>
+<connect gate="_PORTB" pin="PB12" pad="25"/>
+<connect gate="_PORTB" pin="PB13" pad="26"/>
+<connect gate="_PORTB" pin="PB14" pad="27"/>
+<connect gate="_PORTB" pin="PB15" pad="28"/>
+<connect gate="_PORTB" pin="PB2" pad="20"/>
+<connect gate="_PORTB" pin="PB3" pad="39"/>
+<connect gate="_PORTB" pin="PB4" pad="40"/>
+<connect gate="_PORTB" pin="PB5" pad="41"/>
+<connect gate="_PORTB" pin="PB6" pad="42"/>
+<connect gate="_PORTB" pin="PB7" pad="43"/>
+<connect gate="_PORTB" pin="PB8" pad="45"/>
+<connect gate="_PORTB" pin="PB9" pad="46"/>
+<connect gate="_PORTC-D" pin="PC13-TAMPER-RTC" pad="2"/>
+<connect gate="_PORTC-D" pin="PC14-OSC32_IN" pad="3"/>
+<connect gate="_PORTC-D" pin="PC15-OSC32_OUT" pad="4"/>
+<connect gate="_PORTC-D" pin="PD0-OSC_IN" pad="5"/>
+<connect gate="_PORTC-D" pin="PD1-OSC_OUT" pad="6"/>
+<connect gate="_PWR" pin="BOOT0" pad="44"/>
+<connect gate="_PWR" pin="NRST" pad="7"/>
+<connect gate="_PWR" pin="VBAT" pad="1"/>
+<connect gate="_PWR" pin="VDDA" pad="9"/>
+<connect gate="_PWR" pin="VDD_1" pad="24"/>
+<connect gate="_PWR" pin="VDD_2" pad="36"/>
+<connect gate="_PWR" pin="VDD_3" pad="48"/>
 <connect gate="_PWR" pin="VSSA" pad="8"/>
-<connect gate="_PWR" pin="VSS_1" pad="9"/>
-<connect gate="_PWR" pin="VSS_2" pad="10"/>
-<connect gate="_PWR" pin="VSS_3" pad="11"/>
+<connect gate="_PWR" pin="VSS_1" pad="23"/>
+<connect gate="_PWR" pin="VSS_2" pad="35"/>
+<connect gate="_PWR" pin="VSS_3" pad="47"/>
 </connects>
 <technologies>
 <technology name=""/>
