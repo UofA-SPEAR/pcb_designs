@@ -9411,19 +9411,17 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="R26" gate="G$1" pin="1"/>
 <label x="-93.98" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="!OE"/>
+<wire x1="55.88" y1="-15.24" x2="48.26" y2="-15.24" width="0.1524" layer="91"/>
+<label x="43.18" y="-15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="A0"/>
 <wire x1="55.88" y1="-40.64" x2="50.8" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="LED_~OE" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="!OE"/>
-<wire x1="55.88" y1="-15.24" x2="48.26" y2="-15.24" width="0.1524" layer="91"/>
-<label x="43.18" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
