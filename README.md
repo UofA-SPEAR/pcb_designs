@@ -2,9 +2,12 @@
 
 Central repository to hold PCB designs for SPEAR.
 
-## kicad_libs ##
+## eagle_libs ##
 
-The folder to put all components and footprints created.
+Put all your devices, symbols, and footprints into libraries in this folder.
+
+For now, make a new library for every project.
+I am unsure how to deal with managing libraries at the moment.
 
 ## Things that need to be designed for URC 2018 ##
 
