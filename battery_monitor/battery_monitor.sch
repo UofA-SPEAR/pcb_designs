@@ -194,6 +194,28 @@ Package from Infineon. Dimensions according to &lt;a href="https://www.infineon.
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
+<package name="RSENSE_20U">
+<description>&lt;h1&gt;20uOhm PCB Current Shunt&lt;/h1&gt;
+
+A &lt;em&gt;very&lt;/em&gt; approximate current shunt resistor.&lt;br/&gt;&lt;br/&gt;
+
+Calculated using Saturn PCB toolkit v7.06, for a 2oz. copper PCB (top layer)
+&lt;br/&gt;&lt;br/&gt;
+Should drop around 2mV at 100 amps.</description>
+<rectangle x1="-10" y1="0" x2="10" y2="5" layer="1"/>
+<wire x1="-10" y1="4.8" x2="-9.8" y2="5" width="0.15" layer="1"/>
+<smd name="P$1" x="0" y="5.8" dx="30" dy="2" layer="1" stop="no" cream="no"/>
+<smd name="P$2" x="0" y="-0.8" dx="30" dy="2" layer="1" stop="no" cream="no"/>
+<wire x1="-12.4" y1="2" x2="-14.2" y2="2" width="0.15" layer="1"/>
+<wire x1="-12.4" y1="3" x2="-14.2" y2="3" width="0.15" layer="1"/>
+<smd name="P$3" x="-14.8" y="3" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$4" x="-14.8" y="2" dx="1.27" dy="0.635" layer="1"/>
+<wire x1="-10" y1="4.8" x2="-11.8" y2="3" width="0.15" layer="1"/>
+<wire x1="-11.8" y1="3" x2="-12.4" y2="3" width="0.15" layer="1"/>
+<wire x1="-10" y1="0.2" x2="-11.8" y2="2" width="0.15" layer="1"/>
+<wire x1="-11.8" y1="2" x2="-12.4" y2="2" width="0.15" layer="1"/>
+<text x="-4" y="1.8" size="1.27" layer="21">~20uOhm</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FET-P">
@@ -244,6 +266,26 @@ Package from Infineon. Dimensions according to &lt;a href="https://www.infineon.
 <text x="20.32" y="2.54" size="1.778" layer="94">&gt;VALUE</text>
 <text x="20.32" y="-2.54" size="1.778" layer="94">&gt;SPICEEXTRA</text>
 </symbol>
+<symbol name="R-4">
+<wire x1="-3.81" y1="-0.889" x2="1.27" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.889" x2="-3.81" y2="0.889" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.889" x2="1.27" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-0.889" x2="-3.81" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-0.254" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-3.81" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-0.254" width="0.1524" layer="94"/>
+<text x="-4.572" y="1.3716" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.826" y="-4.445" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="SB" x="-7.62" y="-2.54" visible="off" length="short" direction="pas" swaplevel="2"/>
+<pin name="SA" x="5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<pin name="B" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="A" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="IPB120P04P4L03ATMA1">
@@ -284,6 +326,29 @@ Datasheet &lt;a href="file:///C:/Users/David/Downloads/T2N7002AK_datasheet_en_20
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="20U_PC_SHUNT">
+<description>PCB Current Shunt
+
+Approximately 20uOhm.
+&lt;br&gt;&lt;br&gt;
+If you want actual measurements, verify first.</description>
+<gates>
+<gate name="G$1" symbol="R-4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RSENSE_20U">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="B" pad="P$2"/>
+<connect gate="G$1" pin="SA" pad="P$3"/>
+<connect gate="G$1" pin="SB" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4607,6 +4672,82 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SPEAR-general">
+<packages>
+<package name="PP45_HOR_4GRD">
+<pad name="+_1" x="0" y="3.937" drill="4.318" diameter="6.35" shape="square"/>
+<pad name="+_2" x="-7.874" y="3.937" drill="4.318" diameter="6.35" shape="square"/>
+<pad name="-_1" x="0" y="-3.937" drill="4.318" diameter="6.35"/>
+<pad name="-_2" x="-7.874" y="-3.937" drill="4.318" diameter="6.35"/>
+<wire x1="28.194" y1="7.874" x2="18.288" y2="7.874" width="0.127" layer="21"/>
+<wire x1="18.288" y1="7.874" x2="3.556" y2="7.874" width="0.127" layer="21"/>
+<wire x1="3.556" y1="7.874" x2="3.556" y2="6.35" width="0.127" layer="21"/>
+<wire x1="3.556" y1="6.35" x2="3.556" y2="1.524" width="0.127" layer="21"/>
+<wire x1="3.556" y1="1.524" x2="3.556" y2="0" width="0.127" layer="21"/>
+<wire x1="3.556" y1="0" x2="3.556" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="3.556" y1="-1.524" x2="3.556" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="3.556" y1="-6.35" x2="3.556" y2="-7.874" width="0.127" layer="21"/>
+<wire x1="3.556" y1="-7.874" x2="18.288" y2="-7.874" width="0.127" layer="21"/>
+<wire x1="18.288" y1="-7.874" x2="28.194" y2="-7.874" width="0.127" layer="21"/>
+<wire x1="28.194" y1="-7.874" x2="28.194" y2="-7.112" width="0.127" layer="21"/>
+<wire x1="28.194" y1="-7.112" x2="28.194" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="28.194" y1="-0.762" x2="28.194" y2="0" width="0.127" layer="21"/>
+<wire x1="28.194" y1="0" x2="28.194" y2="0.762" width="0.127" layer="21"/>
+<wire x1="28.194" y1="0.762" x2="28.194" y2="7.112" width="0.127" layer="21"/>
+<wire x1="28.194" y1="7.112" x2="28.194" y2="7.874" width="0.127" layer="21"/>
+<wire x1="3.556" y1="0" x2="18.288" y2="0" width="0.127" layer="21"/>
+<wire x1="18.288" y1="0" x2="28.194" y2="0" width="0.127" layer="21"/>
+<wire x1="18.288" y1="7.874" x2="18.288" y2="7.112" width="0.127" layer="21"/>
+<wire x1="18.288" y1="7.112" x2="18.288" y2="0.762" width="0.127" layer="21"/>
+<wire x1="18.288" y1="0.762" x2="18.288" y2="0" width="0.127" layer="21"/>
+<wire x1="18.288" y1="0" x2="18.288" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="18.288" y1="-0.762" x2="18.288" y2="-7.112" width="0.127" layer="21"/>
+<wire x1="18.288" y1="-7.112" x2="18.288" y2="-7.874" width="0.127" layer="21"/>
+<wire x1="28.194" y1="-0.762" x2="18.288" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="28.194" y1="-7.112" x2="18.288" y2="-7.112" width="0.127" layer="21"/>
+<wire x1="28.194" y1="0.762" x2="18.288" y2="0.762" width="0.127" layer="21"/>
+<wire x1="28.194" y1="7.112" x2="18.288" y2="7.112" width="0.127" layer="21"/>
+<wire x1="3.556" y1="6.35" x2="12.954" y2="6.35" width="0.127" layer="21"/>
+<wire x1="12.954" y1="6.35" x2="12.954" y2="1.524" width="0.127" layer="21"/>
+<wire x1="12.954" y1="1.524" x2="3.556" y2="1.524" width="0.127" layer="21"/>
+<wire x1="3.556" y1="-1.524" x2="12.954" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="12.954" y1="-1.524" x2="12.954" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="12.954" y1="-6.35" x2="3.556" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="6.604" y1="5.334" x2="6.604" y2="2.54" width="0.127" layer="21"/>
+<wire x1="5.334" y1="4.064" x2="7.62" y2="4.064" width="0.127" layer="21"/>
+<wire x1="7.62" y1="4.064" x2="7.874" y2="4.064" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-3.81" x2="7.874" y2="-3.81" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PP45-2CON">
+<wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<pin name="+" x="-5.08" y="5.08" length="middle"/>
+<pin name="-" x="-5.08" y="-5.08" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PP45_HOR_4GRD">
+<gates>
+<gate name="G$1" symbol="PP45-2CON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PP45_HOR_4GRD">
+<connects>
+<connect gate="G$1" pin="+" pad="+_1 +_2" route="any"/>
+<connect gate="G$1" pin="-" pad="-_1 -_2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4623,19 +4764,21 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="U$3" library="SPEAR-battery-monitor" deviceset="T2N7002AK,LM" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
+<part name="U$4" library="SPEAR-battery-monitor" deviceset="20U_PC_SHUNT" device=""/>
+<part name="U$5" library="SPEAR-general" deviceset="PP45_HOR_4GRD" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="0" y1="58.42" x2="0" y2="-35.56" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="0" y1="-35.56" x2="129.54" y2="-35.56" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="129.54" y1="-35.56" x2="127" y2="-35.56" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="127" y1="-35.56" x2="127" y2="58.42" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="127" y1="58.42" x2="127" y2="63.5" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="127" y1="63.5" x2="0" y2="63.5" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="0" y1="63.5" x2="0" y2="58.42" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0" y1="-35.56" x2="124.46" y2="-35.56" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="124.46" y1="-35.56" x2="121.92" y2="-35.56" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="124.46" y1="58.42" x2="124.46" y2="63.5" width="0.1524" layer="94" style="shortdash"/>
 <text x="0" y="63.5" size="1.778" layer="94">MOSFET Control</text>
-<text x="86.36" y="-15.24" size="1.778" layer="94">Rsens goes here.</text>
+<wire x1="124.46" y1="58.42" x2="124.46" y2="-35.56" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0" y1="-35.56" x2="0" y2="63.5" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="0" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="94" style="shortdash"/>
+<text x="149.86" y="38.1" size="1.778" layer="94">Current Sense Diff. Amplifier</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="20.32" y="27.94"/>
@@ -4644,6 +4787,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="U$3" gate="G$1" x="35.56" y="-10.16"/>
 <instance part="GND1" gate="1" x="50.8" y="-30.48"/>
 <instance part="R2" gate="G$1" x="27.94" y="-20.32" rot="R90"/>
+<instance part="U$4" gate="G$1" x="93.98" y="-10.16" rot="R90"/>
+<instance part="U$5" gate="G$1" x="104.14" y="-45.72"/>
+<instance part="GND2" gate="1" x="93.98" y="-58.42"/>
 </instances>
 <busses>
 </busses>
@@ -4690,6 +4836,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="27.94" y1="-25.4" x2="50.8" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="50.8" y="-25.4"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="-"/>
+<wire x1="99.06" y1="-50.8" x2="93.98" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="-50.8" x2="93.98" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="OUT_EN" class="0">
 <segment>
@@ -4712,11 +4864,32 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="81.28" y1="5.08" x2="93.98" y2="5.08" width="0.1524" layer="91"/>
 <junction x="81.28" y="5.08"/>
 <wire x1="93.98" y1="5.08" x2="93.98" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="A"/>
+<wire x1="93.98" y1="-2.54" x2="93.98" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <wire x1="93.98" y1="-20.32" x2="93.98" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="B"/>
+<wire x1="93.98" y1="-17.78" x2="93.98" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="-25.4" x2="93.98" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="-40.64" x2="99.06" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="+"/>
+</segment>
+</net>
+<net name="ISENSE_A" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="SA"/>
+<wire x1="96.52" y1="-5.08" x2="109.22" y2="-5.08" width="0.1524" layer="91"/>
+<label x="109.22" y="-5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ISENSE_B" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="SB"/>
+<wire x1="96.52" y1="-17.78" x2="109.22" y2="-17.78" width="0.1524" layer="91"/>
+<label x="109.22" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
