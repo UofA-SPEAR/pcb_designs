@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -444,6 +444,15 @@ Datasheet&lt;/a&gt;</description>
 <text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="RICHTEK_RT9058">
+<pin name="VIN" x="-5.08" y="7.62" length="middle"/>
+<pin name="VOUT" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="GND" x="7.62" y="-5.08" length="middle" rot="R90"/>
+<wire x1="0" y1="10.16" x2="17.78" y2="10.16" width="0.254" layer="94"/>
+<wire x1="17.78" y1="10.16" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="10.16" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="IPB120P04P4L03ATMA1">
@@ -543,31 +552,6 @@ Datasheet.
 </device>
 </devices>
 </deviceset>
-<deviceset name="LP2981">
-<description>&lt;h1&gt;LP2981&lt;/h1&gt;
-
-3.3V LDO from Texas Instruments. Max 16V input.
-&lt;br&gt;&lt;br&gt;
-&lt;a href="http://www.ti.com/lit/ds/symlink/lp2981.pdf"&gt;
-Datasheet.&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="LP2981" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23-5">
-<connects>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="NC" pad="4"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="STM32_SWD-HDR" prefix="STM32-">
 <gates>
 <gate name="GND" symbol="M" x="2.54" y="7.62" addlevel="always"/>
@@ -599,6 +583,29 @@ Datasheet.&lt;/a&gt;</description>
 <connects>
 <connect gate="-GND" pin="P" pad="-"/>
 <connect gate="-VBAT" pin="P" pad="+"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RICHTEK_RT9058">
+<description>&lt;h1&gt;RT9058&lt;/h1&gt;
+
+3v3 LDO regulator.
+&lt;br&gt;&lt;br&gt;
+&lt;a href="https://www.richtek.com/assets/product_file/RT9058/DS9058-01.pdf"&gt;
+Datasheet.&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="RICHTEK_RT9058" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
