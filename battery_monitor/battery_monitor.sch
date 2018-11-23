@@ -14954,6 +14954,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="U$4" library="SPEAR-battery-monitor" deviceset="20U_PC_SHUNT" device=""/>
 <part name="J1" library="SPEAR-battery-monitor" deviceset="2PIN_HDR" device=""/>
+<part name="S2" library="SPEAR-arm-control" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:5592177/1"/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15085,6 +15087,8 @@ Decoupling</text>
 <instance part="U$4" gate="G$1" x="109.22" y="60.96" rot="R270"/>
 <instance part="J1" gate="-1" x="144.78" y="200.66"/>
 <instance part="J1" gate="-2" x="160.02" y="200.66" rot="R180"/>
+<instance part="S2" gate="G$1" x="175.26" y="233.68"/>
+<instance part="GND19" gate="1" x="180.34" y="220.98"/>
 </instances>
 <busses>
 </busses>
@@ -15295,6 +15299,14 @@ Decoupling</text>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="139.7" x2="215.9" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="S2" gate="G$1" pin="3"/>
+<pinref part="S2" gate="G$1" pin="4"/>
+<wire x1="180.34" y1="233.68" x2="180.34" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="231.14" x2="180.34" y2="223.52" width="0.1524" layer="91"/>
+<junction x="180.34" y="231.14"/>
+<pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="OUT_EN" class="0">
@@ -15583,6 +15595,19 @@ Decoupling</text>
 <label x="124.46" y="200.66" size="1.778" layer="95"/>
 <pinref part="J1" gate="-1" pin="S"/>
 <wire x1="124.46" y1="200.66" x2="142.24" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USR_BTN" class="0">
+<segment>
+<pinref part="S2" gate="G$1" pin="2"/>
+<pinref part="S2" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="231.14" x2="170.18" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="233.68" x2="132.08" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="233.68" x2="132.08" y2="236.22" width="0.1524" layer="91"/>
+<junction x="170.18" y="233.68"/>
+<pinref part="U1" gate="-PORTA" pin="PA1"/>
+<wire x1="132.08" y1="236.22" x2="119.38" y2="236.22" width="0.1524" layer="91"/>
+<label x="144.78" y="233.68" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
