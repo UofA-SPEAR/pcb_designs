@@ -194,28 +194,6 @@ Package from Infineon. Dimensions according to &lt;a href="https://www.infineon.
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
-<package name="RSENSE_20U">
-<description>&lt;h1&gt;20uOhm PCB Current Shunt&lt;/h1&gt;
-
-A &lt;em&gt;very&lt;/em&gt; approximate current shunt resistor.&lt;br/&gt;&lt;br/&gt;
-
-Calculated using Saturn PCB toolkit v7.06, for a 2oz. copper PCB (top layer)
-&lt;br/&gt;&lt;br/&gt;
-Should drop around 2mV at 100 amps.</description>
-<rectangle x1="-10" y1="0" x2="10" y2="5" layer="1"/>
-<wire x1="-10" y1="4.8" x2="-9.8" y2="5" width="0.15" layer="1"/>
-<smd name="P$1" x="0" y="5.8" dx="30" dy="2" layer="1" stop="no" cream="no"/>
-<smd name="P$2" x="0" y="-0.8" dx="30" dy="2" layer="1" stop="no" cream="no"/>
-<wire x1="-12.4" y1="2" x2="-14.2" y2="2" width="0.15" layer="1"/>
-<wire x1="-12.4" y1="3" x2="-14.2" y2="3" width="0.15" layer="1"/>
-<smd name="P$3" x="-14.8" y="3" dx="1.27" dy="0.635" layer="1"/>
-<smd name="P$4" x="-14.8" y="2" dx="1.27" dy="0.635" layer="1"/>
-<wire x1="-10" y1="4.8" x2="-11.8" y2="3" width="0.15" layer="1"/>
-<wire x1="-11.8" y1="3" x2="-12.4" y2="3" width="0.15" layer="1"/>
-<wire x1="-10" y1="0.2" x2="-11.8" y2="2" width="0.15" layer="1"/>
-<wire x1="-11.8" y1="2" x2="-12.4" y2="2" width="0.15" layer="1"/>
-<text x="-4" y="1.8" size="1.27" layer="21">~20uOhm</text>
-</package>
 <package name="SOIC8" urn="urn:adsk.eagle:footprint:16321/1">
 <description>&lt;b&gt;SOIC-8&lt;/b&gt; CASE 751-07&lt;p&gt;
 Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF&lt;p&gt;
@@ -273,6 +251,36 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 <wire x1="-11.43" y1="-6.35" x2="-6.35" y2="-6.35" width="0.4064" layer="21"/>
 <wire x1="7.62" y1="-6.35" x2="12.7" y2="-6.35" width="0.4064" layer="21"/>
 </package>
+<package name="RSENSE_20U">
+<description>&lt;h1&gt;20uOhm PCB Current Shunt&lt;/h1&gt;
+
+A &lt;em&gt;very&lt;/em&gt; approximate current shunt resistor.&lt;br/&gt;&lt;br/&gt;
+
+Calculated using Saturn PCB toolkit v7.06, for a 2oz. copper PCB (top layer)
+&lt;br/&gt;&lt;br/&gt;
+Should drop around 2mV at 100 amps.</description>
+<rectangle x1="-10" y1="-2.54" x2="10" y2="2.46" layer="1"/>
+<wire x1="-10" y1="2.26" x2="-9.8" y2="2.46" width="0.15" layer="1"/>
+<smd name="P$1" x="0" y="3.26" dx="30" dy="2" layer="1" stop="no" cream="no"/>
+<smd name="P$2" x="0" y="-3.34" dx="30" dy="2" layer="1" stop="no" cream="no"/>
+<wire x1="-12.4" y1="-0.54" x2="-14.2" y2="-0.54" width="0.15" layer="1"/>
+<wire x1="-12.4" y1="0.46" x2="-14.2" y2="0.46" width="0.15" layer="1"/>
+<smd name="P$3" x="-14.8" y="0.46" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$4" x="-14.8" y="-0.54" dx="1.27" dy="0.635" layer="1"/>
+<wire x1="-10" y1="2.26" x2="-11.8" y2="0.46" width="0.15" layer="1"/>
+<wire x1="-11.8" y1="0.46" x2="-12.4" y2="0.46" width="0.15" layer="1"/>
+<wire x1="-10" y1="-2.34" x2="-11.8" y2="-0.54" width="0.15" layer="1"/>
+<wire x1="-11.8" y1="-0.54" x2="-12.4" y2="-0.54" width="0.15" layer="1"/>
+<text x="-4" y="-0.74" size="1.27" layer="21">~20uOhm</text>
+</package>
+<package name="2PIN-HDR">
+<pad name="P$1" x="-1.27" y="0" drill="1.016" shape="octagon"/>
+<pad name="P$2" x="1.27" y="0" drill="1.016" shape="octagon"/>
+<wire x1="-2.286" y1="1.016" x2="2.286" y2="1.016" width="0.127" layer="21"/>
+<wire x1="2.286" y1="1.016" x2="2.286" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="2.286" y1="-1.016" x2="-2.286" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="-1.016" x2="-2.286" y2="1.016" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FET-P">
@@ -322,26 +330,6 @@ Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf</description>
 <text x="20.32" y="0" size="1.778" layer="94">&gt;SPICEMODEL</text>
 <text x="20.32" y="2.54" size="1.778" layer="94">&gt;VALUE</text>
 <text x="20.32" y="-2.54" size="1.778" layer="94">&gt;SPICEEXTRA</text>
-</symbol>
-<symbol name="R-4">
-<wire x1="-3.81" y1="-0.889" x2="1.27" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0.889" x2="-3.81" y2="0.889" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.889" x2="1.27" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.254" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-0.889" x2="-3.81" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-0.254" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-3.81" y2="-0.254" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="1.27" y2="-0.254" width="0.1524" layer="94"/>
-<text x="-4.572" y="1.3716" size="1.778" layer="95">&gt;NAME</text>
-<text x="-4.826" y="-4.445" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="SB" x="-7.62" y="-2.54" visible="off" length="short" direction="pas" swaplevel="2"/>
-<pin name="SA" x="5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
-<pin name="B" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="A" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="INA145">
 <description>&lt;h1&gt;INA145&lt;/h1&gt;
@@ -421,6 +409,18 @@ Datasheet&lt;/a&gt;</description>
 <wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="10.16" width="0.254" layer="94"/>
 </symbol>
+<symbol name="R-EU">
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="5.08" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="IPB120P04P4L03ATMA1">
@@ -461,29 +461,6 @@ Datasheet &lt;a href="file:///C:/Users/David/Downloads/T2N7002AK_datasheet_en_20
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="20U_PC_SHUNT">
-<description>PCB Current Shunt
-
-Approximately 20uOhm.
-&lt;br&gt;&lt;br&gt;
-If you want actual measurements, verify first.</description>
-<gates>
-<gate name="G$1" symbol="R-4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RSENSE_20U">
-<connects>
-<connect gate="G$1" pin="A" pad="P$1"/>
-<connect gate="G$1" pin="B" pad="P$2"/>
-<connect gate="G$1" pin="SA" pad="P$3"/>
-<connect gate="G$1" pin="SB" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -574,6 +551,44 @@ Datasheet.&lt;/a&gt;</description>
 <connect gate="G$1" pin="GND" pad="3"/>
 <connect gate="G$1" pin="VIN" pad="1"/>
 <connect gate="G$1" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="20U_PC_SHUNT">
+<description>PCB Current Shunt
+
+Approximately 20uOhm.
+&lt;br&gt;&lt;br&gt;
+If you want actual measurements, verify first.</description>
+<gates>
+<gate name="G$1" symbol="R-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RSENSE_20U">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1 P$3"/>
+<connect gate="G$1" pin="2" pad="P$2 P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2PIN_HDR" prefix="J">
+<gates>
+<gate name="-1" symbol="M" x="0" y="2.54" addlevel="always"/>
+<gate name="-2" symbol="M" x="0" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="2PIN-HDR">
+<connects>
+<connect gate="-1" pin="S" pad="P$1"/>
+<connect gate="-2" pin="S" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14879,7 +14894,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$3" library="SPEAR-battery-monitor" deviceset="T2N7002AK,LM" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="U$4" library="SPEAR-battery-monitor" deviceset="20U_PC_SHUNT" device=""/>
 <part name="U$5" library="SPEAR-general" deviceset="PP45_HOR_4GRD" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$6" library="SPEAR-battery-monitor" deviceset="INA145" device=""/>
@@ -14938,6 +14952,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="U$4" library="SPEAR-battery-monitor" deviceset="20U_PC_SHUNT" device=""/>
+<part name="J1" library="SPEAR-battery-monitor" deviceset="2PIN_HDR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14994,7 +15010,6 @@ Decoupling</text>
 <instance part="U$3" gate="G$1" x="50.8" y="60.96"/>
 <instance part="GND1" gate="1" x="66.04" y="40.64"/>
 <instance part="R2" gate="G$1" x="43.18" y="50.8" rot="R90"/>
-<instance part="U$4" gate="G$1" x="109.22" y="60.96" rot="R90"/>
 <instance part="U$5" gate="G$1" x="119.38" y="25.4"/>
 <instance part="GND2" gate="1" x="109.22" y="12.7"/>
 <instance part="U$6" gate="G$1" x="170.18" y="53.34"/>
@@ -15067,6 +15082,9 @@ Decoupling</text>
 <instance part="+3V9" gate="G$1" x="215.9" y="162.56"/>
 <instance part="C9" gate="G$1" x="215.9" y="149.86"/>
 <instance part="C10" gate="G$1" x="172.72" y="149.86"/>
+<instance part="U$4" gate="G$1" x="109.22" y="60.96" rot="R270"/>
+<instance part="J1" gate="-1" x="144.78" y="200.66"/>
+<instance part="J1" gate="-2" x="160.02" y="200.66" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -15295,51 +15313,22 @@ Decoupling</text>
 <wire x1="281.94" y1="165.1" x2="276.86" y2="165.1" width="0.1524" layer="91"/>
 <label x="276.86" y="165.1" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="+VOUT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D1"/>
-<wire x1="50.8" y1="86.36" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="D1"/>
-<wire x1="96.52" y1="76.2" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
-<junction x="96.52" y="76.2"/>
-<wire x1="109.22" y1="76.2" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="A"/>
-<wire x1="109.22" y1="68.58" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="J1" gate="-2" pin="S"/>
+<wire x1="162.56" y1="200.66" x2="167.64" y2="200.66" width="0.1524" layer="91"/>
+<label x="167.64" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="VOUT" class="0">
 <segment>
-<wire x1="109.22" y1="50.8" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="B"/>
-<wire x1="109.22" y1="53.34" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="45.72" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="30.48" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="+"/>
-</segment>
-</net>
-<net name="ISENSE_A" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="SA"/>
-<wire x1="111.76" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
-<label x="124.46" y="66.04" size="1.778" layer="95"/>
-<wire x1="124.46" y1="66.04" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="IN-"/>
-<wire x1="165.1" y1="66.04" x2="160.02" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="66.04" x2="160.02" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="ISENSE_B" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="SB"/>
-<wire x1="111.76" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
-<label x="124.46" y="53.34" size="1.778" layer="95"/>
-<wire x1="154.94" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="IN+"/>
-<wire x1="165.1" y1="55.88" x2="154.94" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="55.88" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
+<junction x="109.22" y="55.88"/>
+<label x="109.22" y="43.18" size="1.778" layer="95"/>
+<wire x1="109.22" y1="55.88" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="+"/>
+<wire x1="109.22" y1="30.48" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -15448,6 +15437,11 @@ Decoupling</text>
 <wire x1="203.2" y1="60.96" x2="208.28" y2="60.96" width="0.1524" layer="91"/>
 <junction x="203.2" y="60.96"/>
 <label x="205.74" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="-PORTA" pin="PA0"/>
+<wire x1="119.38" y1="238.76" x2="127" y2="238.76" width="0.1524" layer="91"/>
+<label x="127" y="238.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -15564,6 +15558,31 @@ Decoupling</text>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="281.94" y1="149.86" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ISENSE_A" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="D1"/>
+<wire x1="50.8" y1="86.36" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="D1"/>
+<wire x1="96.52" y1="76.2" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
+<junction x="96.52" y="76.2"/>
+<wire x1="109.22" y1="76.2" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="66.04" x2="165.1" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="IN-"/>
+<pinref part="U$4" gate="G$1" pin="1"/>
+<junction x="109.22" y="66.04"/>
+</segment>
+</net>
+<net name="MCU_OUT_EN" class="0">
+<segment>
+<pinref part="U1" gate="-PORTA" pin="PA15"/>
+<wire x1="119.38" y1="200.66" x2="124.46" y2="200.66" width="0.1524" layer="91"/>
+<label x="124.46" y="200.66" size="1.778" layer="95"/>
+<pinref part="J1" gate="-1" pin="S"/>
+<wire x1="124.46" y1="200.66" x2="142.24" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
