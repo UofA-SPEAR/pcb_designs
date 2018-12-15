@@ -254,10 +254,10 @@
       (net 1 /GND))
     (pad 5 thru_hole circle (at 5.6 0) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask)
       (net 1 /GND))
-    (model C:/Users/David/13150-L5.wrl
+    (model ../../../../../../Users/David/F09115N_38_ASM_cp.wrl
       (at (xyz 0 0 0.45))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz -0 0 0))
     )
   )
 
