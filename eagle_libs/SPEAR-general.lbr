@@ -537,6 +537,117 @@ SOIC, 0.3 inch width</description>
 <wire x1="-1.27" y1="2.286" x2="1.016" y2="2.286" width="0.127" layer="21"/>
 <wire x1="1.016" y1="2.286" x2="1.016" y2="1.524" width="0.127" layer="21"/>
 </package>
+<package name="LQFP48">
+<description>&lt;b&gt;48-pin plastic LQFP (FPT-48P-M26)&lt;/b&gt;&lt;p&gt;
+www.fma.fujitsu.com/pdf/e713717.pdf</description>
+<wire x1="-3.375" y1="3.1" x2="-3.1" y2="3.375" width="0.254" layer="21"/>
+<wire x1="-3.1" y1="3.375" x2="3.1" y2="3.375" width="0.254" layer="21"/>
+<wire x1="3.1" y1="3.375" x2="3.375" y2="3.1" width="0.254" layer="21"/>
+<wire x1="3.375" y1="3.1" x2="3.375" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="3.375" y1="-3.1" x2="3.1" y2="-3.375" width="0.254" layer="21"/>
+<wire x1="3.1" y1="-3.375" x2="-3.1" y2="-3.375" width="0.254" layer="21"/>
+<wire x1="-3.1" y1="-3.375" x2="-3.375" y2="-3.1" width="0.254" layer="21"/>
+<wire x1="-3.375" y1="-3.1" x2="-3.375" y2="3.1" width="0.254" layer="21"/>
+<circle x="-2" y="-2" radius="0.6" width="0.254" layer="21"/>
+<smd name="1" x="-2.75" y="-4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="2" x="-2.25" y="-4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="3" x="-1.75" y="-4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="4" x="-1.25" y="-4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="5" x="-0.75" y="-4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="6" x="-0.25" y="-4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="7" x="0.25" y="-4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="8" x="0.75" y="-4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="9" x="1.25" y="-4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="10" x="1.75" y="-4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="11" x="2.25" y="-4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="12" x="2.75" y="-4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="13" x="4.25" y="-2.75" dx="1" dy="0.2" layer="1"/>
+<smd name="14" x="4.25" y="-2.25" dx="1" dy="0.2" layer="1"/>
+<smd name="15" x="4.25" y="-1.75" dx="1" dy="0.2" layer="1"/>
+<smd name="16" x="4.25" y="-1.25" dx="1" dy="0.2" layer="1"/>
+<smd name="17" x="4.25" y="-0.75" dx="1" dy="0.2" layer="1"/>
+<smd name="18" x="4.25" y="-0.25" dx="1" dy="0.2" layer="1"/>
+<smd name="19" x="4.25" y="0.25" dx="1" dy="0.2" layer="1"/>
+<smd name="20" x="4.25" y="0.75" dx="1" dy="0.2" layer="1"/>
+<smd name="21" x="4.25" y="1.25" dx="1" dy="0.2" layer="1"/>
+<smd name="22" x="4.25" y="1.75" dx="1" dy="0.2" layer="1"/>
+<smd name="23" x="4.25" y="2.25" dx="1" dy="0.2" layer="1"/>
+<smd name="24" x="4.25" y="2.75" dx="1" dy="0.2" layer="1"/>
+<smd name="25" x="2.75" y="4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="26" x="2.25" y="4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="27" x="1.75" y="4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="28" x="1.25" y="4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="29" x="0.75" y="4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="30" x="0.25" y="4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="31" x="-0.25" y="4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="32" x="-0.75" y="4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="33" x="-1.25" y="4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="34" x="-1.75" y="4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="35" x="-2.25" y="4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="36" x="-2.75" y="4.25" dx="0.2" dy="1" layer="1"/>
+<smd name="37" x="-4.25" y="2.75" dx="1" dy="0.2" layer="1"/>
+<smd name="38" x="-4.25" y="2.25" dx="1" dy="0.2" layer="1"/>
+<smd name="39" x="-4.25" y="1.75" dx="1" dy="0.2" layer="1"/>
+<smd name="40" x="-4.25" y="1.25" dx="1" dy="0.2" layer="1"/>
+<smd name="41" x="-4.25" y="0.75" dx="1" dy="0.2" layer="1"/>
+<smd name="42" x="-4.25" y="0.25" dx="1" dy="0.2" layer="1"/>
+<smd name="43" x="-4.25" y="-0.25" dx="1" dy="0.2" layer="1"/>
+<smd name="44" x="-4.25" y="-0.75" dx="1" dy="0.2" layer="1"/>
+<smd name="45" x="-4.25" y="-1.25" dx="1" dy="0.2" layer="1"/>
+<smd name="46" x="-4.25" y="-1.75" dx="1" dy="0.2" layer="1"/>
+<smd name="47" x="-4.25" y="-2.25" dx="1" dy="0.2" layer="1"/>
+<smd name="48" x="-4.25" y="-2.75" dx="1" dy="0.2" layer="1"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.85" y1="-4.5" x2="-2.65" y2="-3.45" layer="51"/>
+<rectangle x1="-2.35" y1="-4.5" x2="-2.15" y2="-3.45" layer="51"/>
+<rectangle x1="-1.85" y1="-4.5" x2="-1.65" y2="-3.45" layer="51"/>
+<rectangle x1="-1.35" y1="-4.5" x2="-1.15" y2="-3.45" layer="51"/>
+<rectangle x1="-0.85" y1="-4.5" x2="-0.65" y2="-3.45" layer="51"/>
+<rectangle x1="-0.35" y1="-4.5" x2="-0.15" y2="-3.45" layer="51"/>
+<rectangle x1="0.15" y1="-4.5" x2="0.35" y2="-3.45" layer="51"/>
+<rectangle x1="0.65" y1="-4.5" x2="0.85" y2="-3.45" layer="51"/>
+<rectangle x1="1.15" y1="-4.5" x2="1.35" y2="-3.45" layer="51"/>
+<rectangle x1="1.65" y1="-4.5" x2="1.85" y2="-3.45" layer="51"/>
+<rectangle x1="2.15" y1="-4.5" x2="2.35" y2="-3.45" layer="51"/>
+<rectangle x1="2.65" y1="-4.5" x2="2.85" y2="-3.45" layer="51"/>
+<rectangle x1="3.45" y1="-2.85" x2="4.5" y2="-2.65" layer="51"/>
+<rectangle x1="3.45" y1="-2.35" x2="4.5" y2="-2.15" layer="51"/>
+<rectangle x1="3.45" y1="-1.85" x2="4.5" y2="-1.65" layer="51"/>
+<rectangle x1="3.45" y1="-1.35" x2="4.5" y2="-1.15" layer="51"/>
+<rectangle x1="3.45" y1="-0.85" x2="4.5" y2="-0.65" layer="51"/>
+<rectangle x1="3.45" y1="-0.35" x2="4.5" y2="-0.15" layer="51"/>
+<rectangle x1="3.45" y1="0.15" x2="4.5" y2="0.35" layer="51"/>
+<rectangle x1="3.45" y1="0.65" x2="4.5" y2="0.85" layer="51"/>
+<rectangle x1="3.45" y1="1.15" x2="4.5" y2="1.35" layer="51"/>
+<rectangle x1="3.45" y1="1.65" x2="4.5" y2="1.85" layer="51"/>
+<rectangle x1="3.45" y1="2.15" x2="4.5" y2="2.35" layer="51"/>
+<rectangle x1="3.45" y1="2.65" x2="4.5" y2="2.85" layer="51"/>
+<rectangle x1="2.65" y1="3.45" x2="2.85" y2="4.5" layer="51"/>
+<rectangle x1="2.15" y1="3.45" x2="2.35" y2="4.5" layer="51"/>
+<rectangle x1="1.65" y1="3.45" x2="1.85" y2="4.5" layer="51"/>
+<rectangle x1="1.15" y1="3.45" x2="1.35" y2="4.5" layer="51"/>
+<rectangle x1="0.65" y1="3.45" x2="0.85" y2="4.5" layer="51"/>
+<rectangle x1="0.15" y1="3.45" x2="0.35" y2="4.5" layer="51"/>
+<rectangle x1="-0.35" y1="3.45" x2="-0.15" y2="4.5" layer="51"/>
+<rectangle x1="-0.85" y1="3.45" x2="-0.65" y2="4.5" layer="51"/>
+<rectangle x1="-1.35" y1="3.45" x2="-1.15" y2="4.5" layer="51"/>
+<rectangle x1="-1.85" y1="3.45" x2="-1.65" y2="4.5" layer="51"/>
+<rectangle x1="-2.35" y1="3.45" x2="-2.15" y2="4.5" layer="51"/>
+<rectangle x1="-2.85" y1="3.45" x2="-2.65" y2="4.5" layer="51"/>
+<rectangle x1="-4.5" y1="2.65" x2="-3.45" y2="2.85" layer="51"/>
+<rectangle x1="-4.5" y1="2.15" x2="-3.45" y2="2.35" layer="51"/>
+<rectangle x1="-4.5" y1="1.65" x2="-3.45" y2="1.85" layer="51"/>
+<rectangle x1="-4.5" y1="1.15" x2="-3.45" y2="1.35" layer="51"/>
+<rectangle x1="-4.5" y1="0.65" x2="-3.45" y2="0.85" layer="51"/>
+<rectangle x1="-4.5" y1="0.15" x2="-3.45" y2="0.35" layer="51"/>
+<rectangle x1="-4.5" y1="-0.35" x2="-3.45" y2="-0.15" layer="51"/>
+<rectangle x1="-4.5" y1="-0.85" x2="-3.45" y2="-0.65" layer="51"/>
+<rectangle x1="-4.5" y1="-1.35" x2="-3.45" y2="-1.15" layer="51"/>
+<rectangle x1="-4.5" y1="-1.85" x2="-3.45" y2="-1.65" layer="51"/>
+<rectangle x1="-4.5" y1="-2.35" x2="-3.45" y2="-2.15" layer="51"/>
+<rectangle x1="-4.5" y1="-2.85" x2="-3.45" y2="-2.65" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP2562">
@@ -631,6 +742,96 @@ SOIC, 0.3 inch width</description>
 <wire x1="0" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="STM32F303CB-PWR">
+<description>&lt;h1&gt;STM32F303CB Power&lt;/h1&gt;
+
+Power pins for the STM32F303CB.</description>
+<pin name="VSS_1" x="-5.08" y="12.7" length="middle"/>
+<pin name="VSS_2" x="-5.08" y="10.16" length="middle"/>
+<pin name="VSS_3" x="-5.08" y="7.62" length="middle"/>
+<pin name="VDD_1" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="VDD_2" x="30.48" y="10.16" length="middle" rot="R180"/>
+<pin name="VDD_3" x="30.48" y="7.62" length="middle" rot="R180"/>
+<pin name="VDDA" x="30.48" y="2.54" length="middle" rot="R180"/>
+<wire x1="0" y1="15.24" x2="25.4" y2="15.24" width="0.254" layer="94"/>
+<wire x1="25.4" y1="15.24" x2="25.4" y2="0" width="0.254" layer="94"/>
+<wire x1="25.4" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="15.24" width="0.254" layer="94"/>
+<text x="1.27" y="16.51" size="1.27" layer="95">&gt;NAME</text>
+<pin name="VSSA/VREF-" x="-5.08" y="2.54" length="middle"/>
+</symbol>
+<symbol name="STM32F303CB-PORTA">
+<description>&lt;h1&gt;STM32F303CB Port A&lt;/h1&gt;
+
+Port A pins for the STM32F330CB.</description>
+<pin name="PA0" x="15.24" y="40.64" length="middle" rot="R180"/>
+<pin name="PA1" x="15.24" y="38.1" length="middle" rot="R180"/>
+<pin name="PA2" x="15.24" y="35.56" length="middle" rot="R180"/>
+<pin name="PA3" x="15.24" y="33.02" length="middle" rot="R180"/>
+<pin name="PA4" x="15.24" y="30.48" length="middle" rot="R180"/>
+<pin name="PA5" x="15.24" y="27.94" length="middle" rot="R180"/>
+<pin name="PA6" x="15.24" y="25.4" length="middle" rot="R180"/>
+<pin name="PA7" x="15.24" y="22.86" length="middle" rot="R180"/>
+<pin name="PA8" x="15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="PA9" x="15.24" y="17.78" length="middle" rot="R180"/>
+<pin name="PA10" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="PA11" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="PA12" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="PA13" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="PA14" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="PA15" x="15.24" y="2.54" length="middle" rot="R180"/>
+<wire x1="10.16" y1="43.18" x2="0" y2="43.18" width="0.254" layer="94"/>
+<wire x1="0" y1="43.18" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="43.18" width="0.254" layer="94"/>
+<text x="1.27" y="44.45" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="STM32F303CB-PORTB">
+<description>&lt;h1&gt;STM32F303CB Port B&lt;/h1&gt;
+
+Port B pins for the STM32F303CB.</description>
+<pin name="PB0" x="15.24" y="40.64" length="middle" rot="R180"/>
+<pin name="PB1" x="15.24" y="38.1" length="middle" rot="R180"/>
+<pin name="PB2" x="15.24" y="35.56" length="middle" rot="R180"/>
+<pin name="PB3" x="15.24" y="33.02" length="middle" rot="R180"/>
+<pin name="PB4" x="15.24" y="30.48" length="middle" rot="R180"/>
+<pin name="PB5" x="15.24" y="27.94" length="middle" rot="R180"/>
+<pin name="PB6" x="15.24" y="25.4" length="middle" rot="R180"/>
+<pin name="PB7" x="15.24" y="22.86" length="middle" rot="R180"/>
+<pin name="PB8" x="15.24" y="20.32" length="middle" rot="R180"/>
+<pin name="PB9" x="15.24" y="17.78" length="middle" rot="R180"/>
+<pin name="PB10" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="PB11" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="PB12" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="PB13" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="PB14" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="PB15" x="15.24" y="2.54" length="middle" rot="R180"/>
+<wire x1="0" y1="43.18" x2="10.16" y2="43.18" width="0.254" layer="94"/>
+<wire x1="10.16" y1="43.18" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="43.18" width="0.254" layer="94"/>
+<text x="1.27" y="44.45" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="STM32F303CB-MISC">
+<description>&lt;h1&gt;STM32F303CB Misc.&lt;/h1&gt;
+
+Miscellaneous pins for the STM32F303CB.
+&lt;br&gt;&lt;br&gt;
+Includes the reset and Boot0 pin, as well as HF and LF oscillator pins.</description>
+<pin name="PC13" x="35.56" y="15.24" length="middle" rot="R180"/>
+<pin name="PC14/OSC32_IN" x="35.56" y="12.7" length="middle" rot="R180"/>
+<pin name="PC15/OSC32_OUT" x="35.56" y="10.16" length="middle" rot="R180"/>
+<pin name="PF0/OSC_IN" x="35.56" y="5.08" length="middle" rot="R180"/>
+<pin name="PF1/OSC_OUT" x="35.56" y="2.54" length="middle" rot="R180"/>
+<pin name="NRST" x="-5.08" y="5.08" length="middle"/>
+<pin name="VBAT" x="-5.08" y="15.24" length="middle"/>
+<pin name="BOOT0" x="-5.08" y="2.54" length="middle"/>
+<wire x1="0" y1="17.78" x2="30.48" y2="17.78" width="0.254" layer="94"/>
+<wire x1="30.48" y1="17.78" x2="30.48" y2="0" width="0.254" layer="94"/>
+<wire x1="30.48" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="17.78" width="0.254" layer="94"/>
+<text x="1.27" y="19.05" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -832,6 +1033,74 @@ The high-side driver switch is designed using STMicroelectronics’ well known a
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STM32F303CB" prefix="U">
+<description>&lt;h1&gt;STM32F303CBT &lt;/h1&gt;
+
+32-bit microcontroller in an LQFP48 package - 128Kbytes flash.</description>
+<gates>
+<gate name="-MISC" symbol="STM32F303CB-MISC" x="-2.54" y="15.24"/>
+<gate name="-PORTA" symbol="STM32F303CB-PORTA" x="-5.08" y="-35.56" addlevel="can"/>
+<gate name="-PORTB" symbol="STM32F303CB-PORTB" x="17.78" y="-35.56" addlevel="can"/>
+<gate name="-PWR" symbol="STM32F303CB-PWR" x="0" y="-58.42" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="LQFP48">
+<connects>
+<connect gate="-MISC" pin="BOOT0" pad="44"/>
+<connect gate="-MISC" pin="NRST" pad="7"/>
+<connect gate="-MISC" pin="PC13" pad="2"/>
+<connect gate="-MISC" pin="PC14/OSC32_IN" pad="3"/>
+<connect gate="-MISC" pin="PC15/OSC32_OUT" pad="4"/>
+<connect gate="-MISC" pin="PF0/OSC_IN" pad="5"/>
+<connect gate="-MISC" pin="PF1/OSC_OUT" pad="6"/>
+<connect gate="-MISC" pin="VBAT" pad="1"/>
+<connect gate="-PORTA" pin="PA0" pad="10"/>
+<connect gate="-PORTA" pin="PA1" pad="11"/>
+<connect gate="-PORTA" pin="PA10" pad="31"/>
+<connect gate="-PORTA" pin="PA11" pad="32"/>
+<connect gate="-PORTA" pin="PA12" pad="33"/>
+<connect gate="-PORTA" pin="PA13" pad="34"/>
+<connect gate="-PORTA" pin="PA14" pad="37"/>
+<connect gate="-PORTA" pin="PA15" pad="38"/>
+<connect gate="-PORTA" pin="PA2" pad="12"/>
+<connect gate="-PORTA" pin="PA3" pad="13"/>
+<connect gate="-PORTA" pin="PA4" pad="14"/>
+<connect gate="-PORTA" pin="PA5" pad="15"/>
+<connect gate="-PORTA" pin="PA6" pad="16"/>
+<connect gate="-PORTA" pin="PA7" pad="17"/>
+<connect gate="-PORTA" pin="PA8" pad="29"/>
+<connect gate="-PORTA" pin="PA9" pad="30"/>
+<connect gate="-PORTB" pin="PB0" pad="18"/>
+<connect gate="-PORTB" pin="PB1" pad="19"/>
+<connect gate="-PORTB" pin="PB10" pad="21"/>
+<connect gate="-PORTB" pin="PB11" pad="22"/>
+<connect gate="-PORTB" pin="PB12" pad="25"/>
+<connect gate="-PORTB" pin="PB13" pad="26"/>
+<connect gate="-PORTB" pin="PB14" pad="27"/>
+<connect gate="-PORTB" pin="PB15" pad="28"/>
+<connect gate="-PORTB" pin="PB2" pad="20"/>
+<connect gate="-PORTB" pin="PB3" pad="39"/>
+<connect gate="-PORTB" pin="PB4" pad="40"/>
+<connect gate="-PORTB" pin="PB5" pad="41"/>
+<connect gate="-PORTB" pin="PB6" pad="42"/>
+<connect gate="-PORTB" pin="PB7" pad="43"/>
+<connect gate="-PORTB" pin="PB8" pad="45"/>
+<connect gate="-PORTB" pin="PB9" pad="46"/>
+<connect gate="-PWR" pin="VDDA" pad="9"/>
+<connect gate="-PWR" pin="VDD_1" pad="24"/>
+<connect gate="-PWR" pin="VDD_2" pad="36"/>
+<connect gate="-PWR" pin="VDD_3" pad="48"/>
+<connect gate="-PWR" pin="VSSA/VREF-" pad="8"/>
+<connect gate="-PWR" pin="VSS_1" pad="23"/>
+<connect gate="-PWR" pin="VSS_2" pad="35"/>
+<connect gate="-PWR" pin="VSS_3" pad="47"/>
 </connects>
 <technologies>
 <technology name=""/>
