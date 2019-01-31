@@ -35,16 +35,17 @@ CAN bus interfaced board that can use the motor drivers and encoders to control 
 
 CAN bus interfaced boards that can control the motors on the arm.
 
-For these we need two designs: one that can control stepper motors and one that can control brushed DC motors.
-The brushed DC controllers can be lower priority because we can use some of the hardware we alread have to control those for a bit.
-As well they need to accomodate the implements on the arm (hand, drill, etc.)
+We will need a brushed DC motor driver, with potentiometer and encoder feedback capabilities.
+This board will run a PID loop to control the motor.
 
 ### Science Interface Board ###
 
-This board will have to interface with whatever sensors the science team needs (TBD, rules aren't out yet).
-It will output data to the CAN bus.
+This board will have to interface with the CO2 sensors the science team needs,
+as well as a servo driver interface. This will have to provide power and signal to control
+any servos we have on board.
 
-Likely this will also include whatever GPS sensor we use.
+It will also have an accelerometer, a magnetometer, and a GPS module.
+
 
 ### RC Controller Input board ###
 
@@ -52,8 +53,4 @@ This board will just take signals from whatever RC controller we use and output 
 
 ### Status Indication Board ###
 
-There may be two versions of this. A simplistic version would be to simply hook some LEDs up to a uC and blink them based on the published NodeStatus messages.
-Another one could be a full featured display.
-
-Neither of these are necessary, they would just be nice,
-so they are very low priority.
+The indication board will have 8 RGB LEDs in order to display node statuses and possibly other things.
