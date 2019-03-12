@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -161,8 +161,8 @@
 <plain>
 <text x="74.93" y="12.7" size="2.1844" layer="104">SPEAR 2019
 JACK DE WIT</text>
-<hole x="2.46" y="1.19" drill="4.5"/>
-<hole x="92.46" y="1.19" drill="4.5"/>
+<hole x="5" y="5" drill="4.5"/>
+<hole x="95" y="5" drill="4.5"/>
 <hole x="5" y="95" drill="4.5"/>
 <hole x="95" y="95" drill="4.5"/>
 <dimension x1="107.62" y1="0" x2="107.62" y2="102.86" x3="120.65" y3="51.43" textsize="1.778" layer="1" dtype="diameter"/>
