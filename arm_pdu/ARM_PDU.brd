@@ -3,11 +3,11 @@
 <eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -159,18 +159,18 @@
 </layers>
 <board>
 <plain>
-<wire x1="1.27" y1="0" x2="107.62" y2="0" width="0" layer="20"/>
-<wire x1="107.62" y1="0" x2="107.62" y2="102.86" width="0" layer="20"/>
-<wire x1="107.62" y1="102.86" x2="1.27" y2="102.86" width="0" layer="20"/>
-<wire x1="1.27" y1="102.86" x2="1.27" y2="0" width="0" layer="20"/>
-<text x="78.74" y="16.51" size="2.1844" layer="104">SPEAR 2019
+<text x="74.93" y="12.7" size="2.1844" layer="104">SPEAR 2019
 JACK DE WIT</text>
-<hole x="6.27" y="5" drill="0.35"/>
-<hole x="102.95" y="5" drill="0.35"/>
-<hole x="6.27" y="97.87" drill="0.35"/>
-<hole x="102.95" y="97.87" drill="0.35"/>
-<dimension x1="108.89" y1="0" x2="108.89" y2="102.86" x3="121.92" y3="51.43" textsize="1.778" layer="1" dtype="diameter"/>
-<dimension x1="1.27" y1="0" x2="107.62" y2="0" x3="54.445" y3="-8.89" textsize="1.778" layer="1" dtype="diameter"/>
+<hole x="2.46" y="1.19" drill="4.5"/>
+<hole x="92.46" y="1.19" drill="4.5"/>
+<hole x="5" y="95" drill="4.5"/>
+<hole x="95" y="95" drill="4.5"/>
+<dimension x1="107.62" y1="0" x2="107.62" y2="102.86" x3="120.65" y3="51.43" textsize="1.778" layer="1" dtype="diameter"/>
+<dimension x1="0" y1="0" x2="106.35" y2="0" x3="53.175" y3="-8.89" textsize="1.778" layer="1" dtype="diameter"/>
+<wire x1="0" y1="0" x2="100" y2="0" width="0.1524" layer="20"/>
+<wire x1="100" y1="0" x2="100" y2="100" width="0.1524" layer="20"/>
+<wire x1="100" y1="100" x2="0" y2="100" width="0.1524" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0.1524" layer="20"/>
 </plain>
 <libraries>
 <library name="SPEAR">
@@ -475,24 +475,24 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$4" library="SPEAR" package="PP45_HOR_2BOT" value="PP45_HOR_2BOT" x="34.29" y="87.63" rot="R180"/>
-<element name="U$5" library="SPEAR" package="PP45_HOR_2BOT" value="PP45_HOR_2BOT" x="34.29" y="67.31" rot="R180"/>
-<element name="U$6" library="SPEAR" package="PP45_HOR_2BOT" value="PP45_HOR_2BOT" x="34.29" y="44.45" rot="R180"/>
-<element name="U$7" library="SPEAR" package="PP45_HOR_2BOT" value="PP45_HOR_2BOT" x="34.29" y="21.59" rot="R180"/>
-<element name="U$8" library="SPEAR" package="AMP-MTE-2MALE" value="AMP-MTE-2MALE" x="64.77" y="15.24" rot="R180"/>
-<element name="U$9" library="SPEAR-PDU" package="R-78E3.3-0.5" value="R-78E3.3-0.5" x="63.5" y="25.4"/>
-<element name="2PIN_CONNECTOR1" library="2PIN_CONNECTOR" package="2PIN_CONNECTOR" value="2PIN_CONNECTOR" x="97.79" y="91.44" rot="R270"/>
-<element name="2PIN_CONNECTOR2" library="2PIN_CONNECTOR" package="2PIN_CONNECTOR" value="2PIN_CONNECTOR" x="97.79" y="80.01" rot="R270"/>
-<element name="2PIN_CONNECTOR3" library="2PIN_CONNECTOR" package="2PIN_CONNECTOR" value="2PIN_CONNECTOR" x="97.79" y="68.58" rot="R270"/>
-<element name="2PIN_CONNECTOR4" library="2PIN_CONNECTOR" package="2PIN_CONNECTOR" value="2PIN_CONNECTOR" x="97.79" y="57.15" rot="R270"/>
-<element name="2PIN_CONNECTOR5" library="2PIN_CONNECTOR" package="2PIN_CONNECTOR" value="2PIN_CONNECTOR" x="97.79" y="45.72" rot="R270"/>
-<element name="2PIN_CONNECTOR6" library="2PIN_CONNECTOR" package="2PIN_CONNECTOR" value="2PIN_CONNECTOR" x="97.79" y="34.29" rot="R270"/>
-<element name="U$1" library="20A_FUSE_HOLDER" package="20A_FUSE_HOLDER" value="20A_FUSE_HOLDER" x="68.58" y="93.98"/>
-<element name="U$2" library="20A_FUSE_HOLDER" package="20A_FUSE_HOLDER" value="20A_FUSE_HOLDER" x="68.58" y="82.55"/>
-<element name="U$3" library="20A_FUSE_HOLDER" package="20A_FUSE_HOLDER" value="20A_FUSE_HOLDER" x="68.58" y="71.12"/>
-<element name="U$14" library="20A_FUSE_HOLDER" package="20A_FUSE_HOLDER" value="20A_FUSE_HOLDER" x="68.58" y="59.69"/>
-<element name="U$15" library="20A_FUSE_HOLDER" package="20A_FUSE_HOLDER" value="20A_FUSE_HOLDER" x="68.58" y="48.26"/>
-<element name="U$16" library="20A_FUSE_HOLDER" package="20A_FUSE_HOLDER" value="20A_FUSE_HOLDER" x="68.58" y="36.83"/>
+<element name="U$4" library="SPEAR" package="PP45_HOR_2BOT" value="PP45_HOR_2BOT" x="30.48" y="83.82" rot="R180"/>
+<element name="U$5" library="SPEAR" package="PP45_HOR_2BOT" value="PP45_HOR_2BOT" x="30.48" y="63.5" rot="R180"/>
+<element name="U$6" library="SPEAR" package="PP45_HOR_2BOT" value="PP45_HOR_2BOT" x="30.48" y="40.64" rot="R180"/>
+<element name="U$7" library="SPEAR" package="PP45_HOR_2BOT" value="PP45_HOR_2BOT" x="30.48" y="17.78" rot="R180"/>
+<element name="U$8" library="SPEAR" package="AMP-MTE-2MALE" value="AMP-MTE-2MALE" x="60.96" y="11.43" rot="R180"/>
+<element name="U$9" library="SPEAR-PDU" package="R-78E3.3-0.5" value="R-78E3.3-0.5" x="59.69" y="21.59"/>
+<element name="2PIN_CONNECTOR1" library="2PIN_CONNECTOR" package="2PIN_CONNECTOR" value="2PIN_CONNECTOR" x="93.98" y="87.63" rot="R270"/>
+<element name="2PIN_CONNECTOR2" library="2PIN_CONNECTOR" package="2PIN_CONNECTOR" value="2PIN_CONNECTOR" x="93.98" y="76.2" rot="R270"/>
+<element name="2PIN_CONNECTOR3" library="2PIN_CONNECTOR" package="2PIN_CONNECTOR" value="2PIN_CONNECTOR" x="93.98" y="64.77" rot="R270"/>
+<element name="2PIN_CONNECTOR4" library="2PIN_CONNECTOR" package="2PIN_CONNECTOR" value="2PIN_CONNECTOR" x="93.98" y="53.34" rot="R270"/>
+<element name="2PIN_CONNECTOR5" library="2PIN_CONNECTOR" package="2PIN_CONNECTOR" value="2PIN_CONNECTOR" x="93.98" y="41.91" rot="R270"/>
+<element name="2PIN_CONNECTOR6" library="2PIN_CONNECTOR" package="2PIN_CONNECTOR" value="2PIN_CONNECTOR" x="93.98" y="30.48" rot="R270"/>
+<element name="U$1" library="20A_FUSE_HOLDER" package="20A_FUSE_HOLDER" value="20A_FUSE_HOLDER" x="64.77" y="90.17"/>
+<element name="U$2" library="20A_FUSE_HOLDER" package="20A_FUSE_HOLDER" value="20A_FUSE_HOLDER" x="64.77" y="78.74"/>
+<element name="U$3" library="20A_FUSE_HOLDER" package="20A_FUSE_HOLDER" value="20A_FUSE_HOLDER" x="64.77" y="67.31"/>
+<element name="U$14" library="20A_FUSE_HOLDER" package="20A_FUSE_HOLDER" value="20A_FUSE_HOLDER" x="64.77" y="55.88"/>
+<element name="U$15" library="20A_FUSE_HOLDER" package="20A_FUSE_HOLDER" value="20A_FUSE_HOLDER" x="64.77" y="44.45"/>
+<element name="U$16" library="20A_FUSE_HOLDER" package="20A_FUSE_HOLDER" value="20A_FUSE_HOLDER" x="64.77" y="33.02"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -509,10 +509,10 @@ design rules under a new name.</description>
 <contactref element="U$7" pad="-"/>
 <contactref element="U$6" pad="-"/>
 <polygon width="0.1524" layer="16">
-<vertex x="3.81" y="100.33"/>
-<vertex x="3.81" y="2.54"/>
-<vertex x="105.41" y="2.54"/>
-<vertex x="105.41" y="100.33"/>
+<vertex x="-7.46" y="110.33"/>
+<vertex x="-7.46" y="-7.46"/>
+<vertex x="104.14" y="-7.46"/>
+<vertex x="104.14" y="110.33"/>
 </polygon>
 </signal>
 <signal name="V">
@@ -528,66 +528,66 @@ design rules under a new name.</description>
 <contactref element="U$6" pad="+"/>
 <contactref element="U$4" pad="+"/>
 <polygon width="0.1524" layer="1">
-<vertex x="27.94" y="95.25"/>
-<vertex x="78.74" y="95.25"/>
-<vertex x="78.74" y="33.02"/>
-<vertex x="46.99" y="33.02"/>
-<vertex x="46.99" y="8.89"/>
-<vertex x="27.94" y="8.89"/>
+<vertex x="24.13" y="91.44"/>
+<vertex x="74.93" y="91.44"/>
+<vertex x="74.93" y="29.21"/>
+<vertex x="43.18" y="29.21"/>
+<vertex x="43.18" y="5.08"/>
+<vertex x="24.13" y="5.08"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="54.61" y="35.56"/>
-<vertex x="54.61" y="20.32"/>
-<vertex x="62.23" y="20.32"/>
-<vertex x="62.23" y="35.56"/>
+<vertex x="50.8" y="31.75"/>
+<vertex x="50.8" y="16.51"/>
+<vertex x="58.42" y="16.51"/>
+<vertex x="58.42" y="31.75"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="83.82" y="96.52"/>
-<vertex x="100.33" y="96.52" curve="-90"/>
-<vertex x="101.6" y="95.25"/>
-<vertex x="101.6" y="90.17"/>
-<vertex x="82.55" y="90.17"/>
-<vertex x="82.55" y="95.25" curve="-90"/>
+<vertex x="80.01" y="92.71"/>
+<vertex x="96.52" y="92.71" curve="-90"/>
+<vertex x="97.79" y="91.44"/>
+<vertex x="97.79" y="86.36"/>
+<vertex x="78.74" y="86.36"/>
+<vertex x="78.74" y="91.44" curve="-90"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="83.82" y="85.09"/>
-<vertex x="100.33" y="85.09" curve="-90"/>
-<vertex x="101.6" y="83.82"/>
-<vertex x="101.6" y="78.74"/>
-<vertex x="82.55" y="78.74"/>
-<vertex x="82.55" y="83.82" curve="-90"/>
+<vertex x="80.01" y="81.28"/>
+<vertex x="96.52" y="81.28" curve="-90"/>
+<vertex x="97.79" y="80.01"/>
+<vertex x="97.79" y="74.93"/>
+<vertex x="78.74" y="74.93"/>
+<vertex x="78.74" y="80.01" curve="-90"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="83.82" y="73.66"/>
-<vertex x="100.33" y="73.66" curve="-90"/>
-<vertex x="101.6" y="72.39"/>
-<vertex x="101.6" y="67.31"/>
-<vertex x="82.55" y="67.31"/>
-<vertex x="82.55" y="72.39" curve="-90"/>
+<vertex x="80.01" y="69.85"/>
+<vertex x="96.52" y="69.85" curve="-90"/>
+<vertex x="97.79" y="68.58"/>
+<vertex x="97.79" y="63.5"/>
+<vertex x="78.74" y="63.5"/>
+<vertex x="78.74" y="68.58" curve="-90"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="83.82" y="63.5"/>
-<vertex x="100.33" y="63.5" curve="-90"/>
-<vertex x="101.6" y="62.23"/>
-<vertex x="101.6" y="57.15"/>
-<vertex x="82.55" y="57.15"/>
-<vertex x="82.55" y="62.23" curve="-90"/>
+<vertex x="80.01" y="59.69"/>
+<vertex x="96.52" y="59.69" curve="-90"/>
+<vertex x="97.79" y="58.42"/>
+<vertex x="97.79" y="53.34"/>
+<vertex x="78.74" y="53.34"/>
+<vertex x="78.74" y="58.42" curve="-90"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="83.82" y="50.8"/>
-<vertex x="100.33" y="50.8" curve="-90"/>
-<vertex x="101.6" y="49.53"/>
-<vertex x="101.6" y="44.45"/>
-<vertex x="82.55" y="44.45"/>
-<vertex x="82.55" y="49.53" curve="-90"/>
+<vertex x="80.01" y="46.99"/>
+<vertex x="96.52" y="46.99" curve="-90"/>
+<vertex x="97.79" y="45.72"/>
+<vertex x="97.79" y="40.64"/>
+<vertex x="78.74" y="40.64"/>
+<vertex x="78.74" y="45.72" curve="-90"/>
 </polygon>
 <polygon width="0.1524" layer="1">
-<vertex x="83.82" y="39.37"/>
-<vertex x="100.33" y="39.37" curve="-90"/>
-<vertex x="101.6" y="38.1"/>
-<vertex x="101.6" y="33.02"/>
-<vertex x="82.55" y="33.02"/>
-<vertex x="82.55" y="38.1" curve="-90"/>
+<vertex x="80.01" y="35.56"/>
+<vertex x="96.52" y="35.56" curve="-90"/>
+<vertex x="97.79" y="34.29"/>
+<vertex x="97.79" y="29.21"/>
+<vertex x="78.74" y="29.21"/>
+<vertex x="78.74" y="34.29" curve="-90"/>
 </polygon>
 <contactref element="2PIN_CONNECTOR1" pad="P$1"/>
 <contactref element="U$16" pad="P$3"/>
@@ -601,17 +601,17 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="P$1"/>
 <contactref element="2PIN_CONNECTOR3" pad="P$1"/>
 <contactref element="U$15" pad="P$3"/>
-<wire x1="89.08" y1="48.26" x2="89.08" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="89.08" y1="59.69" x2="89.08" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="89.08" y1="71.12" x2="89.08" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="89.08" y1="82.55" x2="89.08" y2="71.12" width="0" layer="19" extent="1-1"/>
-<wire x1="89.08" y1="93.98" x2="89.08" y2="82.55" width="0" layer="19" extent="1-1"/>
-<wire x1="68.58" y1="36.83" x2="89.08" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="85.27" y1="44.45" x2="85.27" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="85.27" y1="55.88" x2="85.27" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="85.27" y1="67.31" x2="85.27" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="85.27" y1="78.74" x2="85.27" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="85.27" y1="90.17" x2="85.27" y2="78.74" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="33.02" x2="85.27" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U$9" pad="VOUT"/>
 <contactref element="U$8" pad="P$1"/>
-<wire x1="66.04" y1="25.4" x2="66.04" y2="15.24" width="2" layer="1"/>
+<wire x1="62.23" y1="21.59" x2="62.23" y2="11.43" width="2" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
