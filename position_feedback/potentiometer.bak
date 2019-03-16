@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Potentiometer
+#
+DEF Potentiometer U 0 40 Y Y 1 F N
+F0 "U" 150 50 60 H V C CNN
+F1 "Potentiometer" 150 50 60 H V C CNN
+F2 "" 150 50 60 H I C CNN
+F3 "" 150 50 60 H I C CNN
+DRAW
+S -300 250 550 -250 0 1 0 N
+X VCC 1 -50 -350 100 U 50 50 1 1 P
+X Signal 2 150 -350 100 U 50 50 1 1 P
+X GND 3 -400 -50 100 R 50 50 1 1 P
+X GND 3 350 -350 100 U 50 50 1 1 P
+X GND 4 650 -50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
