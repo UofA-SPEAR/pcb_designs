@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15098,6 +15098,7 @@ Vbat is ADC1_IN3</text>
 <wire x1="259.08" y1="127" x2="259.08" y2="177.8" width="0.1524" layer="94" style="shortdash"/>
 <text x="259.08" y="177.8" size="1.778" layer="94">Battery Voltage Divider (1/10)</text>
 <text x="187.96" y="160.02" size="1.778" layer="94">RT9058</text>
+<text x="205.74" y="38.1" size="1.778" layer="94">Gain: 1000</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="35.56" y="99.06" smashed="yes">
