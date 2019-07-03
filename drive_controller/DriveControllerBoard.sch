@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8291,6 +8291,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP1" library="SPEAR-general" deviceset="CORTEX-M-DBG" device=""/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8445,6 +8446,9 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="20.32" y="35.56" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="G$1" x="2.54" y="147.32" smashed="yes"/>
+<instance part="GND10" gate="1" x="22.86" y="86.36" smashed="yes" rot="R90">
+<attribute name="VALUE" x="25.4" y="83.82" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8561,8 +8565,13 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="22.86" y="53.34"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="STBY"/>
+<wire x1="10.16" y1="86.36" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+</segment>
 </net>
-<net name="N$1" class="0">
+<net name="CANH" class="0">
 <segment>
 <wire x1="27.94" y1="99.06" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="CANH"/>
@@ -8576,9 +8585,10 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-25.4" y1="111.76" x2="-25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
 <junction x="27.94" y="93.98"/>
+<label x="17.78" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="CANL" class="0">
 <segment>
 <pinref part="CON1" gate="G$1" pin="CANL"/>
 <wire x1="-22.86" y1="114.3" x2="-25.4" y2="114.3" width="0.1524" layer="91"/>
@@ -8598,30 +8608,31 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="30.48" y1="71.12" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="71.12" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
 <junction x="30.48" y="71.12"/>
+<label x="17.78" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CANRX" class="0">
-<segment>
-<pinref part="U2" gate="-PORTA" pin="PA12"/>
-<wire x1="-55.88" y1="109.22" x2="-48.26" y2="109.22" width="0.1524" layer="91"/>
-<label x="-48.26" y="109.22" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="RXD"/>
 <wire x1="-17.78" y1="71.12" x2="-25.4" y2="71.12" width="0.1524" layer="91"/>
 <label x="-27.94" y="71.12" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="CANTX" class="0">
 <segment>
 <pinref part="U2" gate="-PORTA" pin="PA11"/>
 <wire x1="-55.88" y1="111.76" x2="-48.26" y2="111.76" width="0.1524" layer="91"/>
 <label x="-48.26" y="111.76" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="CANTX" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="TXD"/>
 <wire x1="-17.78" y1="76.2" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
 <label x="-27.94" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="-PORTA" pin="PA12"/>
+<wire x1="-55.88" y1="109.22" x2="-48.26" y2="109.22" width="0.1524" layer="91"/>
+<label x="-48.26" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1B" class="0">

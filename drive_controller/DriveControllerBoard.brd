@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1904,8 +1904,25 @@ design rules under a new name.</description>
 <wire x1="94.15" y1="71.875" x2="93.98" y2="72.045" width="0.2032" layer="1"/>
 <wire x1="93.98" y1="72.045" x2="93.98" y2="72.709" width="0.2032" layer="1"/>
 <via x="93.98" y="72.709" extent="1-16" drill="0.35"/>
+<contactref element="U$3" pad="8"/>
+<wire x1="97.35" y1="73.725" x2="93.98" y2="72.709" width="0" layer="19" extent="1-1"/>
+<wire x1="84.381" y1="66.338" x2="93.98" y2="72.045" width="0" layer="19" extent="1-1"/>
+<wire x1="79.75" y1="72.905" x2="82.677" y2="66.359" width="0" layer="19" extent="1-1"/>
+<wire x1="74.25" y1="71.635" x2="79.75" y2="72.905" width="0" layer="19" extent="1-1"/>
+<wire x1="71.374" y1="66.105" x2="73.718" y2="71.635" width="0" layer="19" extent="1-1"/>
+<wire x1="61.976" y1="59.12" x2="69.759" y2="66.132" width="0" layer="19" extent="1-1"/>
+<wire x1="67.056" y1="49.214" x2="64.262" y2="53.405" width="0" layer="19" extent="1-1"/>
+<wire x1="70.612" y1="44.769" x2="66.988" y2="47.8" width="0" layer="19" extent="1-1"/>
+<wire x1="72" y1="38.05" x2="71.591" y2="43.79" width="0" layer="19" extent="1-1"/>
+<wire x1="73.152" y1="30.164" x2="73.914" y2="36.006" width="0" layer="19" extent="1-1"/>
+<wire x1="79.95" y1="28" x2="74.05" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="74.5" y1="50.29" x2="70.612" y2="44.769" width="0" layer="19" extent="1-1"/>
+<wire x1="81" y1="48.29" x2="74.5" y2="50.29" width="0" layer="19" extent="1-1"/>
+<wire x1="96" y1="50.19" x2="82.677" y2="48.325" width="0" layer="19" extent="1-1"/>
+<wire x1="96" y1="42.81" x2="96" y2="50.19" width="0" layer="19" extent="1-1"/>
+<wire x1="97" y1="27.73" x2="96" y2="42.81" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$1">
+<signal name="CANH">
 <contactref element="U$3" pad="7"/>
 <contactref element="CON2" pad="2"/>
 <contactref element="CON1" pad="2"/>
@@ -1922,7 +1939,7 @@ design rules under a new name.</description>
 <wire x1="92.329" y1="80.837" x2="92.867" y2="81.375" width="0.2032" layer="1"/>
 <wire x1="92.867" y1="81.375" x2="94.15" y2="81.375" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$4">
+<signal name="CANL">
 <contactref element="CON1" pad="3"/>
 <contactref element="CON2" pad="3"/>
 <contactref element="U$3" pad="6"/>
@@ -1939,18 +1956,18 @@ design rules under a new name.</description>
 <wire x1="92.847" y1="82.625" x2="94.15" y2="82.625" width="0.2032" layer="1"/>
 </signal>
 <signal name="CANRX">
-<contactref element="U2" pad="33"/>
 <contactref element="U$3" pad="4"/>
-<wire x1="75.5" y1="50.29" x2="75.5" y2="67.845" width="0.2032" layer="1"/>
 <wire x1="75.5" y1="67.845" x2="74.25" y2="69.095" width="0.2032" layer="1"/>
+<contactref element="U2" pad="32"/>
+<wire x1="76" y1="50.29" x2="75.5" y2="67.845" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANTX">
-<contactref element="U2" pad="32"/>
 <contactref element="U$3" pad="1"/>
 <wire x1="75.1052125" y1="72.189" x2="74.966" y2="72.189" width="0.2032" layer="1"/>
 <wire x1="74.966" y1="72.189" x2="74.25" y2="72.905" width="0.2032" layer="1"/>
-<wire x1="76" y1="50.29" x2="76" y2="71.2942125" width="0.2032" layer="1"/>
 <wire x1="76" y1="71.2942125" x2="75.1052125" y2="72.189" width="0.2032" layer="1"/>
+<contactref element="U2" pad="33"/>
+<wire x1="75.5" y1="50.29" x2="76" y2="71.2942125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="1B">
 <contactref element="U2" pad="30"/>
