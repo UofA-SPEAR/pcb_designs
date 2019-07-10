@@ -394,8 +394,8 @@
 <library name="SPEAR-arm-pdu">
 <packages>
 <package name="2PIN_5MM">
-<pad name="P$1" x="-2.5" y="0" drill="0.6" shape="square"/>
-<pad name="P$2" x="2.5" y="0" drill="0.6" shape="square"/>
+<pad name="P$1" x="-2.5" y="0" drill="1.3" shape="square"/>
+<pad name="P$2" x="2.5" y="0" drill="1.3" shape="square"/>
 <wire x1="-5" y1="2.5" x2="5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="5" y1="2.5" x2="5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="5" y1="-2.5" x2="-5" y2="-2.5" width="0.127" layer="21"/>
@@ -641,8 +641,8 @@
 <wire x1="2.54" y1="38.1" x2="0" y2="38.1" width="0.1524" layer="91"/>
 <label x="-5.08" y="40.64" size="1.778" layer="95"/>
 <wire x1="0" y1="38.1" x2="0" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="1"/>
 <wire x1="0" y1="40.64" x2="-2.54" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OUT2" class="0">
@@ -650,41 +650,41 @@
 <pinref part="U$2" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="0" y1="25.4" x2="0" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="1"/>
 <wire x1="0" y1="27.94" x2="-2.54" y2="27.94" width="0.1524" layer="91"/>
 <label x="0" y="27.94" size="1.778" layer="95"/>
+<pinref part="U$17" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OUT3" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="2"/>
-<pinref part="U$18" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="12.7" x2="-2.54" y2="12.7" width="0.1524" layer="91"/>
 <label x="0" y="7.62" size="1.778" layer="95"/>
+<pinref part="U$18" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OUT4" class="0">
 <segment>
 <pinref part="U$16" gate="G$1" pin="2"/>
-<pinref part="U$10" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
 <label x="48.26" y="43.18" size="1.778" layer="95"/>
+<pinref part="U$10" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="OUT5" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="2"/>
 <pinref part="U$15" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
 <label x="50.8" y="25.4" size="1.778" layer="95"/>
+<pinref part="U$11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="OUT6" class="0">
 <segment>
 <pinref part="U$14" gate="G$1" pin="2"/>
-<pinref part="U$12" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="5.08" x2="60.96" y2="5.08" width="0.1524" layer="91"/>
 <label x="50.8" y="10.16" size="1.778" layer="95"/>
+<pinref part="U$12" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
