@@ -158,10 +158,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="100" y2="0" width="0" layer="20"/>
-<wire x1="100" y1="0" x2="100" y2="100" width="0" layer="20"/>
-<wire x1="100" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="99.365" x2="0" y2="0.635" width="0" layer="20"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="0.635" y1="0" x2="99.365" y2="0" width="0" layer="20"/>
+<wire x1="99.365" y1="0" x2="100" y2="0.635" width="0" layer="20" curve="90"/>
+<wire x1="100" y1="0.635" x2="100" y2="99.365" width="0" layer="20"/>
+<wire x1="100" y1="99.365" x2="99.365" y2="100" width="0" layer="20" curve="90"/>
+<wire x1="99.365" y1="100" x2="0.635" y2="100" width="0" layer="20"/>
+<wire x1="0.635" y1="100" x2="0" y2="99.365" width="0" layer="20" curve="90"/>
 <text x="15" y="21" size="1.778" layer="21">SPEAR 2019
 JACK DE WIT
 DRIVE CONTROLLER BOARD</text>
