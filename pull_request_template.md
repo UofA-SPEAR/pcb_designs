@@ -7,6 +7,7 @@ DO NOT EDIT THESE OR MARK THEM AS COMPLETE. They are for the reviewer.
 - [ ] General
     - [ ] Schematic is clean and readable.
     - [ ] Eagle DRC runs with no errors.
+    - [ ] Board outline meets requirements.
 - [ ] Connections
     - [ ] Pinouts of all components have been double checked with the datasheets.
     - [ ] Connections on headers are correct and comply with standards.
