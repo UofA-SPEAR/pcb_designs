@@ -2,55 +2,39 @@
 
 Central repository to hold PCB designs for SPEAR.
 
-## eagle_libs ##
+All board documentation shall be held in the [Wiki.](https://github.com/UofA-SPEAR/pcb_designs/wiki/).
 
-Put all your devices, symbols, and footprints into libraries in this folder.
+## Onboarding
 
-For now, make a new library for every project.
-I am unsure how to deal with managing libraries at the moment.
+If you plan on contributing to the PCB designs, first, you need to go through this list:
 
-## Things that need to be designed for URC 2018 ##
+1. Sign up for github, and fill out the new member form (contact the current team lead for this).
+2. Follow the [GitHub Guides](https://guides.github.com/), specifically:
+  - "Hello World"
+  - "Understanding the GitHub flow."
+  - "Documenting your projects on GitHub"
+3. Create a branch named `onboarding-yourname`, and submit a PR to master with the
+    title "Onboarding process"
 
-Obviously, stuff that needs to get done before URC 2018 (and ideally before the SAR)
+## Contributing
 
-### Battery Power / Killswitch Boards ###
+In order to start a new project, there are a few steps.
 
-Modular boards with connectors for the batteries we are using,
-relays for killswitch operation,
-fuses for protection,
-and current monitering.
+1. Create a new branch for your project.
+2. Create a folder for your project, with the name of your project.
+3. Create an Eagle library for your project.
+4. Begin a documentation page on the wiki.
 
-The idea here is to have modular boards that can handle 1-2 batteries, with useful connectors for the rest of the system.
+### Branches
 
-### Subsystem Power Distribution Boards ###
+Branches are a useful concept in Git, where you can work on your portion
+of the project seperately from everyone else, and then "merge" your changes back in.
 
-These boards will be incredibly simple and will essentially just break out power to each of the subcomponents in each subsystem.
-They may have power regulators, but that depends on the subsystem.
+We make use of branches extensively. For every project, or new task, make a new branch, with
+the naming scheme `project-name-yourname`, where "yourname" is ideally your first name, or at least
+something that uniquely identifies you.
 
-### Drive Controller Board ###
-
-CAN bus interfaced board that can use the motor drivers and encoders to control the wheels.
-
-### Arm Controller Boards ###
-
-CAN bus interfaced boards that can control the motors on the arm.
-
-We will need a brushed DC motor driver, with potentiometer and encoder feedback capabilities.
-This board will run a PID loop to control the motor.
-
-### Science Interface Board ###
-
-This board will have to interface with the CO2 sensors the science team needs,
-as well as a servo driver interface. This will have to provide power and signal to control
-any servos we have on board.
-
-It will also have an accelerometer, a magnetometer, and a GPS module.
-
-
-### RC Controller Input board ###
-
-This board will just take signals from whatever RC controller we use and output them onto the CAN bus so we can use them for control.
-
-### Status Indication Board ###
-
-The indication board will have 8 RGB LEDs in order to display node statuses and possibly other things.
+When you are finished your design, make a pull request to master, and assign the team
+lead to review it. This is where the team lead will do a design review and ask to make
+any required changes. Once these changes are made (or there are no changes), this code will be pulled into
+the main repository, and the branch will be deleted.
