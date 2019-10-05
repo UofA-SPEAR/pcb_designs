@@ -13,8 +13,7 @@ If you plan on contributing to the PCB designs, first, you need to go through th
   - "Hello World"
   - "Understanding the GitHub flow."
   - "Documenting your projects on GitHub"
-3. Create a branch named `onboarding-yourname`, and submit a PR to master with the
-    title "Onboarding process"
+3. Follow the [Onboarding Task](https://github.com/UofA-SPEAR/pcb_designs/wiki/Onboarding-Task).
 
 ## Contributing
 
