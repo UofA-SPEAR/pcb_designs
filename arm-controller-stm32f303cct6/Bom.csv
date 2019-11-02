@@ -1,0 +1,28 @@
+Manufacturer Part Number,Manufacturer,Digi-Key Part Number,Customer Reference,Reference Designator,Packaging,Part Status,Quantity,Unit Price,Extended Price,Quantity Available,Mfg Std Lead Time,Description,RoHS Status,Lead Free Status,REACH Status,US Tariff Status
+MCP2562T-E/SN,Microchip Technology,MCP2562T-E/SNCT-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,1.46,$1.46,27560,14 Weeks,IC TXRX CAN 8SOIC,RoHS Compliant,Lead free,REACH Unaffected,
+RT6200GE,Richtek USA Inc.,RT6200GECT-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,3.32,$3.32,2975,16 Weeks,IC REG BUCK ADJ 0.6A SOT23-6,RoHS Compliant,Lead free,REACH Unaffected,
+AP2112K-3.3TRG1,Diodes Incorporated,AP2112K-3.3TRG1DICT-ND,ARM_CONTROL,,Cut Tape (CT),Active,2,0.75,$1.50,151941,24 Weeks,IC REG LINEAR 3.3V 600MA SOT25,RoHS Compliant,Lead free,REACH Unaffected,Tariff Applied
+VNH5019ATR-E,STMicroelectronics,497-13073-1-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,13,$13.00,10,Not Available,IC MTR DRV 5.5-24V MULTIPWRSO-30,RoHS Compliant,Lead free,Not Available,
+SM04B-GHS-TB(LF)(SN)-,JST Sales America Inc.,455-1566-1-ND,ARM_CONTROL,,Cut Tape (CT),Active,2,0.66,$1.32,73785,24 Weeks,CONN HEADER SMD R/A 4POS 1.25MM,RoHS Compliant,Lead free,Not Available,
+RC0805JR-071KL,Yageo,311-1.0KARCT-ND,ARM_CONTROL,,Cut Tape (CT),Active,10,0.056,$0.56,7880762,16 Weeks,RES SMD 1K OHM 5% 1/8W 0805,RoHS Compliant,Lead free,REACH Unaffected,Tariff Applied
+CL21F104ZBCNNNC,Samsung Electro-Mechanics,1276-1007-1-ND,ARM_CONTROL,,Cut Tape (CT),Active,2,0.15,$0.30,1074630,Not Available,CAP CER 0.1UF 50V Y5V 0805,RoHS Compliant,Lead free,REACH Unaffected,
+RC0805JR-074K7L,Yageo,311-4.7KARCT-ND,ARM_CONTROL,,Cut Tape (CT),Active,2,0.16,$0.32,4683044,16 Weeks,RES SMD 4.7K OHM 5% 1/8W 0805,RoHS Compliant,Lead free,REACH Unaffected,Tariff Applied
+RC0805JR-071KL,Yageo,311-1.0KARCT-ND,ARM_CONTROL,,Cut Tape (CT),Active,10,0.056,$0.56,7880762,16 Weeks,RES SMD 1K OHM 5% 1/8W 0805,RoHS Compliant,Lead free,REACH Unaffected,Tariff Applied
+NX5032GA-8.000M-STD-CSU-1,"NDK America, Inc.",644-1132-1-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,1.02,$1.02,199770,12 Weeks,CRYSTAL 8.0000MHZ 8PF SMD,RoHS Compliant,Lead free,Not Available,Tariff Applied
+885012007012,Wurth Electronics Inc.,732-7816-1-ND,ARM_CONTROL,,Cut Tape (CT),Active,2,0.15,$0.30,4459,37 Weeks,CAP CER 22PF 16V C0G/NP0 0805,RoHS Compliant,Lead free,REACH Unaffected,
+LTST-C171GKT,Lite-On Inc.,160-1423-1-ND,ARM_CONTROL,,Cut Tape (CT),Active,2,0.43,$0.86,473393,12 Weeks,LED GREEN CLEAR CHIP SMD,RoHS Compliant,Lead free,Not Available,Tariff Applied
+RR1220P-103-D,Susumu,RR12P10.0KDCT-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,0.17,$0.17,921061,16 Weeks,RES SMD 10K OHM 0.5% 1/10W 0805,RoHS Compliant,Lead free,Not Available,Tariff Applied
+IPB80N03S4L03ATMA1,Infineon Technologies,IPB80N03S4L03ATMA1CT-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,2.57,$2.57,780,Not Available,MOSFET N-CH 30V 80A TO263-3,RoHS Compliant,Lead free,Not Available,
+CL21A106KQCLRNC,Samsung Electro-Mechanics,1276-2405-1-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,0.16,$0.16,51390,Not Available,CAP CER 10UF 6.3V X5R 0805,RoHS Compliant,Lead free,REACH Unaffected,Tariff Applied
+TPSE107M025R0150,AVX Corporation,478-10758-1-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,4.66,$4.66,4944,15 Weeks,CAP TANT 100UF 20% 25V 2917,RoHS Compliant,Lead free,REACH Unaffected,
+CL21A475KLCLQNC,Samsung Electro-Mechanics,1276-6722-1-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,0.35,$0.35,1213767,Not Available,CAP CER 4.7UF 35V X5R 0805,RoHS Compliant,Lead free,REACH Unaffected,Tariff Applied
+219-4LPSTR,CTS Electrocomponents,CT3116CT-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,1.34,$1.34,10433,8 Weeks,SWITCH SLIDE DIP SPST 100MA 20V,RoHS Compliant,Lead free,Not Available,
+ERA-6AEB913V,Panasonic Electronic Components,P91KDACT-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,0.56,$0.56,15398,22 Weeks,RES SMD 91K OHM 0.1% 1/8W 0805,RoHS Compliant,Lead free,REACH Unaffected,
+RC0805FR-0717K4L,Yageo,311-17.4KCRCT-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,0.16,$0.16,388172,16 Weeks,RES SMD 17.4K OHM 1% 1/8W 0805,RoHS Compliant,Lead free,REACH Unaffected,Tariff Applied
+1935161,Phoenix Contact,277-1667-ND,ARM_CONTROL,,Bulk,Active,2,0.63,$1.26,100614,15 Weeks,TERM BLK 2POS SIDE ENTRY 5MM PCB,RoHS Compliant,Lead free,Not Available,
+5-103669-3,TE Connectivity AMP Connectors,A33897-ND,ARM_CONTROL,,Tube,Active,1,1.34,$1.34,3111,4 Weeks,CONN HEADER VERT 4POS 2.54MM,RoHS Compliant,Lead free,Not Available,
+ERA-6AEB202V,Panasonic Electronic Components,P2.0KDACT-ND,ARM_CONTROL,,Cut Tape (CT),Active,2,0.56,$1.12,145048,22 Weeks,RES SMD 2K OHM 0.1% 1/8W 0805,RoHS Compliant,Lead free,REACH Unaffected,
+ERA-6AEB332V,Panasonic Electronic Components,P3.3KDACT-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,0.56,$0.56,139080,22 Weeks,RES SMD 3.3K OHM 0.1% 1/8W 0805,RoHS Compliant,Lead free,REACH Unaffected,
+74404032150,Wurth Electronics Inc.,732-5498-1-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,1.71,$1.71,4728,13 Weeks,FIXED IND 15UH 730MA 300 MOHM,RoHS Compliant,Lead free,REACH Unaffected,Tariff Eligible
+742792651,Wurth Electronics Inc.,732-1593-1-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,0.25,$0.25,300952,12 Weeks,FERRITE BEAD 600 OHM 0603 1LN,RoHS Compliant,Lead free,REACH Unaffected,
+CL21B333KBANNNC,Samsung Electro-Mechanics,1276-1796-1-ND,ARM_CONTROL,,Cut Tape (CT),Active,1,0.16,$0.16,391390,Not Available,CAP CER 0.033UF 50V X7R 0805,RoHS Compliant,Lead free,REACH Unaffected,
