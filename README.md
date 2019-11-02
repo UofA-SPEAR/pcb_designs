@@ -2,55 +2,38 @@
 
 Central repository to hold PCB designs for SPEAR.
 
-## kicad_libs ##
+All board documentation shall be held in the [Wiki.](https://github.com/UofA-SPEAR/pcb_designs/wiki/).
 
-The folder to put all components and footprints created.
+## Onboarding
 
-## Things that need to be designed for URC 2018 ##
+If you plan on contributing to the PCB designs, first, you need to go through this list:
 
-Obviously, stuff that needs to get done before URC 2018 (and ideally before the SAR)
+1. Sign up for github, and fill out the new member form (contact the current team lead for this).
+2. Follow the [GitHub Guides](https://guides.github.com/), specifically:
+  - "Hello World"
+  - "Understanding the GitHub flow."
+  - "Documenting your projects on GitHub"
+3. Follow the [Onboarding Task](https://github.com/UofA-SPEAR/pcb_designs/wiki/Onboarding-Task).
 
-### Battery Power / Killswitch Boards ###
+## Contributing
 
-Modular boards with connectors for the batteries we are using,
-relays for killswitch operation,
-fuses for protection,
-and current monitering.
+In order to start a new project, there are a few steps.
 
-The idea here is to have modular boards that can handle 1-2 batteries, with useful connectors for the rest of the system.
+1. Create a new branch for your project.
+2. Create a folder for your project, with the name of your project.
+3. Create an Eagle library for your project.
+4. Begin a documentation page on the wiki.
 
-### Subsystem Power Distribution Boards ###
+### Branches
 
-These boards will be incredibly simple and will essentially just break out power to each of the subcomponents in each subsystem.
-They may have power regulators, but that depends on the subsystem.
+Branches are a useful concept in Git, where you can work on your portion
+of the project seperately from everyone else, and then "merge" your changes back in.
 
-### Drive Controller Board ###
+We make use of branches extensively. For every project, or new task, make a new branch, with
+the naming scheme `project-name-yourname`, where "yourname" is ideally your first name, or at least
+something that uniquely identifies you.
 
-CAN bus interfaced board that can use the motor drivers and encoders to control the wheels.
-
-### Arm Controller Boards ###
-
-CAN bus interfaced boards that can control the motors on the arm.
-
-For these we need two designs: one that can control stepper motors and one that can control brushed DC motors.
-The brushed DC controllers can be lower priority because we can use some of the hardware we alread have to control those for a bit.
-As well they need to accomodate the implements on the arm (hand, drill, etc.)
-
-### Science Interface Board ###
-
-This board will have to interface with whatever sensors the science team needs (TBD, rules aren't out yet).
-It will output data to the CAN bus.
-
-Likely this will also include whatever GPS sensor we use.
-
-### RC Controller Input board ###
-
-This board will just take signals from whatever RC controller we use and output them onto the CAN bus so we can use them for control.
-
-### Status Indication Board ###
-
-There may be two versions of this. A simplistic version would be to simply hook some LEDs up to a uC and blink them based on the published NodeStatus messages.
-Another one could be a full featured display.
-
-Neither of these are necessary, they would just be nice,
-so they are very low priority.
+When you are finished your design, make a pull request to master, and assign the team
+lead to review it. This is where the team lead will do a design review and ask to make
+any required changes. Once these changes are made (or there are no changes), this code will be pulled into
+the main repository, and the branch will be deleted.

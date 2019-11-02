@@ -4,6 +4,11 @@ Gerbers/
 *.s#?
 *.b#?
 *.l#?
+*.d#?
 *.b$?
 *.s$?
 *.l$?
+*.d$?
+
+# LibreOffice locks
+*.~lock*

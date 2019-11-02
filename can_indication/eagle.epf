@@ -349,12 +349,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:175"
 UsedLibraryUrn="urn:adsk.eagle:library:176"
 UsedLibraryUrn="urn:adsk.eagle:library:177"
 UsedLibrary="C:/Users/David/Documents/au_hardware/libraries/ARVP.lbr"
-UsedLibrary="C:/Users/David/Documents/au_hardware/libraries/INA3221.lbr"
-UsedLibrary="C:/Users/David/Documents/au_hardware/libraries/New Power Board Library.lbr"
-UsedLibrary="C:/Users/David/Documents/au_hardware/libraries/SparkFun.lbr"
-UsedLibrary="C:/Users/David/Documents/au_hardware/libraries/Teensy_3_Series_Board_v1.0.lbr"
-UsedLibrary="C:/Users/David/Documents/au_hardware/libraries/dropper_torpedo_v3.lbr"
-UsedLibrary="C:/Users/David/Documents/au_hardware/libraries/nxp_60.lbr"
+
 UsedLibrary="C:/Users/David/Documents/SPEAR/pcb_designs/eagle_libs/SPEAR.lbr"
 
 [Win_1]
