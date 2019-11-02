@@ -349,6 +349,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:175"
 UsedLibraryUrn="urn:adsk.eagle:library:176"
 UsedLibraryUrn="urn:adsk.eagle:library:177"
 UsedLibrary="C:/Users/David/Documents/au_hardware/libraries/ARVP.lbr"
+
 UsedLibrary="C:/Users/David/Documents/SPEAR/pcb_designs/eagle_libs/SPEAR.lbr"
 
 [Win_1]

@@ -308,6 +308,21 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <wire x1="1.27" y1="4.445" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-0.635" y1="3.81" x2="0.635" y2="3.81" width="0.127" layer="21"/>
 </package>
+<package name="PP45-DG">
+<pad name="P$1" x="-3.95" y="0" drill="0.6" shape="square"/>
+<pad name="+" x="3.95" y="0" drill="0.6" shape="square"/>
+<wire x1="-5.08" y1="-1.27" x2="0" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-12.7" x2="0" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="0" y1="-12.7" x2="5.08" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-12.7" width="0.127" layer="21"/>
+<text x="-3.81" y="1.27" size="1.27" layer="21">+</text>
+<text x="2.54" y="1.27" size="1.27" layer="21">-</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP2562">
@@ -499,6 +514,15 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
 </symbol>
+<symbol name="PP45-DG">
+<pin name="+" x="-96.52" y="10.16" length="middle"/>
+<pin name="-" x="-96.52" y="2.54" length="middle"/>
+<wire x1="-91.44" y1="10.16" x2="-91.44" y2="0" width="0.254" layer="94"/>
+<wire x1="-91.44" y1="0" x2="-78.74" y2="0" width="0.254" layer="94"/>
+<wire x1="-78.74" y1="0" x2="-78.74" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-78.74" y1="12.7" x2="-91.44" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-91.44" y1="12.7" x2="-91.44" y2="10.16" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MCP2562-E/SN">
@@ -657,6 +681,22 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PP45-DG">
+<gates>
+<gate name="G$1" symbol="PP45-DG" x="63.5" y="0"/>
+</gates>
+<devices>
+<device name="" package="PP45-DG">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
