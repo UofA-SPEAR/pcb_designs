@@ -20570,8 +20570,8 @@ Source: www.kingbright.com</description>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="DGND" device=""/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/2" value="1000uF"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/2" value="1000uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/2" value="680uF"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/2" value="680uF"/>
 <part name="U1" library="LCSC" library_urn="urn:adsk.eagle:library:4712115" deviceset="AT25SF041" device="" package3d_urn="urn:adsk.eagle:package:5772235/2" value="4MB Flash"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -20599,6 +20599,7 @@ Source: www.kingbright.com</description>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="120"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/2" value="680uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -20926,6 +20927,10 @@ Source: www.kingbright.com</description>
 <attribute name="NAME" x="-49.53" y="80.2386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-49.53" y="75.438" size="1.778" layer="96"/>
 </instance>
+<instance part="C18" gate="G$1" x="-53.34" y="121.92" smashed="yes">
+<attribute name="NAME" x="-52.324" y="122.555" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-52.324" y="117.729" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21034,6 +21039,10 @@ Source: www.kingbright.com</description>
 <wire x1="-22.86" y1="109.22" x2="-38.1" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="109.22" x2="-38.1" y2="116.84" width="0.1524" layer="91"/>
 <junction x="-22.86" y="109.22"/>
+<pinref part="C18" gate="G$1" pin="-"/>
+<wire x1="-53.34" y1="116.84" x2="-53.34" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="109.22" x2="-38.1" y2="109.22" width="0.1524" layer="91"/>
+<junction x="-38.1" y="109.22"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
@@ -21259,6 +21268,10 @@ Source: www.kingbright.com</description>
 <wire x1="-22.86" y1="132.08" x2="-15.24" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="124.46" x2="-22.86" y2="132.08" width="0.1524" layer="91"/>
 <junction x="-22.86" y="132.08"/>
+<pinref part="C18" gate="G$1" pin="+"/>
+<wire x1="-53.34" y1="124.46" x2="-53.34" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="132.08" x2="-38.1" y2="132.08" width="0.1524" layer="91"/>
+<junction x="-38.1" y="132.08"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VM"/>
