@@ -20600,6 +20600,7 @@ Source: www.kingbright.com</description>
 <part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="120"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E5-10.5" package3d_urn="urn:adsk.eagle:package:23372/2" value="680uF"/>
+<part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -20930,6 +20931,10 @@ Source: www.kingbright.com</description>
 <instance part="C18" gate="G$1" x="-53.34" y="121.92" smashed="yes">
 <attribute name="NAME" x="-52.324" y="122.555" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-52.324" y="117.729" size="1.778" layer="96"/>
+</instance>
+<instance part="JP6" gate="G$1" x="-30.48" y="55.88" smashed="yes">
+<attribute name="NAME" x="-36.83" y="61.595" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-36.83" y="50.8" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -21379,6 +21384,11 @@ Source: www.kingbright.com</description>
 <wire x1="-50.8" y1="78.74" x2="-63.5" y2="78.74" width="0.1524" layer="91"/>
 <label x="-60.96" y="78.74" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="-33.02" y1="58.42" x2="-53.34" y2="58.42" width="0.1524" layer="91"/>
+<label x="-48.26" y="58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CANL" class="0">
 <segment>
@@ -21402,6 +21412,11 @@ Source: www.kingbright.com</description>
 <wire x1="-40.64" y1="76.2" x2="-40.64" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="71.12" x2="-55.88" y2="71.12" width="0.1524" layer="91"/>
 <label x="-53.34" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="2"/>
+<wire x1="-33.02" y1="55.88" x2="-53.34" y2="55.88" width="0.1524" layer="91"/>
+<label x="-48.26" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V/3V" class="0">
