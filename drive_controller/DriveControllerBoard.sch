@@ -9289,7 +9289,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 </instance>
 <instance part="D1" gate="G$1" x="-73.66" y="40.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="-76.2" y="40.1574" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-76.2" y="42.9514" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="-68.58" y="45.4914" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$5" gate="G$1" x="104.14" y="20.32" smashed="yes">
 <attribute name="NAME" x="97.79" y="28.575" size="1.778" layer="95"/>
@@ -9450,6 +9450,26 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="-76.2" y1="40.64" x2="-96.52" y2="40.64" width="0.1524" layer="91"/>
 <label x="-96.52" y="40.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="5V"/>
+<label x="-53.34" y="40.64" size="1.778" layer="95"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="-71.12" y1="40.64" x2="-60.96" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="40.64" x2="-45.72" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="30.48" x2="-60.96" y2="40.64" width="0.1524" layer="91"/>
+<junction x="-60.96" y="40.64"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="5.08" x2="96.52" y2="5.08" width="0.1524" layer="91"/>
+<label x="99.06" y="5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
+<label x="93.98" y="25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CANH" class="0">
 <segment>
@@ -9483,33 +9503,6 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pinref part="U$3" gate="G$1" pin="CANL"/>
 <wire x1="-45.72" y1="91.44" x2="-58.42" y2="91.44" width="0.1524" layer="91"/>
 <label x="-55.88" y="91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5V" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
-<label x="93.98" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="5.08" x2="91.44" y2="5.08" width="0.1524" layer="91"/>
-<label x="93.98" y="5.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-60.96" y1="30.48" x2="-60.96" y2="38.1" width="0.1524" layer="91"/>
-<label x="-60.96" y="35.56" size="1.778" layer="95" rot="R90" align="bottom-right"/>
-</segment>
-<segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="-71.12" y1="40.64" x2="-63.5" y2="40.64" width="0.1524" layer="91"/>
-<label x="-66.04" y="40.64" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="5V"/>
-<wire x1="-45.72" y1="40.64" x2="-53.34" y2="40.64" width="0.1524" layer="91"/>
-<label x="-50.8" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
