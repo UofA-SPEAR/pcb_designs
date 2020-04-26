@@ -9243,8 +9243,6 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="U$6" library="SPEAR-drive-controller" deviceset="AMP-MTE-4MALE" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9305,12 +9303,6 @@ Source: Comchip CGRM4001-G.pdf</description>
 <instance part="+3V2" gate="G$1" x="-53.34" y="35.56" smashed="yes">
 <attribute name="VALUE" x="-55.88" y="30.48" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND2" gate="1" x="-50.8" y="22.86" smashed="yes">
-<attribute name="VALUE" x="-53.34" y="20.32" size="1.778" layer="96"/>
-</instance>
-<instance part="GND3" gate="1" x="5.08" y="116.84" smashed="yes">
-<attribute name="VALUE" x="2.54" y="114.3" size="1.778" layer="96"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -9353,15 +9345,18 @@ Source: Comchip CGRM4001-G.pdf</description>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="GND@1"/>
-<wire x1="-45.72" y1="35.56" x2="-50.8" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="35.56" x2="-50.8" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="-45.72" y1="35.56" x2="-55.88" y2="35.56" width="0.1524" layer="91"/>
+<label x="-53.34" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="GND@3"/>
+<wire x1="-7.62" y1="127" x2="2.54" y2="127" width="0.1524" layer="91"/>
+<label x="5.08" y="127" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="GND@2"/>
-<wire x1="-7.62" y1="121.92" x2="5.08" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="5.08" y1="121.92" x2="5.08" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="121.92" x2="2.54" y2="121.92" width="0.1524" layer="91"/>
+<label x="7.62" y="121.92" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="1B" class="0">
@@ -9543,12 +9538,6 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="-45.72" y1="30.48" x2="-53.34" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="30.48" x2="-53.34" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="GND@3"/>
-<wire x1="-7.62" y1="127" x2="5.08" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
