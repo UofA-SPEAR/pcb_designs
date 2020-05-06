@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -149,7 +149,7 @@
 <wire x1="100" y1="30.47" x2="48.26" y2="30.47" width="0" layer="20"/>
 <wire x1="48.26" y1="30.47" x2="48.26" y2="0" width="0" layer="20"/>
 <text x="49.53" y="26.67" size="1.27" layer="121">SPEAR</text>
-<text x="49.53" y="24.13" size="1.27" layer="121">Communications Hub Revision</text>
+<text x="49.53" y="24.13" size="1.27" layer="121">Communications Hub</text>
 <text x="49.53" y="21.59" size="1.27" layer="121">Jack Opgenorth</text>
 </plain>
 <libraries>
