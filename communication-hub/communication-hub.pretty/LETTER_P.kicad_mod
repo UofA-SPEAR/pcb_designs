@@ -1,9 +1,0 @@
-(module LETTER_P (layer F.Cu) (tedit 0)
-  (descr "<b>FRAME</b> LETTER portrait")
-  (fp_text reference U$2 (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.15)))
-  )
-  (fp_text value "" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.15)))
-  )
-)
