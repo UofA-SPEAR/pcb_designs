@@ -9910,6 +9910,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="U$18" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
 <part name="U$13" library="Airquality_Sensor" library_urn="urn:adsk.eagle:library:16015176" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -10056,6 +10057,10 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <attribute name="NAME" x="16.51" y="53.975" size="1.778" layer="95"/>
 <attribute name="VALUE" x="16.51" y="38.1" size="1.778" layer="96"/>
 </instance>
+<instance part="R2" gate="G$1" x="-18.542" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="-14.732" y="120.4214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-14.732" y="125.222" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10196,11 +10201,6 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="7.62" y1="144.78" x2="7.62" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<pinref part="IC1" gate="G$1" pin="NBOOT_LOAD_PIN"/>
-<wire x1="-33.02" y1="121.92" x2="-5.08" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="162.56" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
@@ -10231,6 +10231,11 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <wire x1="86.36" y1="162.56" x2="86.36" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="-23.622" y1="121.92" x2="-33.02" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAP" class="0">
@@ -10381,6 +10386,13 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <pinref part="IC1" gate="G$1" pin="PS0"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="101.6" x2="5.08" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="NBOOT" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="NBOOT_LOAD_PIN"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="-5.08" y1="121.92" x2="-13.462" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
