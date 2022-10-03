@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Comp PDU")(type "KiCad")(uri "$(KIPRJMOD)/Comp PDU.pretty")(options "")(descr ""))
+)

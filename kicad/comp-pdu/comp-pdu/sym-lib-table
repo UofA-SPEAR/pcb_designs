@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Comp PDU-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Comp PDU-eagle-import.kicad_sym")(options "")(descr ""))
+)

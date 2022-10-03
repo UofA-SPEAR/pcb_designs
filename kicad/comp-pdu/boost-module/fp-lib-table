@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "boost module")(type "KiCad")(uri "$(KIPRJMOD)/boost module.pretty")(options "")(descr ""))
+)

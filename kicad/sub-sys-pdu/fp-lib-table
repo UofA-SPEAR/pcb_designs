@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "sub_sys_pdu")(type "KiCad")(uri "$(KIPRJMOD)/sub_sys_pdu.pretty")(options "")(descr ""))
+)
