@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Main-rescue")(type "Legacy")(uri "${KIPRJMOD}/Main-rescue.lib")(options "")(descr ""))
+  (lib (name "potentiometer")(type "Legacy")(uri "${KIPRJMOD}/potentiometer.lib")(options "")(descr ""))
+)

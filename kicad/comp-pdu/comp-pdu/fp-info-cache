@@ -1,1 +1,127 @@
+29943465180462
+Comp PDU
+1X01
+<b>PIN HEADER</b>
+
 0
+1
+1
+Comp PDU
+1X02
+<b>PIN HEADER</b> - 0.1"
+
+0
+2
+2
+Comp PDU
+1X04
+<b>PIN HEADER</b> - 0.1"
+
+0
+4
+4
+Comp PDU
+1X06
+<b>PIN HEADER</b> - 0.1"
+
+0
+6
+6
+Comp PDU
+3568
+<b>3568</b><br>{return}
+
+0
+4
+4
+Comp PDU
+C0805
+<b>CAPACITOR</b><p>
+
+0
+2
+2
+Comp PDU
+C1206
+<b>CAPACITOR</b>
+
+0
+2
+2
+Comp PDU
+DO-1N4148
+
+
+0
+2
+2
+Comp PDU
+DO-214AC
+<b>SURFACE MOUNT GENERAL RECTIFIER</b> JEDEC DO-214AC molded platic body<p>{return}Method 2026<br>{return}Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf
+
+0
+2
+2
+Comp PDU
+DO214AA
+<b>DIODE</b>
+
+0
+2
+2
+Comp PDU
+E5-10,5
+<b>ELECTROLYTIC CAPACITOR</b><p>{return}grid 5.08 mm, diameter 10.5 mm
+
+0
+2
+2
+Comp PDU
+POWER_JACK_PTH
+<h3>DC Barrel Power Jack/Connector PTH</h3>{return}5.5mm jack, 2.1mm center pole diameter{return}<p>Specifications:{return}<ul><li>Pin count: 3</li>{return}</ul></p>{return}<p><a href=”https://www.sparkfun.com/datasheets/Prototyping/Barrel-Connector-PJ-202A.pdf”>Datasheet referenced for footprint</a></p>{return}<p>Example device(s):{return}<ul><li>POWER_JACK</li>{return}</ul></p>
+
+0
+3
+3
+Comp PDU
+R0805
+<b>RESISTOR</b><p>
+
+0
+2
+2
+Comp PDU
+RELAY_SRD-05VDC-SL-C
+
+
+0
+5
+5
+Comp PDU
+SCREWTERMINAL-5MM-2
+<h3>Screw Terminal  5mm Pitch -2 Pin PTH</h3>{return}<p>Specifications:{return}<ul><li>Pin count: 2</li>{return}<li>Pin pitch: 5mm/197mil</li>{return}</ul></p>{return}<p><a href=”https://www.sparkfun.com/datasheets/Prototyping/Screw-Terminal-5mm.pdf”>Datasheet referenced for footprint</a></p>{return}<p>Example device(s):{return}<ul><li>CONN_02</li>{return}</ul></p>
+
+0
+2
+2
+Comp PDU
+SOT23
+<B>DIODE</B>
+
+0
+3
+3
+Comp PDU
+STM-DEV-BOARD
+
+
+0
+40
+40
+Comp PDU
+TO220V
+<b>TO 200 vertical</b>
+
+0
+3
+3
