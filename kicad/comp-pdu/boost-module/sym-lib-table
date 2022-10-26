@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "boost module-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/boost module-eagle-import.kicad_sym")(options "")(descr ""))
+)

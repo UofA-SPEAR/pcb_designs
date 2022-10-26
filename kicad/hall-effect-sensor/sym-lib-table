@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "as5600_adapter-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/as5600_adapter-eagle-import.kicad_sym")(options "")(descr ""))
+)

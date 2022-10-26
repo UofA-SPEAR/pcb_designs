@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "buck module 5v")(type "KiCad")(uri "$(KIPRJMOD)/buck module 5v.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "as5600_adapter")(type "KiCad")(uri "$(KIPRJMOD)/as5600_adapter.pretty")(options "")(descr ""))
+)
