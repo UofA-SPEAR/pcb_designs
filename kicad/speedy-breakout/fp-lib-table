@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Speedy_Breakout")(type "KiCad")(uri "${KIPRJMOD}/Speedy_Breakout.pretty")(options "")(descr ""))
+)
