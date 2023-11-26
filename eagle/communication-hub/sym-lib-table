@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name communication-hub-eagle-import)(type Legacy)(uri ${KIPRJMOD}/communication-hub-eagle-import.lib)(options "")(descr ""))
-)
